@@ -1,0 +1,2347 @@
+﻿Indicator	Country	Region	RegionName	FB	CountryMean	Diff
+ShareMig	MEX	ME01	Aguacalientes	0.425947113	0.483578574	-0.05763146
+ShareMig	MEX	ME02	Baja California Norte	2.516739818	0.483578574	2.033161244
+ShareMig	MEX	ME03	Baja California Sur	0.93883734	0.483578574	0.455258766
+ShareMig	MEX	ME04	Campeche	0.314266378	0.483578574	-0.169312196
+ShareMig	MEX	ME05	Coahuila	0.342552496	0.483578574	-0.141026078
+ShareMig	MEX	ME06	Colima	0.763471984	0.483578574	0.27989341
+ShareMig	MEX	ME07	Chiapas	1.080975353	0.483578574	0.597396779
+ShareMig	MEX	ME08	Chihuahua	1.195081841	0.483578574	0.711503267
+ShareMig	MEX	ME09	Distrito Federal	0.845691697	0.483578574	0.362113124
+ShareMig	MEX	ME10	Durango	0.330538171	0.483578574	-0.153040403
+ShareMig	MEX	ME11	Guanajuato	0.292437768	0.483578574	-0.191140806
+ShareMig	MEX	ME12	Guerrero	0.109591426	0.483578574	-0.373987148
+ShareMig	MEX	ME13	Hidalgo	0.1370463	0.483578574	-0.346532273
+ShareMig	MEX	ME14	Jalisco	0.433958049	0.483578574	-0.049620525
+ShareMig	MEX	ME15	Mexico	0.221802191	0.483578574	-0.261776383
+ShareMig	MEX	ME16	Michoacan	0.311259474	0.483578574	-0.1723191
+ShareMig	MEX	ME17	Morelos	0.317734497	0.483578574	-0.165844077
+ShareMig	MEX	ME18	Nayarit	0.584288374	0.483578574	0.1007098
+ShareMig	MEX	ME19	Nuevo Leon	0.347156259	0.483578574	-0.136422315
+ShareMig	MEX	ME20	Oaxaca	0.105896464	0.483578574	-0.37768211
+ShareMig	MEX	ME21	Puebla	0.166233806	0.483578574	-0.317344768
+ShareMig	MEX	ME22	Queretaro	0.386183496	0.483578574	-0.097395078
+ShareMig	MEX	ME23	Quintana Roo	1.273179449	0.483578574	0.789600876
+ShareMig	MEX	ME24	San Luis Potosi	0.255430534	0.483578574	-0.22814804
+ShareMig	MEX	ME25	Sinaloa	0.365736589	0.483578574	-0.117841984
+ShareMig	MEX	ME26	Sonora	0.609142238	0.483578574	0.125563664
+ShareMig	MEX	ME27	Tabasco	0.26300221	0.483578574	-0.220576364
+ShareMig	MEX	ME28	Tamaulipas	0.772745918	0.483578574	0.289167345
+ShareMig	MEX	ME29	Tlaxcala	0.141274857	0.483578574	-0.342303716
+ShareMig	MEX	ME30	Veracruz	0.114550894	0.483578574	-0.36902768
+ShareMig	MEX	ME31	Yucatan	0.286548976	0.483578574	-0.197029597
+ShareMig	MEX	ME32	Zacatecas	0.514871267	0.483578574	0.031292694
+ShareMig	USA	US01	Alabama	4.214849145	13.86913391	-9.654284768
+ShareMig	USA	US02	Alaska	8.423563329	13.86913391	-5.445570583
+ShareMig	USA	US04	Arizona	16.93645441	13.86913391	3.067320497
+ShareMig	USA	US05	Arkansas	5.341554828	13.86913391	-8.527579084
+ShareMig	USA	US06	California	38.86887401	13.86913391	24.9997401
+ShareMig	USA	US08	Colorado	12.42720326	13.86913391	-1.441930652
+ShareMig	USA	US09	Connecticut	16.88510684	13.86913391	3.015972925
+ShareMig	USA	US10	Delaware	10.20993192	13.86913391	-3.659201991
+ShareMig	USA	US11	District Of Columbia	18.33719669	13.86913391	4.468062782
+ShareMig	USA	US12	Florida	25.87004537	13.86913391	12.00091145
+ShareMig	USA	US13	Georgia	11.85723029	13.86913391	-2.011903621
+ShareMig	USA	US15	Hawaii	24.85187653	13.86913391	10.98274262
+ShareMig	USA	US16	Idaho	6.940598302	13.86913391	-6.92853561
+ShareMig	USA	US17	Illinois	16.99679409	13.86913391	3.127660173
+ShareMig	USA	US18	Indiana	5.455170054	13.86913391	-8.413963859
+ShareMig	USA	US19	Iowa	5.437006533	13.86913391	-8.43212738
+ShareMig	USA	US20	Kansas	8.165642908	13.86913391	-5.703491005
+ShareMig	USA	US21	Kentucky	4.023870171	13.86913391	-9.845263742
+ShareMig	USA	US22	Louisiana	4.455196477	13.86913391	-9.413937436
+ShareMig	USA	US23	Maine	4.467538555	13.86913391	-9.401595357
+ShareMig	USA	US24	Maryland	17.84088246	13.86913391	3.971748552
+ShareMig	USA	US25	Massachusetts	19.27020101	13.86913391	5.401067101
+ShareMig	USA	US26	Michigan	7.312420395	13.86913391	-6.556713517
+ShareMig	USA	US27	Minnesota	8.752637956	13.86913391	-5.116495957
+ShareMig	USA	US28	Mississippi	2.694206295	13.86913391	-11.17492762
+ShareMig	USA	US29	Missouri	4.716764079	13.86913391	-9.152369834
+ShareMig	CHL	CL13	Santiago			
+ShareMig	CHL	CL02	Antofagasta			
+ShareMig	CHL	CL15	Arica y Parinacota			
+ShareMig	CHL	CL03	Atacama			
+ShareMig	CHL	CL11	Aysen			
+ShareMig	CHL	CL04	Coquimbo			
+ShareMig	CHL	CL09	Araucania			
+ShareMig	CHL	CL10	Los Lagos			
+ShareMig	CHL	CL14	Los Ríos			
+ShareMig	CHL	CL12	Magallanes			
+ShareMig	CHL	CL01	Tarapacá			
+ShareMig	CHL	CL05	Valparaíso			
+ShareMig	CHL	CL08	Bío-Bío			
+ShareMig	CHL	CL06	O'Higgins			
+ShareMig	CHL	CL07	Maule			
+ShareMig	USA	US30	Montana	2.77331432	13.86913391	-11.09581959
+ShareMig	USA	US31	Nebraska	7.313450017	13.86913391	-6.555683896
+ShareMig	USA	US32	Nevada	25.57709239	13.86913391	11.70795848
+ShareMig	USA	US33	New Hampshire	6.759269811	13.86913391	-7.109864102
+ShareMig	USA	US34	New Jersey	28.34081026	13.86913391	14.47167635
+ShareMig	USA	US35	New Mexico	12.25267228	13.86913391	-1.616461633
+ShareMig	USA	US36	New York	30.30369271	13.86913391	16.43455879
+ShareMig	USA	US37	North Carolina	9.151250892	13.86913391	-4.71788302
+ShareMig	USA	US38	North Dakota	3.849749311	13.86913391	-10.0193846
+ShareMig	USA	US39	Ohio	4.662770339	13.86913391	-9.206363574
+ShareMig	USA	US40	Oklahoma	6.805814301	13.86913391	-7.063319611
+ShareMig	USA	US41	Oregon	12.03422061	13.86913391	-1.834913304
+ShareMig	USA	US42	Pennsylvania	7.111642663	13.86913391	-6.757491249
+ShareMig	USA	US44	Rhode Island	16.12921052	13.86913391	2.260076609
+ShareMig	USA	US45	South Carolina	5.82642461	13.86913391	-8.042709303
+ShareMig	USA	US46	South Dakota	3.43842064	13.86913391	-10.43071327
+ShareMig	USA	US47	Tennessee	5.672340296	13.86913391	-8.196793617
+ShareMig	USA	US48	Texas	21.09793633	13.86913391	7.228802422
+ShareMig	USA	US49	Utah	10.13788251	13.86913391	-3.731251401
+ShareMig	USA	US50	Vermont	5.398291893	13.86913391	-8.47084202
+ShareMig	USA	US51	Virginia	14.59300893	13.86913391	0.723875015
+ShareMig	USA	US53	Washington	17.42087993	13.86913391	3.551746018
+ShareMig	USA	US54	West Virginia	1.95974128	13.86913391	-11.90939263
+ShareMig	USA	US55	Wisconsin	5.507827322	13.86913391	-8.361306591
+ShareMig	USA	US56	Wyoming	3.893217695	13.86913391	-9.975916217
+ShareMig	JPN	JPA	Hokkaido			
+ShareMig	JPN	JPB	Tohoku			
+ShareMig	JPN	JPD	Southern-Kanto			
+ShareMig	JPN	JPC	Northern-Kanto, Koshin			
+ShareMig	JPN	JPE	Hokuriku			
+ShareMig	JPN	JPF	Toukai			
+ShareMig	JPN	JPG	Kinki			
+ShareMig	JPN	JPH	Chugoku			
+ShareMig	JPN	JPI	Shikoku			
+ShareMig	JPN	JPJ	Kyushu, Okinawa			
+ShareMig	KOR	KR01	Capital Region			
+ShareMig	KOR	KR02	Gyeongnam Region			
+ShareMig	KOR	KR03	Gyeonbuk Region			
+ShareMig	KOR	KR04	Jeolla Region			
+ShareMig	KOR	KR05	Chungcheong Region			
+ShareMig	KOR	KR06	Gangwon Region			
+ShareMig	KOR	KR07	Jeju			
+ShareMig	ISR	IL05	Tel Aviv district			
+ShareMig	ISR	IL01	Jerusalem district			
+ShareMig	ISR	IL03	Haifa district			
+ShareMig	ISR	IL04	Central district			
+ShareMig	ISR	IL06	Southern district			
+ShareMig	ISR	IL02	Northern district			
+ShareMig	ISL	IS01	Capital Region	9.33333159	9.33333159	0
+ShareMig	ISL	IS02	Other Regions	9.33333159	9.33333159	0
+ShareMig	AUS	AU1	New South Wales	32.85613117	31.09873739	1.757393781
+ShareMig	AUS	AU2	Victoria	32.82743691	31.09873739	1.72869952
+ShareMig	AUS	AU3	Qeensland	25.52690535	31.09873739	-5.571832036
+ShareMig	AUS	AU4	South Australia	26.31263964	31.09873739	-4.786097743
+ShareMig	AUS	AU5	Western Australia	39.271369	31.09873739	8.172631612
+ShareMig	AUS	AU6	Tasmania	12.51315789	31.09873739	-18.58557949
+ShareMig	AUS	AU7	Northern Territorry (Nt)	28.60946746	31.09873739	-2.48926993
+ShareMig	AUS	AU8	Australian Capital Territory (Act)	29.88387978	31.09873739	-1.214857604
+ShareMig	CAN	CA59	British Columbia	31.20045083	24.54349987	6.656950957
+ShareMig	CAN	CA24	Quebec	14.99785162	24.54349987	-9.545648245
+ShareMig	CAN	CA62	Nunavut			
+ShareMig	CAN	CA11	Prince Edward Island	0	0	0
+ShareMig	CAN	CA47	Saskatchewan	11.31148475	24.54349987	-13.23201511
+ShareMig	CAN	CA60	Yukon			
+ShareMig	CAN	CA46	Manitoba	20.4913906	24.54349987	-4.052109273
+ShareMig	CAN	CA35	Ontario	33.35166682	24.54349987	8.808166951
+ShareMig	CAN	CA13	New Brunswick	4.313189024	24.54349987	-20.23031084
+ShareMig	CAN	CA61	Northwest Territories			
+ShareMig	CAN	CA48	Alberta	22.96608915	24.54349987	-1.577410723
+ShareMig	CAN	CA10	Newfoundland and Labrador	0	0	0
+ShareMig	CAN	CA12	Nova Scotia	6.135670732	24.54349987	-18.40782914
+ShareMig	AUT	AT11	Burgenland (AT)			
+ShareMig	AUT	AT12	Niederôsterreich			
+ShareMig	AUT	AT13	Wien			
+ShareMig	AUT	AT21	Kärnten			
+ShareMig	AUT	AT22	Steiermark			
+ShareMig	AUT	AT31	Oberôsterreich			
+ShareMig	AUT	AT32	Salzburg			
+ShareMig	AUT	AT33	Tirol			
+ShareMig	AUT	AT34	Vorarlberg			
+ShareMig	CHE	CH01	Région lémanique	39.54983764	29.7244008	9.825436845
+ShareMig	CHE	CH02	Espace Mittelland	21.95785359	29.7244008	-7.76654721
+ShareMig	CHE	CH03	Nordwestschweiz	30.00389472	29.7244008	0.27949392
+ShareMig	CHE	CH04	Zürich	34.08881683	29.7244008	4.364416032
+ShareMig	CHE	CH05	Ostschweiz	25.59211949	29.7244008	-4.132281302
+ShareMig	CHE	CH06	Zentralschweiz	22.1226377	29.7244008	-7.601763094
+ShareMig	CHE	CH07	Ticino	38.75727299	29.7244008	9.032872195
+ShareMig	CZE	CZ01	Praha	5.824613271	2.989473525	2.835139746
+ShareMig	CZE	CZ02	Stredni Cechy	2.6955902	2.989473525	-0.293883325
+ShareMig	CZE	CZ03	Jihozápad	2.330123808	2.989473525	-0.659349717
+ShareMig	CZE	CZ04	Severozápad	3.91997845	2.989473525	0.930504925
+ShareMig	CZE	CZ05	Severovýchod	2.668078896	2.989473525	-0.321394629
+ShareMig	CZE	CZ06	Jihovýchod	1.896794979	2.989473525	-1.092678546
+ShareMig	CZE	CZ07	Stredni Morava	1.801971141	2.989473525	-1.187502384
+ShareMig	CZE	CZ08	Moravskoslezsko	3.279284353	2.989473525	0.289810829
+ShareMig	DNK	DK01	Hovedstaden	14.48638471	10.23414639	4.252238321
+ShareMig	DNK	DK02	Sjælland	7.368665401	10.23414639	-2.86548099
+ShareMig	DNK	DK03	Syddanmark	9.019638881	10.23414639	-1.21450751
+ShareMig	DNK	DK04	Midtjylland	8.665212552	10.23414639	-1.568933838
+ShareMig	DNK	DK05	Nordjylland	7.349095994	10.23414639	-2.885050397
+ShareMig	EST	EE00	Estonia	13.00353461	13.00353461	0
+ShareMig	ESP	ES11	Galicia	6.766462374	11.58092245	-4.81446008
+ShareMig	ESP	ES12	Asturias	5.845099865	11.58092245	-5.73582259
+ShareMig	ESP	ES13	Cantabria	7.089272521	11.58092245	-4.491649934
+ShareMig	ESP	ES21	Pais Vasco	6.554709486	11.58092245	-5.026212968
+ShareMig	ESP	ES22	Navarra	10.53979184	11.58092245	-1.04113061
+ShareMig	ESP	ES23	La Rioja (ES)	12.83092453	11.58092245	1.250002075
+ShareMig	ESP	ES24	Aragôn	12.55516398	11.58092245	0.974241526
+ShareMig	ESP	ES30	Comunidad de Madrid	14.39696931	11.58092245	2.816046853
+ShareMig	ESP	ES41	Castilla y Leôn	7.163752623	11.58092245	-4.417169831
+ShareMig	ESP	ES42	Castilla-La Mancha	9.688577669	11.58092245	-1.892344786
+ShareMig	ESP	ES43	Extremadura	3.759500245	11.58092245	-7.821422209
+ShareMig	ESP	ES51	Cataluôa	14.12661168	11.58092245	2.545689221
+ShareMig	ESP	ES52	Comunidad Valenciana	14.72280966	11.58092245	3.141887207
+ShareMig	ESP	ES53	Baleares	21.55380601	11.58092245	9.972883551
+ShareMig	ESP	ES61	Andalucia	8.859091326	11.58092245	-2.721831129
+ShareMig	ESP	ES62	Regiôn de Murcia	14.36167469	11.58092245	2.780752234
+ShareMig	ESP	ES63	Ciudad Autônoma de Ceuta (ES)	11.1751765	11.58092245	-0.405745956
+ShareMig	ESP	ES64	Ciudad Autônoma de Melilla (ES)	16.06243181	11.58092245	4.481509357
+ShareMig	ESP	ES70	Canarias (ES)	16.1694522	11.58092245	4.588529744
+ShareMig	FIN	FI19	Länsi-Suomi	3.082450902	4.295200144	-1.212749243
+ShareMig	FIN	FI1B	Helsinki-Uusimaa	7.396035838	4.295200144	3.100835693
+ShareMig	FIN	FI1C	Etelä-Suomi	3.824531952	4.295200144	-0.470668192
+ShareMig	FIN	FI1D	Pohjois- ja Itä-Suomi	2.09604905	4.295200144	-2.199151094
+ShareMig	FIN	FI20	Åland	12.59881341	4.295200144	8.303613266
+ShareMig	FRA	FR10	Île de France	20.94815353	11.40754517	9.540608362
+ShareMig	FRA	FR21	Champagne-Ardenne	6.783208993	11.40754517	-4.624336179
+ShareMig	FRA	FR22	Picardie	7.132515547	11.40754517	-4.275029625
+ShareMig	FRA	FR23	Haute-Normandie	6.922876078	11.40754517	-4.484669093
+ShareMig	FRA	FR24	Centre (FR)	8.13068302	11.40754517	-3.276862152
+ShareMig	FRA	FR25	Basse-Normandie	3.304752554	11.40754517	-8.102792617
+ShareMig	FRA	FR26	Bourgogne	7.759066938	11.40754517	-3.648478234
+ShareMig	FRA	FR30	Nord-Pas-De-Calais	5.208869049	11.40754517	-6.198676123
+ShareMig	FRA	FR41	Lorraine	10.64838249	11.40754517	-0.759162677
+ShareMig	FRA	FR42	Alsace	12.97499468	11.40754517	1.56744951
+ShareMig	FRA	FR43	Franche-Comté	8.003019801	11.40754517	-3.40452537
+ShareMig	FRA	FR51	Pays de la Loire	4.329856261	11.40754517	-7.077688911
+ShareMig	FRA	FR52	Bretagne	4.098978397	11.40754517	-7.308566774
+ShareMig	FRA	FR53	Poitou-Charentes	5.786459804	11.40754517	-5.621085368
+ShareMig	FRA	FR61	Aquitaine	11.2814906	11.40754517	-0.126054574
+ShareMig	FRA	FR62	Midi-Pyrénées	11.04517213	11.40754517	-0.36237304
+ShareMig	FRA	FR63	Limousin	7.378071703	11.40754517	-4.029473468
+ShareMig	FRA	FR71	Rhône-Alpes	11.90377622	11.40754517	0.496231051
+ShareMig	FRA	FR72	Auvergne	5.814210504	11.40754517	-5.593334667
+ShareMig	FRA	FR81	Languedoc-Roussillon	13.46046979	11.40754517	2.052924617
+ShareMig	FRA	FR82	Provence-Alpes-Côte d'Azur	18.01217715	11.40754517	6.604631974
+ShareMig	FRA	FR83	Corse	9.581186647	11.40754517	-1.826358525
+ShareMig	HUN	HU10	Kôzép-Magyarország	2.82604707	1.807550889	1.018496181
+ShareMig	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia	1.476296008	1.807550889	-0.331254881
+ShareMig	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia	0.980646803	1.807550889	-0.826904086
+ShareMig	HUN	HU23	Del-Dunántôl\/Southern Transdanubia	2.066114294	1.807550889	0.258563405
+ShareMig	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary	0.832229671	1.807550889	-0.975321217
+ShareMig	HUN	HU32	Eszak-Alfold\/Northern Great Plain	1.389325965	1.807550889	-0.418224924
+ShareMig	HUN	HU33	Del-Alfold\/Southern Great Plain	1.549070214	1.807550889	-0.258480675
+ShareMig	IRL	IE01	Border  Midland and Western	15.61204655	16.68270683	-1.070660276
+ShareMig	IRL	IE02	Southern and Eastern	17.06878136	16.68270683	0.386074534
+ShareMig	ITA	ITC1	Piemonte	10.54121426	9.381676932	1.159537324
+ShareMig	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste	9.073444762	9.381676932	-0.30823217
+ShareMig	ITA	ITC3	Liguria	10.08300996	9.381676932	0.701333026
+ShareMig	ITA	ITC4	Lombardia	11.62194285	9.381676932	2.240265921
+ShareMig	ITA	ITF1	Abruzzo	10.0844928	9.381676932	0.702815872
+ShareMig	ITA	ITF2	Molise	6.324563373	9.381676932	-3.057113559
+ShareMig	ITA	ITF3	Campania	4.779177359	9.381676932	-4.602499573
+ShareMig	ITA	ITF4	Puglia	4.542237671	9.381676932	-4.839439261
+ShareMig	ITA	ITF5	Basilicata	4.903129443	9.381676932	-4.478547489
+ShareMig	ITA	ITF6	Calabria	6.834065553	9.381676932	-2.54761138
+ShareMig	ITA	ITG1	Sicilia	5.108104466	9.381676932	-4.273572466
+ShareMig	ITA	ITG2	Sardegna	3.802293402	9.381676932	-5.57938353
+ShareMig	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	10.88130666	9.381676932	1.499629724
+ShareMig	ITA	ITH2	Provincia Autonoma di Trento	11.05742494	9.381676932	1.675748005
+ShareMig	ITA	ITH3	Veneto	11.66615345	9.381676932	2.284476513
+ShareMig	ITA	ITH4	Friuli-Venezia Giulia	13.28102497	9.381676932	3.899348036
+ShareMig	ITA	ITH5	Emilia-Romagna	12.45549186	9.381676932	3.073814923
+ShareMig	ITA	ITI1	Toscana	11.84110015	9.381676932	2.459423215
+ShareMig	ITA	ITI2	Umbria	11.9610276	9.381676932	2.579350668
+ShareMig	ITA	ITI3	Marche	10.74976995	9.381676932	1.368093015
+ShareMig	ITA	ITI4	Lazio	11.44201284	9.381676932	2.060335903
+ShareMig	LUX	LU00	Luxembourg	44.70569275	44.70569275	0
+ShareMig	NOR	NO01	Oslo og Akershus	20.89369852	13.36316557	7.530532958
+ShareMig	NOR	NO02	Hedmark og Oppland	8.04522895	13.36316557	-5.317936615
+ShareMig	NOR	NO03	Sor-0stlandet	12.62306986	13.36316557	-0.740095708
+ShareMig	NOR	NO04	Agder og Rogaland	12.81011118	13.36316557	-0.553054381
+ShareMig	NOR	NO05	Vestlandet	11.43264957	13.36316557	-1.930515993
+ShareMig	NOR	NO06	Trýndelag	8.665610545	13.36316557	-4.69755502
+ShareMig	NOR	NO07	Nord-Norge	8.616706763	13.36316557	-4.746458802
+ShareMig	POL	PL11	Lôdzkie	0.357648737	0.710665261	-0.353016524
+ShareMig	POL	PL12	Mazowieckie	0.725250927	0.710665261	0.014585666
+ShareMig	POL	PL21	Malopolskie	0.341748142	0.710665261	-0.368917119
+ShareMig	POL	PL22	Slaskie	0.385955899	0.710665261	-0.324709362
+ShareMig	POL	PL31	Lubelskie	0.430967465	0.710665261	-0.279697796
+ShareMig	POL	PL32	Podkarpackie	0.386124014	0.710665261	-0.324541247
+ShareMig	POL	PL33	Swietokrzyskie		0.710665261	
+ShareMig	POL	PL34	Podlaskie	0.477025035	0.710665261	-0.233640226
+ShareMig	POL	PL41	Wielkopolskie	0.371243936	0.710665261	-0.339421325
+ShareMig	POL	PL42	Zachodniopomorskie	1.537267283	0.710665261	0.826602022
+ShareMig	POL	PL43	Lubuskie	1.801221838	0.710665261	1.090556577
+ShareMig	POL	PL51	Dolnoslaskie	2.13144002	0.710665261	1.420774759
+ShareMig	POL	PL52	Opolskie	2.440365131	0.710665261	1.72969987
+ShareMig	POL	PL61	Kujawsko-Pomorskie	0.306846824	0.710665261	-0.403818437
+ShareMig	POL	PL62	Warminsko-Mazurskie	0.765686367	0.710665261	0.055021106
+ShareMig	POL	PL63	Pomorskie	0.714146784	0.710665261	0.003481524
+ShareMig	PRT	PT11	Norte	4.602032792	6.830303751	-2.228270959
+ShareMig	PRT	PT15	Algarve	11.99233726	6.830303751	5.162033507
+ShareMig	PRT	PT16	Centro (PT)	5.919005143	6.830303751	-0.911298608
+ShareMig	PRT	PT17	Lisboa	10.76621344	6.830303751	3.935909691
+ShareMig	PRT	PT18	Alentejo	4.001667014	6.830303751	-2.828636738
+ShareMig	PRT	PT20	Região Autônoma dos Açores (PT)	3.110343396	6.830303751	-3.719960356
+ShareMig	PRT	PT30	Região Autônoma da Madeira (PT)	6.150114404	6.830303751	-0.680189348
+ShareMig	SWE	SE11	Stockholm	25.99882462	19.07457148	6.924253144
+ShareMig	SWE	SE12	#NAME?	17.99790485	19.07457148	-1.076666628
+ShareMig	SWE	SE21	Sm+Ñland med ôarna	15.91272047	19.07457148	-3.161851006
+ShareMig	SWE	SE22	Sydsverige	21.76906227	19.07457148	2.694490792
+ShareMig	SWE	SE23	Västsverige	18.38580983	19.07457148	-0.688761652
+ShareMig	SWE	SE31	Norra Mellansverige	12.16703367	19.07457148	-6.907537813
+ShareMig	SWE	SE32	Mellersta Norrland	9.975093501	19.07457148	-9.09947798
+ShareMig	SWE	SE33	Övre Norrland	10.35840359	19.07457148	-8.716167894
+ShareMig	SVN	SI01	Vzhodna Slovenija			
+ShareMig	SVN	SI02	Zahodna Slovenija			
+ShareMig	SVK	SK01	Bratislavský kraj	1.883307638	0.782580247	1.100727391
+ShareMig	SVK	SK02	Západné Slovensko	0.687849498	0.782580247	-0.094730748
+ShareMig	SVK	SK03	Stredné Slovensko	0.577232528	0.782580247	-0.205347719
+ShareMig	SVK	SK04	Východné Slovensko	0.637655426	0.782580247	-0.144924821
+ShareMig	TUR	TR10	Istanbul			
+ShareMig	TUR	TR21	Tekirdag Edirne Kirklareli			
+ShareMig	TUR	TR22	Balikesir +çanakkale			
+ShareMig	TUR	TR31	Izmir			
+ShareMig	TUR	TR32	Aydin Denizli Mugla			
+ShareMig	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak			
+ShareMig	TUR	TR41	Bursa Eskisehir Bilecik			
+ShareMig	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova			
+ShareMig	TUR	TR51	Ankara			
+ShareMig	TUR	TR52	Konya Karaman			
+ShareMig	TUR	TR61	Antalya Isparta Burdur			
+ShareMig	TUR	TR62	Adana Mersin			
+ShareMig	TUR	TR63	Hatay Kahramanmaras Osmaniye			
+ShareMig	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir			
+ShareMig	TUR	TR72	Kayseri Sivas Yozgat			
+ShareMig	TUR	TR81	Zonguldak Karabýk Bartin			
+ShareMig	TUR	TR82	Kastamonu Çankiri Sinop			
+ShareMig	TUR	TR83	Samsun Tokat Çorum Amasya			
+ShareMig	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane			
+ShareMig	TUR	TRA1	Erzurum Erzincan Bayburt			
+ShareMig	TUR	TRA2	Agri Kars Igdir Ardahan			
+ShareMig	TUR	TRB1	Malatya Elazig Bingôl Tunceli			
+ShareMig	TUR	TRB2	Van Mus Bitlis Hakkari			
+ShareMig	TUR	TRC1	Gaziantep Adiyaman Kilis			
+ShareMig	TUR	TRC2	Sanliurfa Diyarbakir			
+ShareMig	TUR	TRC3	Mardin Batman Sirnak Siirt			
+ShareMig	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+ShareMig	BEL	BE2	Vlaams Gewest			
+ShareMig	BEL	BE3	Région wallonne			
+ShareMig	DEU	DE1	Baden-Wýrttemberg			
+ShareMig	DEU	DE2	Bayern			
+ShareMig	DEU	DE3	Berlin			
+ShareMig	DEU	DE4	Brandenburg			
+ShareMig	DEU	DE5	Bremen			
+ShareMig	DEU	DE6	Hamburg			
+ShareMig	DEU	DE7	Hessen			
+ShareMig	DEU	DE8	Mecklenburg-Vorpommern			
+ShareMig	DEU	DE9	Niedersachsen			
+ShareMig	DEU	DEA	Nordrhein-Westfalen			
+ShareMig	DEU	DEB	Rheinland-Pfalz			
+ShareMig	DEU	DEC	Saarland			
+ShareMig	DEU	DED	Sachsen			
+ShareMig	DEU	DEE	Sachsen-Anhalt			
+ShareMig	DEU	DEF	Schleswig-Holstein			
+ShareMig	DEU	DEG	Thýringen			
+ShareMig	GBR	UKC	North East (UK)	5.43051982	13.52471173	-8.094191908
+ShareMig	GBR	UKD	North West (UK)	9.390596609	13.52471173	-4.13411512
+ShareMig	GBR	UKE	Yorkshire and The Humber	9.356131081	13.52471173	-4.168580647
+ShareMig	GBR	UKF	East Midlands (UK)	10.80486613	13.52471173	-2.719845602
+ShareMig	GBR	UKG	West Midlands (UK)	12.0707573	13.52471173	-1.45395443
+ShareMig	GBR	UKH	East of England	11.93778819	13.52471173	-1.586923539
+ShareMig	GBR	UKI	London	37.38040356	13.52471173	23.85569184
+ShareMig	GBR	UKJ	South East (UK)	12.68532926	13.52471173	-0.839382473
+ShareMig	GBR	UKK	South West (UK)	8.295795549	13.52471173	-5.228916179
+ShareMig	GBR	UKL	Wales	6.199135724	13.52471173	-7.325576004
+ShareMig	GBR	UKM	Scotland	7.42905022	13.52471173	-6.095661508
+ShareMig	GBR	UKN	Northern Ireland (UK)	7.438567673	13.52471173	-6.086144055
+ShareMig	NZL	NZ011	Northland Region			
+ShareMig	NZL	NZ012	Auckland Region			
+ShareMig	NZL	NZ013	Waikato Region			
+ShareMig	NZL	NZ022	West Coast Region			
+ShareMig	NZL	NZ014	Bay of Plenty Region			
+ShareMig	NZL	NZ023	Canterbury Region			
+ShareMig	NZL	NZ015	Gisborne Region			
+ShareMig	NZL	NZ024	Otago Region			
+ShareMig	NZL	NZ025	Southland Region			
+ShareMig	NZL	NZ016	Hawke's Bay Region			
+ShareMig	NZL	NZ017	Taranaki Region			
+ShareMig	NZL	NZ018	Manawatu-Wanganui Region			
+ShareMig	NZL	NZ019	Wellington Region			
+ShareMig	NZL	NZ021	Tasman-Nelson-Marlborough			
+ShareMig	GRC	GR11	Anatoliki Makedonia - Thraki			
+ShareMig	GRC	GR12	Kentriki Makedonia			
+ShareMig	GRC	GR13	Dytiki Makedonia			
+ShareMig	GRC	GR14	Thessalia			
+ShareMig	GRC	GR21	Ipeiros			
+ShareMig	GRC	GR22	Ionia Nisia			
+ShareMig	GRC	GR23	Dytiki Ellada			
+ShareMig	GRC	GR24	Sterea Ellada			
+ShareMig	GRC	GR25	Peloponnisos			
+ShareMig	GRC	GR30	Attiki			
+ShareMig	GRC	GR41	Voreio Aigaio			
+ShareMig	GRC	GR42	Notio Aigaio			
+ShareMig	GRC	GR43	Kriti			
+ShareMig	NLD	NL11	Groningen			
+ShareMig	NLD	NL12	Friesland			
+ShareMig	NLD	NL13	Drenthe			
+ShareMig	NLD	NL21	Overijssel			
+ShareMig	NLD	NL22	Gelderland			
+ShareMig	NLD	NL23	Flevoland			
+ShareMig	NLD	NL31	Utrecht			
+ShareMig	NLD	NL32	Noord-Holland			
+ShareMig	NLD	NL33	Zuid-Holland			
+ShareMig	NLD	NL34	Zeeland			
+ShareMig	NLD	NL41	Noord-Brabant			
+ShareMig	NLD	NL42	Limburg (NL)			
+lengthStay	MEX	ME01	Aguacalientes			
+lengthStay	MEX	ME02	Baja California Norte			
+lengthStay	MEX	ME03	Baja California Sur			
+lengthStay	MEX	ME04	Campeche			
+lengthStay	MEX	ME05	Coahuila			
+lengthStay	MEX	ME06	Colima			
+lengthStay	MEX	ME07	Chiapas			
+lengthStay	MEX	ME08	Chihuahua			
+lengthStay	MEX	ME09	Distrito Federal			
+lengthStay	MEX	ME10	Durango			
+lengthStay	MEX	ME11	Guanajuato			
+lengthStay	MEX	ME12	Guerrero			
+lengthStay	MEX	ME13	Hidalgo			
+lengthStay	MEX	ME14	Jalisco			
+lengthStay	MEX	ME15	Mexico			
+lengthStay	MEX	ME16	Michoacan			
+lengthStay	MEX	ME17	Morelos			
+lengthStay	MEX	ME18	Nayarit			
+lengthStay	MEX	ME19	Nuevo Leon			
+lengthStay	MEX	ME20	Oaxaca			
+lengthStay	MEX	ME21	Puebla			
+lengthStay	MEX	ME22	Queretaro			
+lengthStay	MEX	ME23	Quintana Roo			
+lengthStay	MEX	ME24	San Luis Potosi			
+lengthStay	MEX	ME25	Sinaloa			
+lengthStay	MEX	ME26	Sonora			
+lengthStay	MEX	ME27	Tabasco			
+lengthStay	MEX	ME28	Tamaulipas			
+lengthStay	MEX	ME29	Tlaxcala			
+lengthStay	MEX	ME30	Veracruz			
+lengthStay	MEX	ME31	Yucatan			
+lengthStay	MEX	ME32	Zacatecas			
+lengthStay	USA	US01	Alabama			
+lengthStay	USA	US02	Alaska			
+lengthStay	USA	US04	Arizona			
+lengthStay	USA	US05	Arkansas			
+lengthStay	USA	US06	California			
+lengthStay	USA	US08	Colorado			
+lengthStay	USA	US09	Connecticut			
+lengthStay	USA	US10	Delaware			
+lengthStay	USA	US11	District Of Columbia			
+lengthStay	USA	US12	Florida			
+lengthStay	USA	US13	Georgia			
+lengthStay	USA	US15	Hawaii			
+lengthStay	USA	US16	Idaho			
+lengthStay	USA	US17	Illinois			
+lengthStay	USA	US18	Indiana			
+lengthStay	USA	US19	Iowa			
+lengthStay	USA	US20	Kansas			
+lengthStay	USA	US21	Kentucky			
+lengthStay	USA	US22	Louisiana			
+lengthStay	USA	US23	Maine			
+lengthStay	USA	US24	Maryland			
+lengthStay	USA	US25	Massachusetts			
+lengthStay	USA	US26	Michigan			
+lengthStay	USA	US27	Minnesota			
+lengthStay	USA	US28	Mississippi			
+lengthStay	USA	US29	Missouri			
+lengthStay	CHL	CL13	Santiago			
+lengthStay	CHL	CL02	Antofagasta			
+lengthStay	CHL	CL15	Arica y Parinacota			
+lengthStay	CHL	CL03	Atacama			
+lengthStay	CHL	CL11	Aysen			
+lengthStay	CHL	CL04	Coquimbo			
+lengthStay	CHL	CL09	Araucania			
+lengthStay	CHL	CL10	Los Lagos			
+lengthStay	CHL	CL14	Los Ríos			
+lengthStay	CHL	CL12	Magallanes			
+lengthStay	CHL	CL01	Tarapacá			
+lengthStay	CHL	CL05	Valparaíso			
+lengthStay	CHL	CL08	Bío-Bío			
+lengthStay	CHL	CL06	O'Higgins			
+lengthStay	CHL	CL07	Maule			
+lengthStay	USA	US30	Montana			
+lengthStay	USA	US31	Nebraska			
+lengthStay	USA	US32	Nevada			
+lengthStay	USA	US33	New Hampshire			
+lengthStay	USA	US34	New Jersey			
+lengthStay	USA	US35	New Mexico			
+lengthStay	USA	US36	New York			
+lengthStay	USA	US37	North Carolina			
+lengthStay	USA	US38	North Dakota			
+lengthStay	USA	US39	Ohio			
+lengthStay	USA	US40	Oklahoma			
+lengthStay	USA	US41	Oregon			
+lengthStay	USA	US42	Pennsylvania			
+lengthStay	USA	US44	Rhode Island			
+lengthStay	USA	US45	South Carolina			
+lengthStay	USA	US46	South Dakota			
+lengthStay	USA	US47	Tennessee			
+lengthStay	USA	US48	Texas			
+lengthStay	USA	US49	Utah			
+lengthStay	USA	US50	Vermont			
+lengthStay	USA	US51	Virginia			
+lengthStay	USA	US53	Washington			
+lengthStay	USA	US54	West Virginia			
+lengthStay	USA	US55	Wisconsin			
+lengthStay	USA	US56	Wyoming			
+lengthStay	JPN	JPA	Hokkaido			
+lengthStay	JPN	JPB	Tohoku			
+lengthStay	JPN	JPD	Southern-Kanto			
+lengthStay	JPN	JPC	Northern-Kanto, Koshin			
+lengthStay	JPN	JPE	Hokuriku			
+lengthStay	JPN	JPF	Toukai			
+lengthStay	JPN	JPG	Kinki			
+lengthStay	JPN	JPH	Chugoku			
+lengthStay	JPN	JPI	Shikoku			
+lengthStay	JPN	JPJ	Kyushu, Okinawa			
+lengthStay	KOR	KR01	Capital Region			
+lengthStay	KOR	KR02	Gyeongnam Region			
+lengthStay	KOR	KR03	Gyeonbuk Region			
+lengthStay	KOR	KR04	Jeolla Region			
+lengthStay	KOR	KR05	Chungcheong Region			
+lengthStay	KOR	KR06	Gangwon Region			
+lengthStay	KOR	KR07	Jeju			
+lengthStay	ISR	IL05	Tel Aviv district			
+lengthStay	ISR	IL01	Jerusalem district			
+lengthStay	ISR	IL03	Haifa district			
+lengthStay	ISR	IL04	Central district			
+lengthStay	ISR	IL06	Southern district			
+lengthStay	ISR	IL02	Northern district			
+lengthStay	ISL	IS01	Capital Region			
+lengthStay	ISL	IS02	Other Regions			
+lengthStay	AUS	AU1	New South Wales			
+lengthStay	AUS	AU2	Victoria			
+lengthStay	AUS	AU3	Qeensland			
+lengthStay	AUS	AU4	South Australia			
+lengthStay	AUS	AU5	Western Australia			
+lengthStay	AUS	AU6	Tasmania			
+lengthStay	AUS	AU7	Northern Territorry (Nt)			
+lengthStay	AUS	AU8	Australian Capital Territory (Act)			
+lengthStay	CAN	CA59	British Columbia			
+lengthStay	CAN	CA24	Quebec			
+lengthStay	CAN	CA62	Nunavut			
+lengthStay	CAN	CA11	Prince Edward Island			
+lengthStay	CAN	CA47	Saskatchewan			
+lengthStay	CAN	CA60	Yukon			
+lengthStay	CAN	CA46	Manitoba			
+lengthStay	CAN	CA35	Ontario			
+lengthStay	CAN	CA13	New Brunswick			
+lengthStay	CAN	CA61	Northwest Territories			
+lengthStay	CAN	CA48	Alberta			
+lengthStay	CAN	CA10	Newfoundland and Labrador			
+lengthStay	CAN	CA12	Nova Scotia			
+lengthStay	AUT	AT11	Burgenland (AT)	38.4175758	61.5824242	
+lengthStay	AUT	AT12	Niederôsterreich	29.07988211	70.92011789	
+lengthStay	AUT	AT13	Wien	36.95407373	63.04592627	
+lengthStay	AUT	AT21	Kärnten	37.33942716	62.66057284	
+lengthStay	AUT	AT22	Steiermark	40.65711842	59.34288158	
+lengthStay	AUT	AT31	Oberôsterreich	31.97479812	68.02520188	
+lengthStay	AUT	AT32	Salzburg	36.11312038	63.88687962	
+lengthStay	AUT	AT33	Tirol	41.3405291	58.6594709	
+lengthStay	AUT	AT34	Vorarlberg	34.1183165	65.8816835	
+lengthStay	CHE	CH01	Région lémanique	41.49508104	58.50491896	
+lengthStay	CHE	CH02	Espace Mittelland	39.0756437	60.9243563	
+lengthStay	CHE	CH03	Nordwestschweiz	40.72868085	59.27131915	
+lengthStay	CHE	CH04	Zürich	46.6271661	53.3728339	
+lengthStay	CHE	CH05	Ostschweiz	39.81217803	60.18782198	
+lengthStay	CHE	CH06	Zentralschweiz	42.53658479	57.4634152	
+lengthStay	CHE	CH07	Ticino	41.45978539	58.54021461	
+lengthStay	CZE	CZ01	Praha	50.89728979	49.10271021	
+lengthStay	CZE	CZ02	Stredni Cechy	35.73460111	64.26539889	
+lengthStay	CZE	CZ03	Jihozápad	34.63557841	65.36442159	
+lengthStay	CZE	CZ04	Severozápad	22.63914977	77.36085023	
+lengthStay	CZE	CZ05	Severovýchod	30.41392232	69.58607768	
+lengthStay	CZE	CZ06	Jihovýchod	35.52310208	64.47689792	
+lengthStay	CZE	CZ07	Stredni Morava	16.98671866	83.01328134	
+lengthStay	CZE	CZ08	Moravskoslezsko	16.62034681	83.37965319	
+lengthStay	DNK	DK01	Hovedstaden	54.20889196	45.79110804	
+lengthStay	DNK	DK02	Sjælland	45.72813411	54.27186589	
+lengthStay	DNK	DK03	Syddanmark	47.34448334	52.65551666	
+lengthStay	DNK	DK04	Midtjylland	51.2492541	48.7507459	
+lengthStay	DNK	DK05	Nordjylland	52.84628843	47.15371157	
+lengthStay	EST	EE00	Estonia	7.194463533	92.80553647	
+lengthStay	ESP	ES11	Galicia	30.77036936	69.22963064	
+lengthStay	ESP	ES12	Asturias	40.57818395	59.42181605	
+lengthStay	ESP	ES13	Cantabria	50.09491619	49.90508381	
+lengthStay	ESP	ES21	Pais Vasco	52.94856104	47.05143896	
+lengthStay	ESP	ES22	Navarra	42.19648799	57.80351201	
+lengthStay	ESP	ES23	La Rioja (ES)	38.42576557	61.57423443	
+lengthStay	ESP	ES24	Aragôn	44.82728539	55.17271461	
+lengthStay	ESP	ES30	Comunidad de Madrid	41.12007234	58.87992766	
+lengthStay	ESP	ES41	Castilla y Leôn	43.51272808	56.48727192	
+lengthStay	ESP	ES42	Castilla-La Mancha	40.98472512	59.01527487	
+lengthStay	ESP	ES43	Extremadura	37.16300435	62.83699565	
+lengthStay	ESP	ES51	Cataluôa	40.93893803	59.06106197	
+lengthStay	ESP	ES52	Comunidad Valenciana	34.91087643	65.08912357	
+lengthStay	ESP	ES53	Baleares	33.4418506	66.55814939	
+lengthStay	ESP	ES61	Andalucia	39.24898811	60.75101189	
+lengthStay	ESP	ES62	Regiôn de Murcia	31.77952081	68.22047919	
+lengthStay	ESP	ES63	Ciudad Autônoma de Ceuta (ES)	14.9171329	85.0828671	
+lengthStay	ESP	ES64	Ciudad Autônoma de Melilla (ES)	28.64899991	71.35100009	
+lengthStay	ESP	ES70	Canarias (ES)	38.43056047	61.56943953	
+lengthStay	FIN	FI19	Länsi-Suomi	45.5095656	54.4904344	
+lengthStay	FIN	FI1B	Helsinki-Uusimaa	48.21704639	51.78295361	
+lengthStay	FIN	FI1C	Etelä-Suomi	46.07774634	53.92225366	
+lengthStay	FIN	FI1D	Pohjois- ja Itä-Suomi	43.86397322	56.13602678	
+lengthStay	FIN	FI20	Åland			
+lengthStay	FRA	FR10	Île de France	20.84465206	79.15534794	
+lengthStay	FRA	FR21	Champagne-Ardenne	36.22639395	63.77360605	
+lengthStay	FRA	FR22	Picardie	22.38489194	77.61510806	
+lengthStay	FRA	FR23	Haute-Normandie	28.73439287	71.26560713	
+lengthStay	FRA	FR24	Centre (FR)	21.89440483	78.10559516	
+lengthStay	FRA	FR25	Basse-Normandie	28.86598544	71.13401456	
+lengthStay	FRA	FR26	Bourgogne	23.42723617	76.57276383	
+lengthStay	FRA	FR30	Nord-Pas-De-Calais	26.98254894	73.01745106	
+lengthStay	FRA	FR41	Lorraine	26.52705845	73.47294155	
+lengthStay	FRA	FR42	Alsace	23.0675801	76.9324199	
+lengthStay	FRA	FR43	Franche-Comté	18.73312324	81.26687676	
+lengthStay	FRA	FR51	Pays de la Loire	26.51229236	73.48770764	
+lengthStay	FRA	FR52	Bretagne	35.48949637	64.51050363	
+lengthStay	FRA	FR53	Poitou-Charentes	31.25397756	68.74602244	
+lengthStay	FRA	FR61	Aquitaine	23.89913349	76.10086651	
+lengthStay	FRA	FR62	Midi-Pyrénées	26.32111097	73.67888903	
+lengthStay	FRA	FR63	Limousin	34.76019234	65.23980766	
+lengthStay	FRA	FR71	Rhône-Alpes	26.77049929	73.22950071	
+lengthStay	FRA	FR72	Auvergne	23.48241296	76.51758704	
+lengthStay	FRA	FR81	Languedoc-Roussillon	18.13877272	81.86122728	
+lengthStay	FRA	FR82	Provence-Alpes-Côte d'Azur	21.09283155	78.90716845	
+lengthStay	FRA	FR83	Corse		94.55385677	
+lengthStay	HUN	HU10	Kôzép-Magyarország	29.14469595	70.85530406	
+lengthStay	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia	28.44917894	71.55082105	
+lengthStay	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia		76.83081247	
+lengthStay	HUN	HU23	Del-Dunántôl\/Southern Transdanubia	28.72474733	71.27525267	
+lengthStay	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary		86.45405014	
+lengthStay	HUN	HU32	Eszak-Alfold\/Northern Great Plain	21.82018664	78.17981336	
+lengthStay	HUN	HU33	Del-Alfold\/Southern Great Plain	23.53980757	76.46019243	
+lengthStay	IRL	IE01	Border  Midland and Western	49.91848287	50.08151713	
+lengthStay	IRL	IE02	Southern and Eastern	58.70219318	41.29780682	
+lengthStay	ITA	ITC1	Piemonte	35.29929783	64.70070217	
+lengthStay	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste	42.76033608	57.23966392	
+lengthStay	ITA	ITC3	Liguria	41.22042641	58.77957359	
+lengthStay	ITA	ITC4	Lombardia	36.78932282	63.21067718	
+lengthStay	ITA	ITF1	Abruzzo	32.15509226	67.84490774	
+lengthStay	ITA	ITF2	Molise	36.35057573	63.64942427	
+lengthStay	ITA	ITF3	Campania	41.96398623	58.03601377	
+lengthStay	ITA	ITF4	Puglia	34.9004904	65.09950959	
+lengthStay	ITA	ITF5	Basilicata	40.48705592	59.51294408	
+lengthStay	ITA	ITF6	Calabria	36.93057218	63.06942781	
+lengthStay	ITA	ITG1	Sicilia	35.44204831	64.55795169	
+lengthStay	ITA	ITG2	Sardegna	45.15241369	54.84758631	
+lengthStay	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	38.50018923	61.49981077	
+lengthStay	ITA	ITH2	Provincia Autonoma di Trento	35.0542663	64.9457337	
+lengthStay	ITA	ITH3	Veneto	35.26044934	64.73955066	
+lengthStay	ITA	ITH4	Friuli-Venezia Giulia	30.92532095	69.07467905	
+lengthStay	ITA	ITH5	Emilia-Romagna	41.82913843	58.17086157	
+lengthStay	ITA	ITI1	Toscana	38.67875613	61.32124387	
+lengthStay	ITA	ITI2	Umbria	35.22458885	64.77541115	
+lengthStay	ITA	ITI3	Marche	35.11525771	64.88474229	
+lengthStay	ITA	ITI4	Lazio	34.05486133	65.94513867	
+lengthStay	LUX	LU00	Luxembourg	47.33155695	52.66844305	
+lengthStay	NOR	NO01	Oslo og Akershus	47.29907205	52.70092795	
+lengthStay	NOR	NO02	Hedmark og Oppland	60.26819443	39.73180557	
+lengthStay	NOR	NO03	Sor-0stlandet	49.48916066	50.51083934	
+lengthStay	NOR	NO04	Agder og Rogaland	56.85290046	43.14709954	
+lengthStay	NOR	NO05	Vestlandet	64.79433694	35.20566306	
+lengthStay	NOR	NO06	Trýndelag	62.70315571	37.29684429	
+lengthStay	NOR	NO07	Nord-Norge	63.22460528	36.77539472	
+lengthStay	POL	PL11	Lôdzkie			
+lengthStay	POL	PL12	Mazowieckie	72.960291	27.039709	
+lengthStay	POL	PL21	Malopolskie			
+lengthStay	POL	PL22	Slaskie			
+lengthStay	POL	PL31	Lubelskie			
+lengthStay	POL	PL32	Podkarpackie			
+lengthStay	POL	PL33	Swietokrzyskie			
+lengthStay	POL	PL34	Podlaskie			
+lengthStay	POL	PL41	Wielkopolskie			
+lengthStay	POL	PL42	Zachodniopomorskie			
+lengthStay	POL	PL43	Lubuskie			
+lengthStay	POL	PL51	Dolnoslaskie			
+lengthStay	POL	PL52	Opolskie			
+lengthStay	POL	PL61	Kujawsko-Pomorskie			
+lengthStay	POL	PL62	Warminsko-Mazurskie			
+lengthStay	POL	PL63	Pomorskie			
+lengthStay	PRT	PT11	Norte	13.44145275	86.55854725	
+lengthStay	PRT	PT15	Algarve	28.05117757	71.94882243	
+lengthStay	PRT	PT16	Centro (PT)	10.44553116	89.55446884	
+lengthStay	PRT	PT17	Lisboa	24.31224167	75.68775833	
+lengthStay	PRT	PT18	Alentejo	21.14070691	78.85929309	
+lengthStay	PRT	PT20	Região Autônoma dos Açores (PT)		86.07535856	
+lengthStay	PRT	PT30	Região Autônoma da Madeira (PT)		84.95811249	
+lengthStay	SWE	SE11	Stockholm	41.68606436	58.31393564	
+lengthStay	SWE	SE12	#NAME?	41.63793258	58.36206742	
+lengthStay	SWE	SE21	Sm+Ñland med ôarna	43.32510198	56.67489802	
+lengthStay	SWE	SE22	Sydsverige	40.73816341	59.26183659	
+lengthStay	SWE	SE23	Västsverige	38.53030875	61.46969126	
+lengthStay	SWE	SE31	Norra Mellansverige	53.93508013	46.06491987	
+lengthStay	SWE	SE32	Mellersta Norrland	60.52399045	39.47600955	
+lengthStay	SWE	SE33	Övre Norrland	47.31278835	52.68721165	
+lengthStay	SVN	SI01	Vzhodna Slovenija			
+lengthStay	SVN	SI02	Zahodna Slovenija			
+lengthStay	SVK	SK01	Bratislavský kraj	42.55012927	57.44987073	
+lengthStay	SVK	SK02	Západné Slovensko		84.6733756	
+lengthStay	SVK	SK03	Stredné Slovensko		83.4603665	
+lengthStay	SVK	SK04	Východné Slovensko		85.9544761	
+lengthStay	TUR	TR10	Istanbul	90.36899996	9.631000037	
+lengthStay	TUR	TR21	Tekirdag Edirne Kirklareli	58.15390344	41.84609656	
+lengthStay	TUR	TR22	Balikesir +çanakkale	60.36467714	39.63532286	
+lengthStay	TUR	TR31	Izmir	78.36596258	21.63403742	
+lengthStay	TUR	TR32	Aydin Denizli Mugla	73.90595535	26.09404465	
+lengthStay	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak	76.94991141	23.05008859	
+lengthStay	TUR	TR41	Bursa Eskisehir Bilecik	80.79809012	19.20190988	
+lengthStay	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova	74.57293103	25.42706897	
+lengthStay	TUR	TR51	Ankara	71.90783953	28.09216047	
+lengthStay	TUR	TR52	Konya Karaman	91.73739991	8.262600085	
+lengthStay	TUR	TR61	Antalya Isparta Burdur	56.77621297	43.22378703	
+lengthStay	TUR	TR62	Adana Mersin	94.71207129	5.287928707	
+lengthStay	TUR	TR63	Hatay Kahramanmaras Osmaniye	97.39405012		
+lengthStay	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir	75.1622969	24.8377031	
+lengthStay	TUR	TR72	Kayseri Sivas Yozgat	87.80256349	12.19743651	
+lengthStay	TUR	TR81	Zonguldak Karabýk Bartin	72.51285595	27.48714405	
+lengthStay	TUR	TR82	Kastamonu Çankiri Sinop	92.66251528		
+lengthStay	TUR	TR83	Samsun Tokat Çorum Amasya	67.53230438	32.46769562	
+lengthStay	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane	64.16568161	35.83431839	
+lengthStay	TUR	TRA1	Erzurum Erzincan Bayburt	90.74760348		
+lengthStay	TUR	TRA2	Agri Kars Igdir Ardahan	67.0095757		
+lengthStay	TUR	TRB1	Malatya Elazig Bingôl Tunceli	64.0490699	35.9509301	
+lengthStay	TUR	TRB2	Van Mus Bitlis Hakkari	92.21978701		
+lengthStay	TUR	TRC1	Gaziantep Adiyaman Kilis	96.43835045		
+lengthStay	TUR	TRC2	Sanliurfa Diyarbakir	99.32930468		
+lengthStay	TUR	TRC3	Mardin Batman Sirnak Siirt	97.17233183		
+lengthStay	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+lengthStay	BEL	BE2	Vlaams Gewest			
+lengthStay	BEL	BE3	Région wallonne			
+lengthStay	DEU	DE1	Baden-Wýrttemberg			
+lengthStay	DEU	DE2	Bayern			
+lengthStay	DEU	DE3	Berlin			
+lengthStay	DEU	DE4	Brandenburg			
+lengthStay	DEU	DE5	Bremen			
+lengthStay	DEU	DE6	Hamburg			
+lengthStay	DEU	DE7	Hessen			
+lengthStay	DEU	DE8	Mecklenburg-Vorpommern			
+lengthStay	DEU	DE9	Niedersachsen			
+lengthStay	DEU	DEA	Nordrhein-Westfalen			
+lengthStay	DEU	DEB	Rheinland-Pfalz			
+lengthStay	DEU	DEC	Saarland			
+lengthStay	DEU	DED	Sachsen			
+lengthStay	DEU	DEE	Sachsen-Anhalt			
+lengthStay	DEU	DEF	Schleswig-Holstein			
+lengthStay	DEU	DEG	Thýringen			
+lengthStay	GBR	UKC	North East (UK)			
+lengthStay	GBR	UKD	North West (UK)			
+lengthStay	GBR	UKE	Yorkshire and The Humber			
+lengthStay	GBR	UKF	East Midlands (UK)			
+lengthStay	GBR	UKG	West Midlands (UK)			
+lengthStay	GBR	UKH	East of England			
+lengthStay	GBR	UKI	London			
+lengthStay	GBR	UKJ	South East (UK)			
+lengthStay	GBR	UKK	South West (UK)			
+lengthStay	GBR	UKL	Wales			
+lengthStay	GBR	UKM	Scotland			
+lengthStay	GBR	UKN	Northern Ireland (UK)			
+lengthStay	NZL	NZ011	Northland Region			
+lengthStay	NZL	NZ012	Auckland Region			
+lengthStay	NZL	NZ013	Waikato Region			
+lengthStay	NZL	NZ022	West Coast Region			
+lengthStay	NZL	NZ014	Bay of Plenty Region			
+lengthStay	NZL	NZ023	Canterbury Region			
+lengthStay	NZL	NZ015	Gisborne Region			
+lengthStay	NZL	NZ024	Otago Region			
+lengthStay	NZL	NZ025	Southland Region			
+lengthStay	NZL	NZ016	Hawke's Bay Region			
+lengthStay	NZL	NZ017	Taranaki Region			
+lengthStay	NZL	NZ018	Manawatu-Wanganui Region			
+lengthStay	NZL	NZ019	Wellington Region			
+lengthStay	NZL	NZ021	Tasman-Nelson-Marlborough			
+lengthStay	GRC	GR11	Anatoliki Makedonia - Thraki			
+lengthStay	GRC	GR12	Kentriki Makedonia			
+lengthStay	GRC	GR13	Dytiki Makedonia			
+lengthStay	GRC	GR14	Thessalia			
+lengthStay	GRC	GR21	Ipeiros			
+lengthStay	GRC	GR22	Ionia Nisia			
+lengthStay	GRC	GR23	Dytiki Ellada			
+lengthStay	GRC	GR24	Sterea Ellada			
+lengthStay	GRC	GR25	Peloponnisos			
+lengthStay	GRC	GR30	Attiki	24.84630868	75.15369132	
+lengthStay	GRC	GR41	Voreio Aigaio	57.4714688	42.5285312	
+lengthStay	GRC	GR42	Notio Aigaio	25.65772452	74.34227548	
+lengthStay	GRC	GR43	Kriti	37.58326636	62.41673365	
+lengthStay	NLD	NL11	Groningen	25.59274245	74.40725755	
+lengthStay	NLD	NL12	Friesland	23.27878846	76.72121154	
+lengthStay	NLD	NL13	Drenthe	15.54510725	84.45489275	
+lengthStay	NLD	NL21	Overijssel	18.99883253	81.00116747	
+lengthStay	NLD	NL22	Gelderland	16.45705008	83.54294993	
+lengthStay	NLD	NL23	Flevoland	15.47382363	84.52617637	
+lengthStay	NLD	NL31	Utrecht	18.1075613	81.8924387	
+lengthStay	NLD	NL32	Noord-Holland	19.5107028	80.4892972	
+lengthStay	NLD	NL33	Zuid-Holland	19.49971605	80.50028395	
+lengthStay	NLD	NL34	Zeeland	27.49329892	72.50670108	
+lengthStay	NLD	NL41	Noord-Brabant	19.48596159	80.51403841	
+lengthStay	NLD	NL42	Limburg (NL)	20.17720202	79.82279798	
+eduattain	MEX	ME01	Aguacalientes			
+eduattain	MEX	ME02	Baja California Norte			
+eduattain	MEX	ME03	Baja California Sur			
+eduattain	MEX	ME04	Campeche			
+eduattain	MEX	ME05	Coahuila			
+eduattain	MEX	ME06	Colima			
+eduattain	MEX	ME07	Chiapas			
+eduattain	MEX	ME08	Chihuahua			
+eduattain	MEX	ME09	Distrito Federal			
+eduattain	MEX	ME10	Durango			
+eduattain	MEX	ME11	Guanajuato			
+eduattain	MEX	ME12	Guerrero			
+eduattain	MEX	ME13	Hidalgo			
+eduattain	MEX	ME14	Jalisco			
+eduattain	MEX	ME15	Mexico			
+eduattain	MEX	ME16	Michoacan			
+eduattain	MEX	ME17	Morelos			
+eduattain	MEX	ME18	Nayarit			
+eduattain	MEX	ME19	Nuevo Leon			
+eduattain	MEX	ME20	Oaxaca			
+eduattain	MEX	ME21	Puebla			
+eduattain	MEX	ME22	Queretaro			
+eduattain	MEX	ME23	Quintana Roo			
+eduattain	MEX	ME24	San Luis Potosi			
+eduattain	MEX	ME25	Sinaloa			
+eduattain	MEX	ME26	Sonora			
+eduattain	MEX	ME27	Tabasco			
+eduattain	MEX	ME28	Tamaulipas			
+eduattain	MEX	ME29	Tlaxcala			
+eduattain	MEX	ME30	Veracruz			
+eduattain	MEX	ME31	Yucatan			
+eduattain	MEX	ME32	Zacatecas			
+eduattain	USA	US01	Alabama			
+eduattain	USA	US02	Alaska			
+eduattain	USA	US04	Arizona			
+eduattain	USA	US05	Arkansas			
+eduattain	USA	US06	California			
+eduattain	USA	US08	Colorado			
+eduattain	USA	US09	Connecticut			
+eduattain	USA	US10	Delaware			
+eduattain	USA	US11	District Of Columbia			
+eduattain	USA	US12	Florida			
+eduattain	USA	US13	Georgia			
+eduattain	USA	US15	Hawaii			
+eduattain	USA	US16	Idaho			
+eduattain	USA	US17	Illinois			
+eduattain	USA	US18	Indiana			
+eduattain	USA	US19	Iowa			
+eduattain	USA	US20	Kansas			
+eduattain	USA	US21	Kentucky			
+eduattain	USA	US22	Louisiana			
+eduattain	USA	US23	Maine			
+eduattain	USA	US24	Maryland			
+eduattain	USA	US25	Massachusetts			
+eduattain	USA	US26	Michigan			
+eduattain	USA	US27	Minnesota			
+eduattain	USA	US28	Mississippi			
+eduattain	USA	US29	Missouri			
+eduattain	CHL	CL13	Santiago			
+eduattain	CHL	CL02	Antofagasta			
+eduattain	CHL	CL15	Arica y Parinacota			
+eduattain	CHL	CL03	Atacama			
+eduattain	CHL	CL11	Aysen			
+eduattain	CHL	CL04	Coquimbo			
+eduattain	CHL	CL09	Araucania			
+eduattain	CHL	CL10	Los Lagos			
+eduattain	CHL	CL14	Los Ríos			
+eduattain	CHL	CL12	Magallanes			
+eduattain	CHL	CL01	Tarapacá			
+eduattain	CHL	CL05	Valparaíso			
+eduattain	CHL	CL08	Bío-Bío			
+eduattain	CHL	CL06	O'Higgins			
+eduattain	CHL	CL07	Maule			
+eduattain	USA	US30	Montana			
+eduattain	USA	US31	Nebraska			
+eduattain	USA	US32	Nevada			
+eduattain	USA	US33	New Hampshire			
+eduattain	USA	US34	New Jersey			
+eduattain	USA	US35	New Mexico			
+eduattain	USA	US36	New York			
+eduattain	USA	US37	North Carolina			
+eduattain	USA	US38	North Dakota			
+eduattain	USA	US39	Ohio			
+eduattain	USA	US40	Oklahoma			
+eduattain	USA	US41	Oregon			
+eduattain	USA	US42	Pennsylvania			
+eduattain	USA	US44	Rhode Island			
+eduattain	USA	US45	South Carolina			
+eduattain	USA	US46	South Dakota			
+eduattain	USA	US47	Tennessee			
+eduattain	USA	US48	Texas			
+eduattain	USA	US49	Utah			
+eduattain	USA	US50	Vermont			
+eduattain	USA	US51	Virginia			
+eduattain	USA	US53	Washington			
+eduattain	USA	US54	West Virginia			
+eduattain	USA	US55	Wisconsin			
+eduattain	USA	US56	Wyoming			
+eduattain	JPN	JPA	Hokkaido			
+eduattain	JPN	JPB	Tohoku			
+eduattain	JPN	JPD	Southern-Kanto			
+eduattain	JPN	JPC	Northern-Kanto, Koshin			
+eduattain	JPN	JPE	Hokuriku			
+eduattain	JPN	JPF	Toukai			
+eduattain	JPN	JPG	Kinki			
+eduattain	JPN	JPH	Chugoku			
+eduattain	JPN	JPI	Shikoku			
+eduattain	JPN	JPJ	Kyushu, Okinawa			
+eduattain	KOR	KR01	Capital Region			
+eduattain	KOR	KR02	Gyeongnam Region			
+eduattain	KOR	KR03	Gyeonbuk Region			
+eduattain	KOR	KR04	Jeolla Region			
+eduattain	KOR	KR05	Chungcheong Region			
+eduattain	KOR	KR06	Gangwon Region			
+eduattain	KOR	KR07	Jeju			
+eduattain	ISR	IL05	Tel Aviv district			
+eduattain	ISR	IL01	Jerusalem district			
+eduattain	ISR	IL03	Haifa district			
+eduattain	ISR	IL04	Central district			
+eduattain	ISR	IL06	Southern district			
+eduattain	ISR	IL02	Northern district			
+eduattain	ISL	IS01	Capital Region			
+eduattain	ISL	IS02	Other Regions			
+eduattain	AUS	AU1	New South Wales			
+eduattain	AUS	AU2	Victoria			
+eduattain	AUS	AU3	Qeensland			
+eduattain	AUS	AU4	South Australia			
+eduattain	AUS	AU5	Western Australia			
+eduattain	AUS	AU6	Tasmania			
+eduattain	AUS	AU7	Northern Territorry (Nt)			
+eduattain	AUS	AU8	Australian Capital Territory (Act)			
+eduattain	CAN	CA59	British Columbia			
+eduattain	CAN	CA24	Quebec			
+eduattain	CAN	CA62	Nunavut			
+eduattain	CAN	CA11	Prince Edward Island			
+eduattain	CAN	CA47	Saskatchewan			
+eduattain	CAN	CA60	Yukon			
+eduattain	CAN	CA46	Manitoba			
+eduattain	CAN	CA35	Ontario			
+eduattain	CAN	CA13	New Brunswick			
+eduattain	CAN	CA61	Northwest Territories			
+eduattain	CAN	CA48	Alberta			
+eduattain	CAN	CA10	Newfoundland and Labrador			
+eduattain	CAN	CA12	Nova Scotia			
+eduattain	AUT	AT11	Burgenland (AT)	29.27511794	25.62661677	
+eduattain	AUT	AT12	Niederôsterreich	26.6094654	28.17064352	
+eduattain	AUT	AT13	Wien	32.69785933	37.24919538	
+eduattain	AUT	AT21	Kärnten	23.78042302	27.26919943	
+eduattain	AUT	AT22	Steiermark	24.50111306	24.49477967	
+eduattain	AUT	AT31	Oberôsterreich	19.73061568	26.25464356	
+eduattain	AUT	AT32	Salzburg	24.60628229	29.00515456	
+eduattain	AUT	AT33	Tirol	24.86563075	24.52890793	
+eduattain	AUT	AT34	Vorarlberg	19.72815729	25.72220788	
+eduattain	CHE	CH01	Région lémanique	40.07003604	37.06385169	
+eduattain	CHE	CH02	Espace Mittelland	34.65732819	36.29319041	
+eduattain	CHE	CH03	Nordwestschweiz	40.3903816	38.33046123	
+eduattain	CHE	CH04	Zürich	46.03940635	45.99050026	
+eduattain	CHE	CH05	Ostschweiz	30.02876097	33.96474071	
+eduattain	CHE	CH06	Zentralschweiz	35.46679554	36.18334283	
+eduattain	CHE	CH07	Ticino	32.91810531	35.95145125	
+eduattain	CZE	CZ01	Praha	44.96032445	38.4219728	
+eduattain	CZE	CZ02	Stredni Cechy	25.31164758	20.14611346	
+eduattain	CZE	CZ03	Jihozápad	13.37855806	17.13438684	
+eduattain	CZE	CZ04	Severozápad	15.14539115	12.57474374	
+eduattain	CZE	CZ05	Severovýchod	14.7883592	16.62728848	
+eduattain	CZE	CZ06	Jihovýchod	36.16539271	21.43119498	
+eduattain	CZE	CZ07	Stredni Morava	24.01106215	17.82613629	
+eduattain	CZE	CZ08	Moravskoslezsko	15.03198405	16.56854512	
+eduattain	DNK	DK01	Hovedstaden	47.37708566	44.88090501	
+eduattain	DNK	DK02	Sjælland	35.25058031	27.14351856	
+eduattain	DNK	DK03	Syddanmark	32.32854919	27.87285919	
+eduattain	DNK	DK04	Midtjylland	34.52580514	31.00638903	
+eduattain	DNK	DK05	Nordjylland	34.33400164	25.77374935	
+eduattain	EST	EE00	Estonia	41.90473139	34.72377254	
+eduattain	ESP	ES11	Galicia	26.73065371	33.2333712	
+eduattain	ESP	ES12	Asturias	22.30131751	38.95503854	
+eduattain	ESP	ES13	Cantabria	25.47662067	37.60944894	
+eduattain	ESP	ES21	Pais Vasco	24.84166634	48.47403514	
+eduattain	ESP	ES22	Navarra	24.50170156	44.08820934	
+eduattain	ESP	ES23	La Rioja (ES)	19.97450169	39.22958334	
+eduattain	ESP	ES24	Aragôn	20.61966867	36.48913032	
+eduattain	ESP	ES30	Comunidad de Madrid	32.86504439	48.34062535	
+eduattain	ESP	ES41	Castilla y Leôn	22.31535349	33.86162285	
+eduattain	ESP	ES42	Castilla-La Mancha	15.92816925	27.20992729	
+eduattain	ESP	ES43	Extremadura	19.95686924	25.13300969	
+eduattain	ESP	ES51	Cataluôa	25.40588628	37.9286573	
+eduattain	ESP	ES52	Comunidad Valenciana	25.42283785	31.07881227	
+eduattain	ESP	ES53	Baleares	26.70381461	24.77451716	
+eduattain	ESP	ES61	Andalucia	23.09378486	26.26294992	
+eduattain	ESP	ES62	Regiôn de Murcia	12.57630029	28.47549944	
+eduattain	ESP	ES63	Ciudad Autônoma de Ceuta (ES)	18.0879837	24.07258091	
+eduattain	ESP	ES64	Ciudad Autônoma de Melilla (ES)	12.54401438	30.2397864	
+eduattain	ESP	ES70	Canarias (ES)	25.8864926	24.5820175	
+eduattain	FIN	FI19	Länsi-Suomi	28.19560822	36.97985943	
+eduattain	FIN	FI1B	Helsinki-Uusimaa	31.49158888	49.57074294	
+eduattain	FIN	FI1C	Etelä-Suomi	27.12397344	35.9145232	
+eduattain	FIN	FI1D	Pohjois- ja Itä-Suomi	28.98462955	34.01071046	
+eduattain	FIN	FI20	Åland		28.78248932	
+eduattain	FRA	FR10	Île de France	31.99797801	47.32476146	
+eduattain	FRA	FR21	Champagne-Ardenne	24.20643508	22.53447056	
+eduattain	FRA	FR22	Picardie	24.67946033	21.80725814	
+eduattain	FRA	FR23	Haute-Normandie	22.47955751	25.52752922	
+eduattain	FRA	FR24	Centre (FR)	24.05584651	27.46192421	
+eduattain	FRA	FR25	Basse-Normandie	35.03174995	24.71162175	
+eduattain	FRA	FR26	Bourgogne	18.28260455	26.64202736	
+eduattain	FRA	FR30	Nord-Pas-De-Calais	29.72964575	26.95258511	
+eduattain	FRA	FR41	Lorraine	21.56682042	29.62008055	
+eduattain	FRA	FR42	Alsace	25.68181618	31.12455698	
+eduattain	FRA	FR43	Franche-Comté	15.21271486	26.43424315	
+eduattain	FRA	FR51	Pays de la Loire	33.34778615	30.33179835	
+eduattain	FRA	FR52	Bretagne	39.99134992	31.88679771	
+eduattain	FRA	FR53	Poitou-Charentes	27.69893112	24.96866154	
+eduattain	FRA	FR61	Aquitaine	24.85236593	32.86230763	
+eduattain	FRA	FR62	Midi-Pyrénées	34.16238462	39.58881882	
+eduattain	FRA	FR63	Limousin	21.76400831	29.14811773	
+eduattain	FRA	FR71	Rhône-Alpes	28.21067481	36.93799701	
+eduattain	FRA	FR72	Auvergne	21.04129074	27.22124006	
+eduattain	FRA	FR81	Languedoc-Roussillon	26.70959471	30.38922025	
+eduattain	FRA	FR82	Provence-Alpes-Côte d'Azur	24.96754155	35.67531379	
+eduattain	FRA	FR83	Corse		26.77587087	
+eduattain	HUN	HU10	Kôzép-Magyarország	33.81355711	34.75973497	
+eduattain	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia	31.66356202	17.4756979	
+eduattain	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia		18.90726826	
+eduattain	HUN	HU23	Del-Dunántôl\/Southern Transdanubia	28.47307093	16.8952093	
+eduattain	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary		16.25236514	
+eduattain	HUN	HU32	Eszak-Alfold\/Northern Great Plain	27.36668523	15.93092469	
+eduattain	HUN	HU33	Del-Alfold\/Southern Great Plain	20.74838981	17.95346184	
+eduattain	IRL	IE01	Border  Midland and Western	40.63366528	32.94478538	
+eduattain	IRL	IE02	Southern and Eastern	51.84608894	39.34121553	
+eduattain	ITA	ITC1	Piemonte	12.06168968	15.89098368	
+eduattain	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste		14.58526642	
+eduattain	ITA	ITC3	Liguria	11.13473127	19.59665528	
+eduattain	ITA	ITC4	Lombardia	13.33841571	18.25768462	
+eduattain	ITA	ITF1	Abruzzo	13.04539215	15.4817155	
+eduattain	ITA	ITF2	Molise		17.17476558	
+eduattain	ITA	ITF3	Campania	8.997024137	13.14849275	
+eduattain	ITA	ITF4	Puglia	6.30922185	12.41530287	
+eduattain	ITA	ITF5	Basilicata	8.44512136	14.27804642	
+eduattain	ITA	ITF6	Calabria	9.068932123	14.14841691	
+eduattain	ITA	ITG1	Sicilia	7.627789845	12.04586638	
+eduattain	ITA	ITG2	Sardegna	13.07123951	12.62182998	
+eduattain	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	16.98677215	14.21851407	
+eduattain	ITA	ITH2	Provincia Autonoma di Trento	13.29914318	17.63256585	
+eduattain	ITA	ITH3	Veneto	10.69337786	15.36309026	
+eduattain	ITA	ITH4	Friuli-Venezia Giulia	9.943852836	17.66238125	
+eduattain	ITA	ITH5	Emilia-Romagna	13.57794336	19.30223028	
+eduattain	ITA	ITI1	Toscana	14.18897121	17.4130728	
+eduattain	ITA	ITI2	Umbria	10.97118306	19.94142315	
+eduattain	ITA	ITI3	Marche	10.57733856	18.46971312	
+eduattain	ITA	ITI4	Lazio	14.90477538	22.68724845	
+eduattain	LUX	LU00	Luxembourg	51.54170385	31.36221369	
+eduattain	NOR	NO01	Oslo og Akershus	43.68548743	52.98501978	
+eduattain	NOR	NO02	Hedmark og Oppland	40.6624294	29.50982071	
+eduattain	NOR	NO03	Sor-0stlandet	34.93867717	34.47751677	
+eduattain	NOR	NO04	Agder og Rogaland	38.99177601	36.29692638	
+eduattain	NOR	NO05	Vestlandet	42.31674193	39.59442364	
+eduattain	NOR	NO06	Trýndelag	42.40437478	38.85018447	
+eduattain	NOR	NO07	Nord-Norge	39.3310218	34.81790745	
+eduattain	POL	PL11	Lôdzkie		24.75057346	
+eduattain	POL	PL12	Mazowieckie	66.01350994	35.45044558	
+eduattain	POL	PL21	Malopolskie		26.12663964	
+eduattain	POL	PL22	Slaskie		24.01762879	
+eduattain	POL	PL31	Lubelskie		25.66521004	
+eduattain	POL	PL32	Podkarpackie		23.00448653	
+eduattain	POL	PL33	Swietokrzyskie		23.94975355	
+eduattain	POL	PL34	Podlaskie		26.47626202	
+eduattain	POL	PL41	Wielkopolskie		23.44700112	
+eduattain	POL	PL42	Zachodniopomorskie		22.83592512	
+eduattain	POL	PL43	Lubuskie		21.14484684	
+eduattain	POL	PL51	Dolnoslaskie		25.41271249	
+eduattain	POL	PL52	Opolskie		22.64887272	
+eduattain	POL	PL61	Kujawsko-Pomorskie		19.18158034	
+eduattain	POL	PL62	Warminsko-Mazurskie		20.91448054	
+eduattain	POL	PL63	Pomorskie		25.19379614	
+eduattain	PRT	PT11	Norte	31.65800703	16.12970882	
+eduattain	PRT	PT15	Algarve	22.39894318	17.46929855	
+eduattain	PRT	PT16	Centro (PT)	32.25466278	18.64883284	
+eduattain	PRT	PT17	Lisboa	28.18797298	30.69794475	
+eduattain	PRT	PT18	Alentejo	25.48564894	16.18455846	
+eduattain	PRT	PT20	Região Autônoma dos Açores (PT)		12.2329674	
+eduattain	PRT	PT30	Região Autônoma da Madeira (PT)		14.71761002	
+eduattain	SWE	SE11	Stockholm	42.56839766	44.91509689	
+eduattain	SWE	SE12	#NAME?	35.11730522	32.08593486	
+eduattain	SWE	SE21	Sm+Ñland med ôarna	29.3837717	28.3516916	
+eduattain	SWE	SE22	Sydsverige	36.63951079	35.99855948	
+eduattain	SWE	SE23	Västsverige	34.00300025	35.578836	
+eduattain	SWE	SE31	Norra Mellansverige	30.46046184	25.70165535	
+eduattain	SWE	SE32	Mellersta Norrland	37.46436133	26.83404005	
+eduattain	SWE	SE33	Övre Norrland	40.31352624	32.19215835	
+eduattain	SVN	SI01	Vzhodna Slovenija			
+eduattain	SVN	SI02	Zahodna Slovenija			
+eduattain	SVK	SK01	Bratislavský kraj	56.77358985	36.23520385	
+eduattain	SVK	SK02	Západné Slovensko		16.2579394	
+eduattain	SVK	SK03	Stredné Slovensko		17.20455244	
+eduattain	SVK	SK04	Východné Slovensko		18.05258107	
+eduattain	TUR	TR10	Istanbul	22.62553124	17.91956031	
+eduattain	TUR	TR21	Tekirdag Edirne Kirklareli	16.12213714	12.53747769	
+eduattain	TUR	TR22	Balikesir +çanakkale	24.10219791	16.02895728	
+eduattain	TUR	TR31	Izmir	17.88919288	18.66089428	
+eduattain	TUR	TR32	Aydin Denizli Mugla	24.77532256	13.71978047	
+eduattain	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak	19.75572613	11.48260626	
+eduattain	TUR	TR41	Bursa Eskisehir Bilecik	14.26166804	15.81025781	
+eduattain	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova	21.93982983	14.03157069	
+eduattain	TUR	TR51	Ankara	49.34951632	24.67772761	
+eduattain	TUR	TR52	Konya Karaman	12.97068018	11.95479668	
+eduattain	TUR	TR61	Antalya Isparta Burdur	44.75074563	16.1357759	
+eduattain	TUR	TR62	Adana Mersin	8.302842199	13.11556715	
+eduattain	TUR	TR63	Hatay Kahramanmaras Osmaniye	12.61375821	9.628089261	
+eduattain	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir	17.69394527	11.38412909	
+eduattain	TUR	TR72	Kayseri Sivas Yozgat	16.52463209	12.82237552	
+eduattain	TUR	TR81	Zonguldak Karabýk Bartin	29.2797953	9.696739155	
+eduattain	TUR	TR82	Kastamonu Çankiri Sinop		10.64033648	
+eduattain	TUR	TR83	Samsun Tokat Çorum Amasya	33.12671033	11.9287926	
+eduattain	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane	39.5658396	13.11829651	
+eduattain	TUR	TRA1	Erzurum Erzincan Bayburt	36.06556026	8.619954202	
+eduattain	TUR	TRA2	Agri Kars Igdir Ardahan		7.229466545	
+eduattain	TUR	TRB1	Malatya Elazig Bingôl Tunceli	36.262211	14.58591774	
+eduattain	TUR	TRB2	Van Mus Bitlis Hakkari	7.362810034	5.770111279	
+eduattain	TUR	TRC1	Gaziantep Adiyaman Kilis	13.57825155	10.91289161	
+eduattain	TUR	TRC2	Sanliurfa Diyarbakir	6.654902259	6.136630229	
+eduattain	TUR	TRC3	Mardin Batman Sirnak Siirt		6.528848557	
+eduattain	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+eduattain	BEL	BE2	Vlaams Gewest			
+eduattain	BEL	BE3	Région wallonne			
+eduattain	DEU	DE1	Baden-Wýrttemberg			
+eduattain	DEU	DE2	Bayern			
+eduattain	DEU	DE3	Berlin			
+eduattain	DEU	DE4	Brandenburg			
+eduattain	DEU	DE5	Bremen			
+eduattain	DEU	DE6	Hamburg			
+eduattain	DEU	DE7	Hessen			
+eduattain	DEU	DE8	Mecklenburg-Vorpommern			
+eduattain	DEU	DE9	Niedersachsen			
+eduattain	DEU	DEA	Nordrhein-Westfalen			
+eduattain	DEU	DEB	Rheinland-Pfalz			
+eduattain	DEU	DEC	Saarland			
+eduattain	DEU	DED	Sachsen			
+eduattain	DEU	DEE	Sachsen-Anhalt			
+eduattain	DEU	DEF	Schleswig-Holstein			
+eduattain	DEU	DEG	Thýringen			
+eduattain	GBR	UKC	North East (UK)			
+eduattain	GBR	UKD	North West (UK)			
+eduattain	GBR	UKE	Yorkshire and The Humber			
+eduattain	GBR	UKF	East Midlands (UK)			
+eduattain	GBR	UKG	West Midlands (UK)			
+eduattain	GBR	UKH	East of England			
+eduattain	GBR	UKI	London			
+eduattain	GBR	UKJ	South East (UK)			
+eduattain	GBR	UKK	South West (UK)			
+eduattain	GBR	UKL	Wales			
+eduattain	GBR	UKM	Scotland			
+eduattain	GBR	UKN	Northern Ireland (UK)			
+eduattain	NZL	NZ011	Northland Region			
+eduattain	NZL	NZ012	Auckland Region			
+eduattain	NZL	NZ013	Waikato Region			
+eduattain	NZL	NZ022	West Coast Region			
+eduattain	NZL	NZ014	Bay of Plenty Region			
+eduattain	NZL	NZ023	Canterbury Region			
+eduattain	NZL	NZ015	Gisborne Region			
+eduattain	NZL	NZ024	Otago Region			
+eduattain	NZL	NZ025	Southland Region			
+eduattain	NZL	NZ016	Hawke's Bay Region			
+eduattain	NZL	NZ017	Taranaki Region			
+eduattain	NZL	NZ018	Manawatu-Wanganui Region			
+eduattain	NZL	NZ019	Wellington Region			
+eduattain	NZL	NZ021	Tasman-Nelson-Marlborough			
+eduattain	GRC	GR11	Anatoliki Makedonia - Thraki			
+eduattain	GRC	GR12	Kentriki Makedonia			
+eduattain	GRC	GR13	Dytiki Makedonia			
+eduattain	GRC	GR14	Thessalia			
+eduattain	GRC	GR21	Ipeiros			
+eduattain	GRC	GR22	Ionia Nisia			
+eduattain	GRC	GR23	Dytiki Ellada			
+eduattain	GRC	GR24	Sterea Ellada			
+eduattain	GRC	GR25	Peloponnisos			
+eduattain	GRC	GR30	Attiki	17.59354938	38.5874094	
+eduattain	GRC	GR41	Voreio Aigaio		24.09562412	
+eduattain	GRC	GR42	Notio Aigaio	8.799702506	19.24426487	
+eduattain	GRC	GR43	Kriti	8.417965859	23.76564054	
+eduattain	NLD	NL11	Groningen	25.08290699	30.63657873	
+eduattain	NLD	NL12	Friesland	15.71403314	24.61835905	
+eduattain	NLD	NL13	Drenthe	18.65008499	27.06566249	
+eduattain	NLD	NL21	Overijssel	20.6195075	31.03235635	
+eduattain	NLD	NL22	Gelderland	26.1136359	32.29843597	
+eduattain	NLD	NL23	Flevoland	23.16750992	28.99979682	
+eduattain	NLD	NL31	Utrecht	30.92578724	45.35134269	
+eduattain	NLD	NL32	Noord-Holland	30.12133314	40.75527416	
+eduattain	NLD	NL33	Zuid-Holland	24.8394618	34.8712878	
+eduattain	NLD	NL34	Zeeland	17.11938847	23.59337806	
+eduattain	NLD	NL41	Noord-Brabant	22.53291926	32.29052213	
+eduattain	NLD	NL42	Limburg (NL)	18.36114255	27.06199208	
+Unemp	MEX	ME01	Aguacalientes			
+Unemp	MEX	ME02	Baja California Norte			
+Unemp	MEX	ME03	Baja California Sur			
+Unemp	MEX	ME04	Campeche			
+Unemp	MEX	ME05	Coahuila			
+Unemp	MEX	ME06	Colima			
+Unemp	MEX	ME07	Chiapas			
+Unemp	MEX	ME08	Chihuahua			
+Unemp	MEX	ME09	Distrito Federal			
+Unemp	MEX	ME10	Durango			
+Unemp	MEX	ME11	Guanajuato			
+Unemp	MEX	ME12	Guerrero			
+Unemp	MEX	ME13	Hidalgo			
+Unemp	MEX	ME14	Jalisco			
+Unemp	MEX	ME15	Mexico			
+Unemp	MEX	ME16	Michoacan			
+Unemp	MEX	ME17	Morelos			
+Unemp	MEX	ME18	Nayarit			
+Unemp	MEX	ME19	Nuevo Leon			
+Unemp	MEX	ME20	Oaxaca			
+Unemp	MEX	ME21	Puebla			
+Unemp	MEX	ME22	Queretaro			
+Unemp	MEX	ME23	Quintana Roo			
+Unemp	MEX	ME24	San Luis Potosi			
+Unemp	MEX	ME25	Sinaloa			
+Unemp	MEX	ME26	Sonora			
+Unemp	MEX	ME27	Tabasco			
+Unemp	MEX	ME28	Tamaulipas			
+Unemp	MEX	ME29	Tlaxcala			
+Unemp	MEX	ME30	Veracruz			
+Unemp	MEX	ME31	Yucatan			
+Unemp	MEX	ME32	Zacatecas			
+Unemp	USA	US01	Alabama			
+Unemp	USA	US02	Alaska			
+Unemp	USA	US04	Arizona			
+Unemp	USA	US05	Arkansas			
+Unemp	USA	US06	California			
+Unemp	USA	US08	Colorado			
+Unemp	USA	US09	Connecticut			
+Unemp	USA	US10	Delaware			
+Unemp	USA	US11	District Of Columbia			
+Unemp	USA	US12	Florida			
+Unemp	USA	US13	Georgia			
+Unemp	USA	US15	Hawaii			
+Unemp	USA	US16	Idaho			
+Unemp	USA	US17	Illinois			
+Unemp	USA	US18	Indiana			
+Unemp	USA	US19	Iowa			
+Unemp	USA	US20	Kansas			
+Unemp	USA	US21	Kentucky			
+Unemp	USA	US22	Louisiana			
+Unemp	USA	US23	Maine			
+Unemp	USA	US24	Maryland			
+Unemp	USA	US25	Massachusetts			
+Unemp	USA	US26	Michigan			
+Unemp	USA	US27	Minnesota			
+Unemp	USA	US28	Mississippi			
+Unemp	USA	US29	Missouri			
+Unemp	CHL	CL13	Santiago			
+Unemp	CHL	CL02	Antofagasta			
+Unemp	CHL	CL15	Arica y Parinacota			
+Unemp	CHL	CL03	Atacama			
+Unemp	CHL	CL11	Aysen			
+Unemp	CHL	CL04	Coquimbo			
+Unemp	CHL	CL09	Araucania			
+Unemp	CHL	CL10	Los Lagos			
+Unemp	CHL	CL14	Los Ríos			
+Unemp	CHL	CL12	Magallanes			
+Unemp	CHL	CL01	Tarapacá			
+Unemp	CHL	CL05	Valparaíso			
+Unemp	CHL	CL08	Bío-Bío			
+Unemp	CHL	CL06	O'Higgins			
+Unemp	CHL	CL07	Maule			
+Unemp	USA	US30	Montana			
+Unemp	USA	US31	Nebraska			
+Unemp	USA	US32	Nevada			
+Unemp	USA	US33	New Hampshire			
+Unemp	USA	US34	New Jersey			
+Unemp	USA	US35	New Mexico			
+Unemp	USA	US36	New York			
+Unemp	USA	US37	North Carolina			
+Unemp	USA	US38	North Dakota			
+Unemp	USA	US39	Ohio			
+Unemp	USA	US40	Oklahoma			
+Unemp	USA	US41	Oregon			
+Unemp	USA	US42	Pennsylvania			
+Unemp	USA	US44	Rhode Island			
+Unemp	USA	US45	South Carolina			
+Unemp	USA	US46	South Dakota			
+Unemp	USA	US47	Tennessee			
+Unemp	USA	US48	Texas			
+Unemp	USA	US49	Utah			
+Unemp	USA	US50	Vermont			
+Unemp	USA	US51	Virginia			
+Unemp	USA	US53	Washington			
+Unemp	USA	US54	West Virginia			
+Unemp	USA	US55	Wisconsin			
+Unemp	USA	US56	Wyoming			
+Unemp	JPN	JPA	Hokkaido			
+Unemp	JPN	JPB	Tohoku			
+Unemp	JPN	JPD	Southern-Kanto			
+Unemp	JPN	JPC	Northern-Kanto, Koshin			
+Unemp	JPN	JPE	Hokuriku			
+Unemp	JPN	JPF	Toukai			
+Unemp	JPN	JPG	Kinki			
+Unemp	JPN	JPH	Chugoku			
+Unemp	JPN	JPI	Shikoku			
+Unemp	JPN	JPJ	Kyushu, Okinawa			
+Unemp	KOR	KR01	Capital Region			
+Unemp	KOR	KR02	Gyeongnam Region			
+Unemp	KOR	KR03	Gyeonbuk Region			
+Unemp	KOR	KR04	Jeolla Region			
+Unemp	KOR	KR05	Chungcheong Region			
+Unemp	KOR	KR06	Gangwon Region			
+Unemp	KOR	KR07	Jeju			
+Unemp	ISR	IL05	Tel Aviv district			
+Unemp	ISR	IL01	Jerusalem district			
+Unemp	ISR	IL03	Haifa district			
+Unemp	ISR	IL04	Central district			
+Unemp	ISR	IL06	Southern district			
+Unemp	ISR	IL02	Northern district			
+Unemp	ISL	IS01	Capital Region			
+Unemp	ISL	IS02	Other Regions			
+Unemp	AUS	AU1	New South Wales			
+Unemp	AUS	AU2	Victoria			
+Unemp	AUS	AU3	Qeensland			
+Unemp	AUS	AU4	South Australia			
+Unemp	AUS	AU5	Western Australia			
+Unemp	AUS	AU6	Tasmania			
+Unemp	AUS	AU7	Northern Territorry (Nt)			
+Unemp	AUS	AU8	Australian Capital Territory (Act)			
+Unemp	CAN	CA59	British Columbia			
+Unemp	CAN	CA24	Quebec			
+Unemp	CAN	CA62	Nunavut			
+Unemp	CAN	CA11	Prince Edward Island			
+Unemp	CAN	CA47	Saskatchewan			
+Unemp	CAN	CA60	Yukon			
+Unemp	CAN	CA46	Manitoba			
+Unemp	CAN	CA35	Ontario			
+Unemp	CAN	CA13	New Brunswick			
+Unemp	CAN	CA61	Northwest Territories			
+Unemp	CAN	CA48	Alberta			
+Unemp	CAN	CA10	Newfoundland and Labrador			
+Unemp	CAN	CA12	Nova Scotia			
+Unemp	AUT	AT11	Burgenland (AT)		4.699047017	
+Unemp	AUT	AT12	Niederôsterreich	10.21966418	4.540027494	-5.679636691
+Unemp	AUT	AT13	Wien	13.48916316	8.694499696	-4.794663464
+Unemp	AUT	AT21	Kärnten	10.82783324	5.475361231	-5.352472012
+Unemp	AUT	AT22	Steiermark	11.23552095	4.099557128	-7.135963818
+Unemp	AUT	AT31	Oberôsterreich	7.981046538	3.479343548	-4.501702989
+Unemp	AUT	AT32	Salzburg	6.602186703	2.833674865	-3.768511838
+Unemp	AUT	AT33	Tirol	5.569418072	2.651084181	-2.918333891
+Unemp	AUT	AT34	Vorarlberg		3.042111877	
+Unemp	CHE	CH01	Région lémanique	9.625807314	5.072986521	-4.552820793
+Unemp	CHE	CH02	Espace Mittelland	8.419653185	3.061448597	-5.358204588
+Unemp	CHE	CH03	Nordwestschweiz	6.23776708	3.328222505	-2.909544575
+Unemp	CHE	CH04	Zürich	6.348760101	2.864447813	-3.484312288
+Unemp	CHE	CH05	Ostschweiz	6.73617528	2.512321738	-4.223853543
+Unemp	CHE	CH06	Zentralschweiz	7.709336066	2.217041612	-5.492294454
+Unemp	CHE	CH07	Ticino	9.285767467	5.180102444	-4.105665023
+Unemp	CZE	CZ01	Praha	2.122430519	2.751205714	0.628775195
+Unemp	CZE	CZ02	Stredni Cechy	3.728126838	4.390790071	0.662663233
+Unemp	CZE	CZ03	Jihozápad	5.296196194	4.749357301	-0.546838893
+Unemp	CZE	CZ04	Severozápad	11.24789874	7.993262859	-3.25463588
+Unemp	CZE	CZ05	Severovýchod	10.83241865	5.707665849	-5.124752802
+Unemp	CZE	CZ06	Jihovýchod	8.020918876	5.435037877	-2.585880999
+Unemp	CZE	CZ07	Stredni Morava	11.86466995	6.048280198	-5.816389753
+Unemp	CZE	CZ08	Moravskoslezsko	12.14520397	8.376032585	-3.769171385
+Unemp	DNK	DK01	Hovedstaden	12.27206725	5.930775817	-6.341291438
+Unemp	DNK	DK02	Sjælland	12.17576781	5.678045736	-6.497722072
+Unemp	DNK	DK03	Syddanmark	13.09091499	5.693027532	-7.397887456
+Unemp	DNK	DK04	Midtjylland	11.73028858	5.313509566	-6.416779012
+Unemp	DNK	DK05	Nordjylland	11.47550295	6.01807812	-5.457424826
+Unemp	EST	EE00	Estonia	8.544106252	6.703849653	-1.840256599
+Unemp	ESP	ES11	Galicia	28.67360241	19.71000342	-8.96359899
+Unemp	ESP	ES12	Asturias	30.40718682	19.23204624	-11.17514057
+Unemp	ESP	ES13	Cantabria	32.91807447	17.01944591	-15.89862856
+Unemp	ESP	ES21	Pais Vasco	31.65088723	13.80285019	-17.84803704
+Unemp	ESP	ES22	Navarra	31.66348407	11.59602229	-20.06746179
+Unemp	ESP	ES23	La Rioja (ES)	31.36390567	13.84699737	-17.51690829
+Unemp	ESP	ES24	Aragôn	34.1756791	14.68125846	-19.49442063
+Unemp	ESP	ES30	Comunidad de Madrid	27.15333422	15.55146929	-11.60186493
+Unemp	ESP	ES41	Castilla y Leôn	30.79860153	18.30079349	-12.49780804
+Unemp	ESP	ES42	Castilla-La Mancha	38.65873747	25.89413639	-12.76460108
+Unemp	ESP	ES43	Extremadura	43.75578023	28.82598381	-14.92979642
+Unemp	ESP	ES51	Cataluôa	31.80732267	16.59431988	-15.21300279
+Unemp	ESP	ES52	Comunidad Valenciana	33.3608219	22.20575417	-11.15506773
+Unemp	ESP	ES53	Baleares	24.91915328	16.37025093	-8.548902344
+Unemp	ESP	ES61	Andalucia	35.9705712	32.9278752	-3.042696002
+Unemp	ESP	ES62	Regiôn de Murcia	31.60231742	24.1685088	-7.433808615
+Unemp	ESP	ES63	Ciudad Autônoma de Ceuta (ES)	45.01008614	27.75867841	-17.25140773
+Unemp	ESP	ES64	Ciudad Autônoma de Melilla (ES)	41.13949915	29.12810317	-12.01139599
+Unemp	ESP	ES70	Canarias (ES)	30.48451408	31.02926944	0.544755358
+Unemp	FIN	FI19	Länsi-Suomi	16.06049517	9.196810253	-6.863684916
+Unemp	FIN	FI1B	Helsinki-Uusimaa	15.54489172	7.018486334	-8.526405382
+Unemp	FIN	FI1C	Etelä-Suomi	22.57788758	9.199931555	-13.37795602
+Unemp	FIN	FI1D	Pohjois- ja Itä-Suomi	18.66337863	10.16128935	-8.502089277
+Unemp	FIN	FI20	Åland			
+Unemp	FRA	FR10	Île de France	14.14663686	8.2320558	-5.914581063
+Unemp	FRA	FR21	Champagne-Ardenne	20.49628391	11.56915612	-8.927127795
+Unemp	FRA	FR22	Picardie	19.43528974	10.66005019	-8.77523955
+Unemp	FRA	FR23	Haute-Normandie	25.47956006	10.24084983	-15.23871024
+Unemp	FRA	FR24	Centre (FR)	18.85891861	9.308624083	-9.550294524
+Unemp	FRA	FR25	Basse-Normandie		7.762270723	
+Unemp	FRA	FR26	Bourgogne	16.02086891	9.256992834	-6.763876075
+Unemp	FRA	FR30	Nord-Pas-De-Calais	25.36847044	13.32388408	-12.04458635
+Unemp	FRA	FR41	Lorraine	19.94701175	11.29929098	-8.647720763
+Unemp	FRA	FR42	Alsace	18.14900315	8.533523137	-9.615480017
+Unemp	FRA	FR43	Franche-Comté	15.3919048	9.131332749	-6.260572051
+Unemp	FRA	FR51	Pays de la Loire	23.99791135	8.063610513	-15.93430084
+Unemp	FRA	FR52	Bretagne	14.66840725	7.329542411	-7.338864838
+Unemp	FRA	FR53	Poitou-Charentes	22.18376223	9.668547597	-12.51521464
+Unemp	FRA	FR61	Aquitaine	15.0498105	8.805288362	-6.244522141
+Unemp	FRA	FR62	Midi-Pyrénées	16.89487781	8.016973686	-8.877904126
+Unemp	FRA	FR63	Limousin		8.707941892	
+Unemp	FRA	FR71	Rhône-Alpes	18.26390711	7.772540536	-10.49136657
+Unemp	FRA	FR72	Auvergne	18.3354032	7.340697206	-10.99470599
+Unemp	FRA	FR81	Languedoc-Roussillon	19.69298384	11.72728807	-7.965695771
+Unemp	FRA	FR82	Provence-Alpes-Côte d'Azur	16.03259262	9.615272052	-6.41732057
+Unemp	FRA	FR83	Corse		9.785728504	
+Unemp	HUN	HU10	Kôzép-Magyarország	5.602640107	5.772246246	0.169606139
+Unemp	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia		5.026390381	
+Unemp	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia		4.205946831	
+Unemp	HUN	HU23	Del-Dunántôl\/Southern Transdanubia		8.055645552	
+Unemp	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary		9.618636833	
+Unemp	HUN	HU32	Eszak-Alfold\/Northern Great Plain		11.37142368	
+Unemp	HUN	HU33	Del-Alfold\/Southern Great Plain		8.515866976	
+Unemp	IRL	IE01	Border  Midland and Western	16.5003539	10.69452694	-5.805826966
+Unemp	IRL	IE02	Southern and Eastern	11.29325223	9.843631085	-1.449621142
+Unemp	ITA	ITC1	Piemonte	20.2220566	9.335225719	-10.88683088
+Unemp	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste		7.606052919	
+Unemp	ITA	ITC3	Liguria	20.21581871	8.491613873	-11.72420483
+Unemp	ITA	ITC4	Lombardia	13.83600891	7.060608088	-6.775400819
+Unemp	ITA	ITF1	Abruzzo	16.28817228	12.22956621	-4.058606076
+Unemp	ITA	ITF2	Molise		15.42334141	
+Unemp	ITA	ITF3	Campania	14.61303507	21.5502498	6.937214729
+Unemp	ITA	ITF4	Puglia	20.55835675	20.75321794	0.194861195
+Unemp	ITA	ITF5	Basilicata	12.20646466	14.56272854	2.35626388
+Unemp	ITA	ITF6	Calabria	21.43221881	23.67888362	2.246664805
+Unemp	ITA	ITG1	Sicilia	17.97377341	22.36726336	4.393489948
+Unemp	ITA	ITG2	Sardegna	14.14550057	18.50044424	4.354943668
+Unemp	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	12.69521261	2.831762285	-9.863450323
+Unemp	ITA	ITH2	Provincia Autonoma di Trento	14.71373133	5.658794997	-9.054936337
+Unemp	ITA	ITH3	Veneto	13.92098926	6.108297449	-7.812691807
+Unemp	ITA	ITH4	Friuli-Venezia Giulia	13.30757593	6.948607358	-6.35896857
+Unemp	ITA	ITH5	Emilia-Romagna	16.44615583	6.45994033	-9.986215505
+Unemp	ITA	ITI1	Toscana	17.6740505	8.237136798	-9.436913699
+Unemp	ITA	ITI2	Umbria	19.64519137	9.191360257	-10.45383112
+Unemp	ITA	ITI3	Marche	20.03872	8.483769386	-11.55495061
+Unemp	ITA	ITI4	Lazio	14.13798107	12.00228108	-2.135699994
+Unemp	LUX	LU00	Luxembourg	7.902364761	4.419845441	-3.48251932
+Unemp	NOR	NO01	Oslo og Akershus	8.557255431	3.208075346	-5.349180084
+Unemp	NOR	NO02	Hedmark og Oppland	10.53583002	3.143280413	-7.392549606
+Unemp	NOR	NO03	Sor-0stlandet	11.17305234	3.289689514	-7.883362827
+Unemp	NOR	NO04	Agder og Rogaland	8.906026285	3.151626645	-5.75439964
+Unemp	NOR	NO05	Vestlandet	9.746977338	2.71511138	-7.031865959
+Unemp	NOR	NO06	Trýndelag	9.871604081	3.245619242	-6.625984839
+Unemp	NOR	NO07	Nord-Norge	5.55348411	3.228964729	-2.32451938
+Unemp	POL	PL11	Lôdzkie		8.42535618	
+Unemp	POL	PL12	Mazowieckie		6.83066712	
+Unemp	POL	PL21	Malopolskie		8.28736545	
+Unemp	POL	PL22	Slaskie		7.955981829	
+Unemp	POL	PL31	Lubelskie		9.756701719	
+Unemp	POL	PL32	Podkarpackie		13.01878461	
+Unemp	POL	PL33	Swietokrzyskie		10.91758477	
+Unemp	POL	PL34	Podlaskie		8.171073611	
+Unemp	POL	PL41	Wielkopolskie		6.858882426	
+Unemp	POL	PL42	Zachodniopomorskie		7.981929316	
+Unemp	POL	PL43	Lubuskie		7.392664107	
+Unemp	POL	PL51	Dolnoslaskie		8.173645817	
+Unemp	POL	PL52	Opolskie		7.247227932	
+Unemp	POL	PL61	Kujawsko-Pomorskie		9.321267467	
+Unemp	POL	PL62	Warminsko-Mazurskie		9.710029372	
+Unemp	POL	PL63	Pomorskie		7.697302005	
+Unemp	PRT	PT11	Norte	13.51547051	14.92234131	1.406870805
+Unemp	PRT	PT15	Algarve	18.19990428	13.08809551	-5.111808775
+Unemp	PRT	PT16	Centro (PT)	9.631982968	10.85388516	1.221902196
+Unemp	PRT	PT17	Lisboa	19.52869506	13.25467995	-6.274015112
+Unemp	PRT	PT18	Alentejo		14.04601403	
+Unemp	PRT	PT20	Região Autônoma dos Açores (PT)		14.93770774	
+Unemp	PRT	PT30	Região Autônoma da Madeira (PT)		15.19398278	
+Unemp	SWE	SE11	Stockholm	13.30841199	5.112297704	-8.196114289
+Unemp	SWE	SE12	#NAME?	18.56986952	6.19994632	-12.3699232
+Unemp	SWE	SE21	Sm+Ñland med ôarna	15.93660838	4.783040417	-11.15356796
+Unemp	SWE	SE22	Sydsverige	19.5349494	7.289987002	-12.2449624
+Unemp	SWE	SE23	Västsverige	15.25210721	5.487350615	-9.764756598
+Unemp	SWE	SE31	Norra Mellansverige	22.85808282	6.649367433	-16.20871539
+Unemp	SWE	SE32	Mellersta Norrland	21.56436227	5.785848102	-15.77851417
+Unemp	SWE	SE33	Övre Norrland	14.42551189	6.56213254	-7.863379354
+Unemp	SVN	SI01	Vzhodna Slovenija			
+Unemp	SVN	SI02	Zahodna Slovenija			
+Unemp	SVK	SK01	Bratislavský kraj		5.924625906	
+Unemp	SVK	SK02	Západné Slovensko		10.36357884	
+Unemp	SVK	SK03	Stredné Slovensko		14.3747301	
+Unemp	SVK	SK04	Východné Slovensko		15.88523152	
+Unemp	TUR	TR10	Istanbul	12.6684192	12.3947898	-0.273629396
+Unemp	TUR	TR21	Tekirdag Edirne Kirklareli	9.313407335	7.534257414	-1.779149921
+Unemp	TUR	TR22	Balikesir +çanakkale	9.352435349	5.592954678	-3.759480671
+Unemp	TUR	TR31	Izmir	15.70642006	14.35720596	-1.349214092
+Unemp	TUR	TR32	Aydin Denizli Mugla	12.52737311	7.195013083	-5.332360032
+Unemp	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak		4.127320743	
+Unemp	TUR	TR41	Bursa Eskisehir Bilecik	6.188798384	7.06789347	0.879095086
+Unemp	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova	15.25114728	10.19403213	-5.057115153
+Unemp	TUR	TR51	Ankara	18.84150524	11.21216502	-7.629340214
+Unemp	TUR	TR52	Konya Karaman	17.57776065	6.062901858	-11.51485879
+Unemp	TUR	TR61	Antalya Isparta Burdur	13.12644353	9.004817149	-4.121626377
+Unemp	TUR	TR62	Adana Mersin	12.95565514	10.35778763	-2.597867509
+Unemp	TUR	TR63	Hatay Kahramanmaras Osmaniye	22.57939376	15.95550711	-6.623886654
+Unemp	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir	28.77233419	8.870051349	-19.90228284
+Unemp	TUR	TR72	Kayseri Sivas Yozgat	12.72838658	9.782624041	-2.945762539
+Unemp	TUR	TR81	Zonguldak Karabýk Bartin		6.794217489	
+Unemp	TUR	TR82	Kastamonu Çankiri Sinop		7.135107881	
+Unemp	TUR	TR83	Samsun Tokat Çorum Amasya	11.83211409	6.625042834	-5.207071258
+Unemp	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane		5.884656167	
+Unemp	TUR	TRA1	Erzurum Erzincan Bayburt		6.949288691	
+Unemp	TUR	TRA2	Agri Kars Igdir Ardahan		3.7683551	
+Unemp	TUR	TRB1	Malatya Elazig Bingôl Tunceli		7.989190156	
+Unemp	TUR	TRB2	Van Mus Bitlis Hakkari		11.80639312	
+Unemp	TUR	TRC1	Gaziantep Adiyaman Kilis	9.440435165	9.009382281	-0.431052884
+Unemp	TUR	TRC2	Sanliurfa Diyarbakir	49.42558929	17.43220218	-31.99338712
+Unemp	TUR	TRC3	Mardin Batman Sirnak Siirt	29.34479643	24.38519454	-4.959601893
+Unemp	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+Unemp	BEL	BE2	Vlaams Gewest			
+Unemp	BEL	BE3	Région wallonne			
+Unemp	DEU	DE1	Baden-Wýrttemberg			
+Unemp	DEU	DE2	Bayern			
+Unemp	DEU	DE3	Berlin			
+Unemp	DEU	DE4	Brandenburg			
+Unemp	DEU	DE5	Bremen			
+Unemp	DEU	DE6	Hamburg			
+Unemp	DEU	DE7	Hessen			
+Unemp	DEU	DE8	Mecklenburg-Vorpommern			
+Unemp	DEU	DE9	Niedersachsen			
+Unemp	DEU	DEA	Nordrhein-Westfalen			
+Unemp	DEU	DEB	Rheinland-Pfalz			
+Unemp	DEU	DEC	Saarland			
+Unemp	DEU	DED	Sachsen			
+Unemp	DEU	DEE	Sachsen-Anhalt			
+Unemp	DEU	DEF	Schleswig-Holstein			
+Unemp	DEU	DEG	Thýringen			
+Unemp	GBR	UKC	North East (UK)			
+Unemp	GBR	UKD	North West (UK)			
+Unemp	GBR	UKE	Yorkshire and The Humber			
+Unemp	GBR	UKF	East Midlands (UK)			
+Unemp	GBR	UKG	West Midlands (UK)			
+Unemp	GBR	UKH	East of England			
+Unemp	GBR	UKI	London			
+Unemp	GBR	UKJ	South East (UK)			
+Unemp	GBR	UKK	South West (UK)			
+Unemp	GBR	UKL	Wales			
+Unemp	GBR	UKM	Scotland			
+Unemp	GBR	UKN	Northern Ireland (UK)			
+Unemp	NZL	NZ011	Northland Region			
+Unemp	NZL	NZ012	Auckland Region			
+Unemp	NZL	NZ013	Waikato Region			
+Unemp	NZL	NZ022	West Coast Region			
+Unemp	NZL	NZ014	Bay of Plenty Region			
+Unemp	NZL	NZ023	Canterbury Region			
+Unemp	NZL	NZ015	Gisborne Region			
+Unemp	NZL	NZ024	Otago Region			
+Unemp	NZL	NZ025	Southland Region			
+Unemp	NZL	NZ016	Hawke's Bay Region			
+Unemp	NZL	NZ017	Taranaki Region			
+Unemp	NZL	NZ018	Manawatu-Wanganui Region			
+Unemp	NZL	NZ019	Wellington Region			
+Unemp	NZL	NZ021	Tasman-Nelson-Marlborough			
+Unemp	GRC	GR11	Anatoliki Makedonia - Thraki			
+Unemp	GRC	GR12	Kentriki Makedonia			
+Unemp	GRC	GR13	Dytiki Makedonia			
+Unemp	GRC	GR14	Thessalia			
+Unemp	GRC	GR21	Ipeiros			
+Unemp	GRC	GR22	Ionia Nisia			
+Unemp	GRC	GR23	Dytiki Ellada			
+Unemp	GRC	GR24	Sterea Ellada			
+Unemp	GRC	GR25	Peloponnisos			
+Unemp	GRC	GR30	Attiki	32.7270576	25.30076805	-7.426289552
+Unemp	GRC	GR41	Voreio Aigaio		20.2002223	
+Unemp	GRC	GR42	Notio Aigaio	28.05883772	16.20938491	-11.8494528
+Unemp	GRC	GR43	Kriti	29.6722055	23.66804503	-6.004160465
+Unemp	NLD	NL11	Groningen	14.76553887	8.526569255	-6.238969613
+Unemp	NLD	NL12	Friesland	13.65222768	7.599431782	-6.052795894
+Unemp	NLD	NL13	Drenthe	21.54625861	6.863759302	-14.68249931
+Unemp	NLD	NL21	Overijssel	12.75677685	6.607850896	-6.148925955
+Unemp	NLD	NL22	Gelderland	12.08645091	6.177740853	-5.908710061
+Unemp	NLD	NL23	Flevoland	12.92167618	8.691520808	-4.230155374
+Unemp	NLD	NL31	Utrecht	11.25758713	5.897640928	-5.359946205
+Unemp	NLD	NL32	Noord-Holland	10.01055088	5.950565818	-4.059985065
+Unemp	NLD	NL33	Zuid-Holland	14.86768202	6.79000202	-8.077679998
+Unemp	NLD	NL34	Zeeland		4.825868662	
+Unemp	NLD	NL41	Noord-Brabant	11.82234061	6.21088589	-5.61145472
+Unemp	NLD	NL42	Limburg (NL)	11.63697419	6.243915195	-5.393058994
+PartRate	MEX	ME01	Aguacalientes			
+PartRate	MEX	ME02	Baja California Norte			
+PartRate	MEX	ME03	Baja California Sur			
+PartRate	MEX	ME04	Campeche			
+PartRate	MEX	ME05	Coahuila			
+PartRate	MEX	ME06	Colima			
+PartRate	MEX	ME07	Chiapas			
+PartRate	MEX	ME08	Chihuahua			
+PartRate	MEX	ME09	Distrito Federal			
+PartRate	MEX	ME10	Durango			
+PartRate	MEX	ME11	Guanajuato			
+PartRate	MEX	ME12	Guerrero			
+PartRate	MEX	ME13	Hidalgo			
+PartRate	MEX	ME14	Jalisco			
+PartRate	MEX	ME15	Mexico			
+PartRate	MEX	ME16	Michoacan			
+PartRate	MEX	ME17	Morelos			
+PartRate	MEX	ME18	Nayarit			
+PartRate	MEX	ME19	Nuevo Leon			
+PartRate	MEX	ME20	Oaxaca			
+PartRate	MEX	ME21	Puebla			
+PartRate	MEX	ME22	Queretaro			
+PartRate	MEX	ME23	Quintana Roo			
+PartRate	MEX	ME24	San Luis Potosi			
+PartRate	MEX	ME25	Sinaloa			
+PartRate	MEX	ME26	Sonora			
+PartRate	MEX	ME27	Tabasco			
+PartRate	MEX	ME28	Tamaulipas			
+PartRate	MEX	ME29	Tlaxcala			
+PartRate	MEX	ME30	Veracruz			
+PartRate	MEX	ME31	Yucatan			
+PartRate	MEX	ME32	Zacatecas			
+PartRate	USA	US01	Alabama			
+PartRate	USA	US02	Alaska			
+PartRate	USA	US04	Arizona			
+PartRate	USA	US05	Arkansas			
+PartRate	USA	US06	California			
+PartRate	USA	US08	Colorado			
+PartRate	USA	US09	Connecticut			
+PartRate	USA	US10	Delaware			
+PartRate	USA	US11	District Of Columbia			
+PartRate	USA	US12	Florida			
+PartRate	USA	US13	Georgia			
+PartRate	USA	US15	Hawaii			
+PartRate	USA	US16	Idaho			
+PartRate	USA	US17	Illinois			
+PartRate	USA	US18	Indiana			
+PartRate	USA	US19	Iowa			
+PartRate	USA	US20	Kansas			
+PartRate	USA	US21	Kentucky			
+PartRate	USA	US22	Louisiana			
+PartRate	USA	US23	Maine			
+PartRate	USA	US24	Maryland			
+PartRate	USA	US25	Massachusetts			
+PartRate	USA	US26	Michigan			
+PartRate	USA	US27	Minnesota			
+PartRate	USA	US28	Mississippi			
+PartRate	USA	US29	Missouri			
+PartRate	CHL	CL13	Santiago			
+PartRate	CHL	CL02	Antofagasta			
+PartRate	CHL	CL15	Arica y Parinacota			
+PartRate	CHL	CL03	Atacama			
+PartRate	CHL	CL11	Aysen			
+PartRate	CHL	CL04	Coquimbo			
+PartRate	CHL	CL09	Araucania			
+PartRate	CHL	CL10	Los Lagos			
+PartRate	CHL	CL14	Los Ríos			
+PartRate	CHL	CL12	Magallanes			
+PartRate	CHL	CL01	Tarapacá			
+PartRate	CHL	CL05	Valparaíso			
+PartRate	CHL	CL08	Bío-Bío			
+PartRate	CHL	CL06	O'Higgins			
+PartRate	CHL	CL07	Maule			
+PartRate	USA	US30	Montana			
+PartRate	USA	US31	Nebraska			
+PartRate	USA	US32	Nevada			
+PartRate	USA	US33	New Hampshire			
+PartRate	USA	US34	New Jersey			
+PartRate	USA	US35	New Mexico			
+PartRate	USA	US36	New York			
+PartRate	USA	US37	North Carolina			
+PartRate	USA	US38	North Dakota			
+PartRate	USA	US39	Ohio			
+PartRate	USA	US40	Oklahoma			
+PartRate	USA	US41	Oregon			
+PartRate	USA	US42	Pennsylvania			
+PartRate	USA	US44	Rhode Island			
+PartRate	USA	US45	South Carolina			
+PartRate	USA	US46	South Dakota			
+PartRate	USA	US47	Tennessee			
+PartRate	USA	US48	Texas			
+PartRate	USA	US49	Utah			
+PartRate	USA	US50	Vermont			
+PartRate	USA	US51	Virginia			
+PartRate	USA	US53	Washington			
+PartRate	USA	US54	West Virginia			
+PartRate	USA	US55	Wisconsin			
+PartRate	USA	US56	Wyoming			
+PartRate	JPN	JPA	Hokkaido			
+PartRate	JPN	JPB	Tohoku			
+PartRate	JPN	JPD	Southern-Kanto			
+PartRate	JPN	JPC	Northern-Kanto, Koshin			
+PartRate	JPN	JPE	Hokuriku			
+PartRate	JPN	JPF	Toukai			
+PartRate	JPN	JPG	Kinki			
+PartRate	JPN	JPH	Chugoku			
+PartRate	JPN	JPI	Shikoku			
+PartRate	JPN	JPJ	Kyushu, Okinawa			
+PartRate	KOR	KR01	Capital Region			
+PartRate	KOR	KR02	Gyeongnam Region			
+PartRate	KOR	KR03	Gyeonbuk Region			
+PartRate	KOR	KR04	Jeolla Region			
+PartRate	KOR	KR05	Chungcheong Region			
+PartRate	KOR	KR06	Gangwon Region			
+PartRate	KOR	KR07	Jeju			
+PartRate	ISR	IL05	Tel Aviv district			
+PartRate	ISR	IL01	Jerusalem district			
+PartRate	ISR	IL03	Haifa district			
+PartRate	ISR	IL04	Central district			
+PartRate	ISR	IL06	Southern district			
+PartRate	ISR	IL02	Northern district			
+PartRate	ISL	IS01	Capital Region			
+PartRate	ISL	IS02	Other Regions			
+PartRate	AUS	AU1	New South Wales			
+PartRate	AUS	AU2	Victoria			
+PartRate	AUS	AU3	Qeensland			
+PartRate	AUS	AU4	South Australia			
+PartRate	AUS	AU5	Western Australia			
+PartRate	AUS	AU6	Tasmania			
+PartRate	AUS	AU7	Northern Territorry (Nt)			
+PartRate	AUS	AU8	Australian Capital Territory (Act)			
+PartRate	CAN	CA59	British Columbia			
+PartRate	CAN	CA24	Quebec			
+PartRate	CAN	CA62	Nunavut			
+PartRate	CAN	CA11	Prince Edward Island			
+PartRate	CAN	CA47	Saskatchewan			
+PartRate	CAN	CA60	Yukon			
+PartRate	CAN	CA46	Manitoba			
+PartRate	CAN	CA35	Ontario			
+PartRate	CAN	CA13	New Brunswick			
+PartRate	CAN	CA61	Northwest Territories			
+PartRate	CAN	CA48	Alberta			
+PartRate	CAN	CA10	Newfoundland and Labrador			
+PartRate	CAN	CA12	Nova Scotia			
+PartRate	AUT	AT11	Burgenland (AT)	73.91559663	73.40105001	-0.514546614
+PartRate	AUT	AT12	Niederôsterreich	75.77321051	77.17727917	1.404068658
+PartRate	AUT	AT13	Wien	69.16481386	74.23011649	5.065302632
+PartRate	AUT	AT21	Kärnten	71.48407712	73.90747154	2.423394417
+PartRate	AUT	AT22	Steiermark	71.88103699	74.74204488	2.861007887
+PartRate	AUT	AT31	Oberôsterreich	77.42296273	78.20548266	0.782519929
+PartRate	AUT	AT32	Salzburg	74.45137063	77.26539943	2.814028802
+PartRate	AUT	AT33	Tirol	74.57958482	77.12563144	2.546046617
+PartRate	AUT	AT34	Vorarlberg	72.16545065	79.17278435	7.007333696
+PartRate	CHE	CH01	Région lémanique	81.00414385	79.74812188	-1.25602197
+PartRate	CHE	CH02	Espace Mittelland	83.6553272	85.74296873	2.087641534
+PartRate	CHE	CH03	Nordwestschweiz	82.96762751	83.61912488	0.651497374
+PartRate	CHE	CH04	Zürich	84.20231066	86.46093175	2.258621085
+PartRate	CHE	CH05	Ostschweiz	83.33407647	86.41847816	3.084401695
+PartRate	CHE	CH06	Zentralschweiz	84.57793176	87.47616242	2.898230665
+PartRate	CHE	CH07	Ticino	79.86821377	74.06034342	-5.807870352
+PartRate	CZE	CZ01	Praha	77.49779973	76.49055198	-1.007247744
+PartRate	CZE	CZ02	Stredni Cechy	80.81604946	74.7181603	-6.097889163
+PartRate	CZE	CZ03	Jihozápad	81.07278363	74.3629578	-6.709825836
+PartRate	CZE	CZ04	Severozápad	74.00055471	71.78464356	-2.215911158
+PartRate	CZE	CZ05	Severovýchod	73.18789654	73.8086289	0.620732358
+PartRate	CZE	CZ06	Jihovýchod	79.59260888	73.70981661	-5.882792272
+PartRate	CZE	CZ07	Stredni Morava	76.67050134	72.49003752	-4.180463819
+PartRate	CZE	CZ08	Moravskoslezsko	71.41123456	71.76401892	0.352784364
+PartRate	DNK	DK01	Hovedstaden	76.32894404	81.54163429	5.212690259
+PartRate	DNK	DK02	Sjælland	69.16310464	78.10222933	8.939124687
+PartRate	DNK	DK03	Syddanmark	69.9300117	77.58370784	7.653696141
+PartRate	DNK	DK04	Midtjylland	68.75610358	78.7673134	10.01120981
+PartRate	DNK	DK05	Nordjylland	72.43179584	77.64356825	5.211772416
+PartRate	EST	EE00	Estonia	75.54240083	76.00735379	0.46495296
+PartRate	ESP	ES11	Galicia	76.28954356	71.45983051	-4.829713052
+PartRate	ESP	ES12	Asturias	77.73807398	67.79723291	-9.94084107
+PartRate	ESP	ES13	Cantabria	75.36653953	71.17600779	-4.19053174
+PartRate	ESP	ES21	Pais Vasco	80.55641259	73.26351145	-7.292901136
+PartRate	ESP	ES22	Navarra	77.97303138	73.87560486	-4.097426521
+PartRate	ESP	ES23	La Rioja (ES)	78.07134882	75.82620387	-2.24514495
+PartRate	ESP	ES24	Aragôn	80.5558643	74.45650109	-6.099363208
+PartRate	ESP	ES30	Comunidad de Madrid	82.83429716	77.1384422	-5.695854965
+PartRate	ESP	ES41	Castilla y Leôn	76.4459949	72.80937756	-3.636617344
+PartRate	ESP	ES42	Castilla-La Mancha	78.99042419	71.91488045	-7.075543739
+PartRate	ESP	ES43	Extremadura	70.35168897	69.76522422	-0.586464747
+PartRate	ESP	ES51	Cataluôa	78.80244524	77.47113777	-1.331307468
+PartRate	ESP	ES52	Comunidad Valenciana	76.41850128	73.34351468	-3.074986592
+PartRate	ESP	ES53	Baleares	79.08482256	77.2048847	-1.879937859
+PartRate	ESP	ES61	Andalucia	77.23212728	70.56646403	-6.665663248
+PartRate	ESP	ES62	Regiôn de Murcia	75.00020946	71.74676135	-3.253448108
+PartRate	ESP	ES63	Ciudad Autônoma de Ceuta (ES)	56.08388564	66.27559525	10.19170962
+PartRate	ESP	ES64	Ciudad Autônoma de Melilla (ES)	60.30142622	64.99063023	4.689204014
+PartRate	ESP	ES70	Canarias (ES)	78.98732077	71.43858414	-7.548736627
+PartRate	FIN	FI19	Länsi-Suomi	72.59361913	75.43966181	2.84604268
+PartRate	FIN	FI1B	Helsinki-Uusimaa	74.33747365	79.52008615	5.182612498
+PartRate	FIN	FI1C	Etelä-Suomi	68.62844194	74.18199476	5.553552819
+PartRate	FIN	FI1D	Pohjois- ja Itä-Suomi	68.10475708	72.85135158	4.746594494
+PartRate	FIN	FI20	Åland	88.04715186	85.04954175	-2.997610107
+PartRate	FRA	FR10	Île de France	72.24310322	73.6819049	1.438801674
+PartRate	FRA	FR21	Champagne-Ardenne	63.63859148	69.47671538	5.8381239
+PartRate	FRA	FR22	Picardie	64.69216444	69.39303908	4.700874634
+PartRate	FRA	FR23	Haute-Normandie	65.01586648	70.7732286	5.757362115
+PartRate	FRA	FR24	Centre (FR)	63.98394985	71.33367448	7.349724632
+PartRate	FRA	FR25	Basse-Normandie	61.16606761	71.19499135	10.02892374
+PartRate	FRA	FR26	Bourgogne	62.67992331	71.48020639	8.800283086
+PartRate	FRA	FR30	Nord-Pas-De-Calais	60.9905947	66.89380432	5.90320962
+PartRate	FRA	FR41	Lorraine	62.92509484	70.59136733	7.666272492
+PartRate	FRA	FR42	Alsace	68.33801852	73.92965294	5.591634425
+PartRate	FRA	FR43	Franche-Comté	58.24290158	72.6162144	14.37331283
+PartRate	FRA	FR51	Pays de la Loire	65.5387918	74.723062	9.184270199
+PartRate	FRA	FR52	Bretagne	65.73053041	73.47550839	7.744977979
+PartRate	FRA	FR53	Poitou-Charentes	62.99183351	72.87629501	9.884461498
+PartRate	FRA	FR61	Aquitaine	65.90110063	72.88087558	6.979774949
+PartRate	FRA	FR62	Midi-Pyrénées	67.30307443	72.84076351	5.537689083
+PartRate	FRA	FR63	Limousin	63.62545913	75.06018724	11.43472811
+PartRate	FRA	FR71	Rhône-Alpes	66.18892997	73.9998479	7.810917922
+PartRate	FRA	FR72	Auvergne	64.53218751	70.95812301	6.425935491
+PartRate	FRA	FR81	Languedoc-Roussillon	62.00511095	68.16146849	6.156357541
+PartRate	FRA	FR82	Provence-Alpes-Côte d'Azur	63.71400384	71.52972173	7.815717892
+PartRate	FRA	FR83	Corse	71.47023154	62.31626275	-9.153968792
+PartRate	HUN	HU10	Kôzép-Magyarország	79.70053943	70.60599101	-9.094548413
+PartRate	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia	79.26340595	69.45921614	-9.804189818
+PartRate	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia	69.47522572	69.58267175	0.10744603
+PartRate	HUN	HU23	Del-Dunántôl\/Southern Transdanubia	60.76666761	64.62740794	3.860740333
+PartRate	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary	72.88524357	63.32256111	-9.562682462
+PartRate	HUN	HU32	Eszak-Alfold\/Northern Great Plain	73.18307545	65.48854537	-7.694530079
+PartRate	HUN	HU33	Del-Alfold\/Southern Great Plain	71.35932042	66.48911538	-4.870205044
+PartRate	IRL	IE01	Border  Midland and Western	66.64030699	68.28440706	1.644100071
+PartRate	IRL	IE02	Southern and Eastern	71.99963269	70.15436713	-1.84526556
+PartRate	ITA	ITC1	Piemonte	71.69535859	70.6263831	-1.068975496
+PartRate	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste	72.36690215	72.81700971	0.450107562
+PartRate	ITA	ITC3	Liguria	70.93591206	68.16914685	-2.766765213
+PartRate	ITA	ITC4	Lombardia	70.53575749	70.81341216	0.277654667
+PartRate	ITA	ITF1	Abruzzo	67.39264013	61.36166524	-6.030974896
+PartRate	ITA	ITF2	Molise	62.97011572	57.02441737	-5.945698348
+PartRate	ITA	ITF3	Campania	61.36650296	49.02737224	-12.33913072
+PartRate	ITA	ITF4	Puglia	63.56578334	53.23787881	-10.32790453
+PartRate	ITA	ITF5	Basilicata	58.58770623	56.12206481	-2.465641415
+PartRate	ITA	ITF6	Calabria	54.53989714	50.73273959	-3.807157544
+PartRate	ITA	ITG1	Sicilia	58.74055364	50.03033162	-8.71022202
+PartRate	ITA	ITG2	Sardegna	67.3912272	59.98946523	-7.401761966
+PartRate	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	74.54113629	74.17796159	-0.363174699
+PartRate	ITA	ITH2	Provincia Autonoma di Trento	69.96392371	71.1554938	1.191570088
+PartRate	ITA	ITH3	Veneto	71.54705427	68.23121636	-3.315837909
+PartRate	ITA	ITH4	Friuli-Venezia Giulia	68.96704546	68.99991209	0.032866629
+PartRate	ITA	ITH5	Emilia-Romagna	71.58545336	72.62328882	1.037835464
+PartRate	ITA	ITI1	Toscana	73.59298318	70.89840246	-2.694580724
+PartRate	ITA	ITI2	Umbria	71.82734826	69.34449605	-2.482852206
+PartRate	ITA	ITI3	Marche	69.11857372	69.43865669	0.320082968
+PartRate	ITA	ITI4	Lazio	74.2994727	65.86192881	-8.437543893
+PartRate	LUX	LU00	Luxembourg	76.82938144	64.87779672	-11.95158472
+PartRate	NOR	NO01	Oslo og Akershus	77.79888306	80.82785676	3.028973698
+PartRate	NOR	NO02	Hedmark og Oppland	75.80639799	76.9740891	1.167691115
+PartRate	NOR	NO03	Sor-0stlandet	72.96813065	75.90239531	2.934264661
+PartRate	NOR	NO04	Agder og Rogaland	76.08769766	79.11924144	3.031543782
+PartRate	NOR	NO05	Vestlandet	75.00747806	79.68207578	4.674597723
+PartRate	NOR	NO06	Trýndelag	73.04869197	78.90777368	5.85908171
+PartRate	NOR	NO07	Nord-Norge	83.37036002	75.54773479	-7.822625233
+PartRate	POL	PL11	Lôdzkie	74.00846872	70.49581324	-3.512655484
+PartRate	POL	PL12	Mazowieckie	72.43507311	73.49126438	1.056191271
+PartRate	POL	PL21	Malopolskie	71.10506326	67.11811248	-3.986950774
+PartRate	POL	PL22	Slaskie	70.42737663	64.81356549	-5.613811144
+PartRate	POL	PL31	Lubelskie	71.59711568	67.82225746	-3.774858223
+PartRate	POL	PL32	Podkarpackie	55.31792554	65.4383528	10.12042726
+PartRate	POL	PL33	Swietokrzyskie	61.39387957	67.5400343	6.146154727
+PartRate	POL	PL34	Podlaskie	67.36642107	68.84187054	1.475449465
+PartRate	POL	PL41	Wielkopolskie	55.28439808	69.2660714	13.98167332
+PartRate	POL	PL42	Zachodniopomorskie	66.85306285	64.46685084	-2.386212012
+PartRate	POL	PL43	Lubuskie	71.68988199	65.62529376	-6.06458823
+PartRate	POL	PL51	Dolnoslaskie	71.81707773	67.82803493	-3.989042796
+PartRate	POL	PL52	Opolskie	68.06841031	66.87697958	-1.191430728
+PartRate	POL	PL61	Kujawsko-Pomorskie	79.71900794	66.44558597	-13.27342196
+PartRate	POL	PL62	Warminsko-Mazurskie	50.4379812	62.35963831	11.9216571
+PartRate	POL	PL63	Pomorskie	67.36426138	67.45910191	0.094840528
+PartRate	PRT	PT11	Norte	80.62833621	70.95999175	-9.668344457
+PartRate	PRT	PT15	Algarve	80.88162914	74.95092987	-5.93069927
+PartRate	PRT	PT16	Centro (PT)	82.06752567	73.34181431	-8.725711355
+PartRate	PRT	PT17	Lisboa	79.01309967	74.85732956	-4.155770105
+PartRate	PRT	PT18	Alentejo	80.97449581	73.32423138	-7.650264425
+PartRate	PRT	PT20	Região Autônoma dos Açores (PT)	75.61893884	68.29417371	-7.324765122
+PartRate	PRT	PT30	Região Autônoma da Madeira (PT)	71.30295086	69.30763731	-1.995313553
+PartRate	SWE	SE11	Stockholm	80.50056357	85.01076485	4.510201277
+PartRate	SWE	SE12	#NAME?	72.44948828	81.71010291	9.260614632
+PartRate	SWE	SE21	Sm+Ñland med ôarna	73.67912149	83.49550163	9.816380139
+PartRate	SWE	SE22	Sydsverige	75.7616755	82.40292212	6.641246617
+PartRate	SWE	SE23	Västsverige	76.624326	83.7408632	7.1165372
+PartRate	SWE	SE31	Norra Mellansverige	67.92835506	80.93268108	13.00432603
+PartRate	SWE	SE32	Mellersta Norrland	72.06809143	82.59636149	10.52827006
+PartRate	SWE	SE33	Övre Norrland	75.49616749	80.90225125	5.406083758
+PartRate	SVN	SI01	Vzhodna Slovenija			
+PartRate	SVN	SI02	Zahodna Slovenija			
+PartRate	SVK	SK01	Bratislavský kraj	70.33852422	75.71486442	5.3763402
+PartRate	SVK	SK02	Západné Slovensko	70.56576758	71.33255589	0.766788316
+PartRate	SVK	SK03	Stredné Slovensko	70.00170309	70.6112136	0.609510512
+PartRate	SVK	SK04	Východné Slovensko	67.11228754	67.77645256	0.664165028
+PartRate	TUR	TR10	Istanbul	55.12277783	57.51435216	2.391574328
+PartRate	TUR	TR21	Tekirdag Edirne Kirklareli	59.76606466	63.26526811	3.499203447
+PartRate	TUR	TR22	Balikesir +çanakkale	51.11876812	55.53930598	4.420537862
+PartRate	TUR	TR31	Izmir	55.57246984	59.85082335	4.27835351
+PartRate	TUR	TR32	Aydin Denizli Mugla	46.24716679	61.18079089	14.9336241
+PartRate	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak	51.71867171	58.93327935	7.214607648
+PartRate	TUR	TR41	Bursa Eskisehir Bilecik	50.72277589	54.96267171	4.239895823
+PartRate	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova	62.2730482	59.46128144	-2.811766757
+PartRate	TUR	TR51	Ankara	54.98848541	56.49922827	1.510742859
+PartRate	TUR	TR52	Konya Karaman	39.79083473	55.03393896	15.24310423
+PartRate	TUR	TR61	Antalya Isparta Burdur	56.02075939	61.50703571	5.486276319
+PartRate	TUR	TR62	Adana Mersin	33.43501734	54.56924134	21.13422399
+PartRate	TUR	TR63	Hatay Kahramanmaras Osmaniye	33.51710491	47.39043962	13.87333471
+PartRate	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir	37.39110532	55.23706691	17.84596159
+PartRate	TUR	TR72	Kayseri Sivas Yozgat	49.18298965	53.26349649	4.080506835
+PartRate	TUR	TR81	Zonguldak Karabýk Bartin	63.30052447	56.77838413	-6.522140342
+PartRate	TUR	TR82	Kastamonu Çankiri Sinop	45.10178511	61.96050938	16.85872427
+PartRate	TUR	TR83	Samsun Tokat Çorum Amasya	50.88607871	55.64595202	4.759873314
+PartRate	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane	62.57517984	59.11934474	-3.455835105
+PartRate	TUR	TRA1	Erzurum Erzincan Bayburt	21.02792356	55.47928087	34.45135731
+PartRate	TUR	TRA2	Agri Kars Igdir Ardahan	26.85369487	58.0312223	31.17752743
+PartRate	TUR	TRB1	Malatya Elazig Bingôl Tunceli	39.03063559	50.97998301	11.94934742
+PartRate	TUR	TRB2	Van Mus Bitlis Hakkari	48.58310705	50.20679973	1.623692681
+PartRate	TUR	TRC1	Gaziantep Adiyaman Kilis	35.61422326	46.64002091	11.02579765
+PartRate	TUR	TRC2	Sanliurfa Diyarbakir	37.06384477	45.56542028	8.501575504
+PartRate	TUR	TRC3	Mardin Batman Sirnak Siirt	39.03480284	40.57322419	1.538421351
+PartRate	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+PartRate	BEL	BE2	Vlaams Gewest			
+PartRate	BEL	BE3	Région wallonne			
+PartRate	DEU	DE1	Baden-Wýrttemberg			
+PartRate	DEU	DE2	Bayern			
+PartRate	DEU	DE3	Berlin			
+PartRate	DEU	DE4	Brandenburg			
+PartRate	DEU	DE5	Bremen			
+PartRate	DEU	DE6	Hamburg			
+PartRate	DEU	DE7	Hessen			
+PartRate	DEU	DE8	Mecklenburg-Vorpommern			
+PartRate	DEU	DE9	Niedersachsen			
+PartRate	DEU	DEA	Nordrhein-Westfalen			
+PartRate	DEU	DEB	Rheinland-Pfalz			
+PartRate	DEU	DEC	Saarland			
+PartRate	DEU	DED	Sachsen			
+PartRate	DEU	DEE	Sachsen-Anhalt			
+PartRate	DEU	DEF	Schleswig-Holstein			
+PartRate	DEU	DEG	Thýringen			
+PartRate	GBR	UKC	North East (UK)			
+PartRate	GBR	UKD	North West (UK)			
+PartRate	GBR	UKE	Yorkshire and The Humber			
+PartRate	GBR	UKF	East Midlands (UK)			
+PartRate	GBR	UKG	West Midlands (UK)			
+PartRate	GBR	UKH	East of England			
+PartRate	GBR	UKI	London			
+PartRate	GBR	UKJ	South East (UK)			
+PartRate	GBR	UKK	South West (UK)			
+PartRate	GBR	UKL	Wales			
+PartRate	GBR	UKM	Scotland			
+PartRate	GBR	UKN	Northern Ireland (UK)			
+PartRate	NZL	NZ011	Northland Region			
+PartRate	NZL	NZ012	Auckland Region			
+PartRate	NZL	NZ013	Waikato Region			
+PartRate	NZL	NZ022	West Coast Region			
+PartRate	NZL	NZ014	Bay of Plenty Region			
+PartRate	NZL	NZ023	Canterbury Region			
+PartRate	NZL	NZ015	Gisborne Region			
+PartRate	NZL	NZ024	Otago Region			
+PartRate	NZL	NZ025	Southland Region			
+PartRate	NZL	NZ016	Hawke's Bay Region			
+PartRate	NZL	NZ017	Taranaki Region			
+PartRate	NZL	NZ018	Manawatu-Wanganui Region			
+PartRate	NZL	NZ019	Wellington Region			
+PartRate	NZL	NZ021	Tasman-Nelson-Marlborough			
+PartRate	GRC	GR11	Anatoliki Makedonia - Thraki			
+PartRate	GRC	GR12	Kentriki Makedonia			
+PartRate	GRC	GR13	Dytiki Makedonia			
+PartRate	GRC	GR14	Thessalia			
+PartRate	GRC	GR21	Ipeiros			
+PartRate	GRC	GR22	Ionia Nisia			
+PartRate	GRC	GR23	Dytiki Ellada			
+PartRate	GRC	GR24	Sterea Ellada			
+PartRate	GRC	GR25	Peloponnisos			
+PartRate	GRC	GR30	Attiki	78.01132766	67.26315236	-10.7481753
+PartRate	GRC	GR41	Voreio Aigaio	68.8780487	62.93868646	-5.939362235
+PartRate	GRC	GR42	Notio Aigaio	73.23182449	67.62023924	-5.611585249
+PartRate	GRC	GR43	Kriti	83.23464436	67.33330594	-15.90133843
+PartRate	NLD	NL11	Groningen	62.21555951	76.7496732	14.53411368
+PartRate	NLD	NL12	Friesland	71.82919925	80.29529023	8.466090986
+PartRate	NLD	NL13	Drenthe	64.06177047	79.91534362	15.85357316
+PartRate	NLD	NL21	Overijssel	70.60086953	81.08928121	10.48841168
+PartRate	NLD	NL22	Gelderland	68.67714293	80.69489097	12.01774803
+PartRate	NLD	NL23	Flevoland	73.3441815	79.58258489	6.238403393
+PartRate	NLD	NL31	Utrecht	71.47704778	83.05504476	11.57799698
+PartRate	NLD	NL32	Noord-Holland	72.19998533	82.36875435	10.16876902
+PartRate	NLD	NL33	Zuid-Holland	68.99556893	80.26922535	11.27365642
+PartRate	NLD	NL34	Zeeland	75.1994765	80.4320245	5.232548002
+PartRate	NLD	NL41	Noord-Brabant	69.33251091	81.67564334	12.34313243
+PartRate	NLD	NL42	Limburg (NL)	67.75955869	77.17541307	9.415854378
+overQualRate	MEX	ME01	Aguacalientes			
+overQualRate	MEX	ME02	Baja California Norte			
+overQualRate	MEX	ME03	Baja California Sur			
+overQualRate	MEX	ME04	Campeche			
+overQualRate	MEX	ME05	Coahuila			
+overQualRate	MEX	ME06	Colima			
+overQualRate	MEX	ME07	Chiapas			
+overQualRate	MEX	ME08	Chihuahua			
+overQualRate	MEX	ME09	Distrito Federal			
+overQualRate	MEX	ME10	Durango			
+overQualRate	MEX	ME11	Guanajuato			
+overQualRate	MEX	ME12	Guerrero			
+overQualRate	MEX	ME13	Hidalgo			
+overQualRate	MEX	ME14	Jalisco			
+overQualRate	MEX	ME15	Mexico			
+overQualRate	MEX	ME16	Michoacan			
+overQualRate	MEX	ME17	Morelos			
+overQualRate	MEX	ME18	Nayarit			
+overQualRate	MEX	ME19	Nuevo Leon			
+overQualRate	MEX	ME20	Oaxaca			
+overQualRate	MEX	ME21	Puebla			
+overQualRate	MEX	ME22	Queretaro			
+overQualRate	MEX	ME23	Quintana Roo			
+overQualRate	MEX	ME24	San Luis Potosi			
+overQualRate	MEX	ME25	Sinaloa			
+overQualRate	MEX	ME26	Sonora			
+overQualRate	MEX	ME27	Tabasco			
+overQualRate	MEX	ME28	Tamaulipas			
+overQualRate	MEX	ME29	Tlaxcala			
+overQualRate	MEX	ME30	Veracruz			
+overQualRate	MEX	ME31	Yucatan			
+overQualRate	MEX	ME32	Zacatecas			
+overQualRate	USA	US01	Alabama			
+overQualRate	USA	US02	Alaska			
+overQualRate	USA	US04	Arizona			
+overQualRate	USA	US05	Arkansas			
+overQualRate	USA	US06	California			
+overQualRate	USA	US08	Colorado			
+overQualRate	USA	US09	Connecticut			
+overQualRate	USA	US10	Delaware			
+overQualRate	USA	US11	District Of Columbia			
+overQualRate	USA	US12	Florida			
+overQualRate	USA	US13	Georgia			
+overQualRate	USA	US15	Hawaii			
+overQualRate	USA	US16	Idaho			
+overQualRate	USA	US17	Illinois			
+overQualRate	USA	US18	Indiana			
+overQualRate	USA	US19	Iowa			
+overQualRate	USA	US20	Kansas			
+overQualRate	USA	US21	Kentucky			
+overQualRate	USA	US22	Louisiana			
+overQualRate	USA	US23	Maine			
+overQualRate	USA	US24	Maryland			
+overQualRate	USA	US25	Massachusetts			
+overQualRate	USA	US26	Michigan			
+overQualRate	USA	US27	Minnesota			
+overQualRate	USA	US28	Mississippi			
+overQualRate	USA	US29	Missouri			
+overQualRate	CHL	CL13	Santiago			
+overQualRate	CHL	CL02	Antofagasta			
+overQualRate	CHL	CL15	Arica y Parinacota			
+overQualRate	CHL	CL03	Atacama			
+overQualRate	CHL	CL11	Aysen			
+overQualRate	CHL	CL04	Coquimbo			
+overQualRate	CHL	CL09	Araucania			
+overQualRate	CHL	CL10	Los Lagos			
+overQualRate	CHL	CL14	Los Ríos			
+overQualRate	CHL	CL12	Magallanes			
+overQualRate	CHL	CL01	Tarapacá			
+overQualRate	CHL	CL05	Valparaíso			
+overQualRate	CHL	CL08	Bío-Bío			
+overQualRate	CHL	CL06	O'Higgins			
+overQualRate	CHL	CL07	Maule			
+overQualRate	USA	US30	Montana			
+overQualRate	USA	US31	Nebraska			
+overQualRate	USA	US32	Nevada			
+overQualRate	USA	US33	New Hampshire			
+overQualRate	USA	US34	New Jersey			
+overQualRate	USA	US35	New Mexico			
+overQualRate	USA	US36	New York			
+overQualRate	USA	US37	North Carolina			
+overQualRate	USA	US38	North Dakota			
+overQualRate	USA	US39	Ohio			
+overQualRate	USA	US40	Oklahoma			
+overQualRate	USA	US41	Oregon			
+overQualRate	USA	US42	Pennsylvania			
+overQualRate	USA	US44	Rhode Island			
+overQualRate	USA	US45	South Carolina			
+overQualRate	USA	US46	South Dakota			
+overQualRate	USA	US47	Tennessee			
+overQualRate	USA	US48	Texas			
+overQualRate	USA	US49	Utah			
+overQualRate	USA	US50	Vermont			
+overQualRate	USA	US51	Virginia			
+overQualRate	USA	US53	Washington			
+overQualRate	USA	US54	West Virginia			
+overQualRate	USA	US55	Wisconsin			
+overQualRate	USA	US56	Wyoming			
+overQualRate	JPN	JPA	Hokkaido			
+overQualRate	JPN	JPB	Tohoku			
+overQualRate	JPN	JPD	Southern-Kanto			
+overQualRate	JPN	JPC	Northern-Kanto, Koshin			
+overQualRate	JPN	JPE	Hokuriku			
+overQualRate	JPN	JPF	Toukai			
+overQualRate	JPN	JPG	Kinki			
+overQualRate	JPN	JPH	Chugoku			
+overQualRate	JPN	JPI	Shikoku			
+overQualRate	JPN	JPJ	Kyushu, Okinawa			
+overQualRate	KOR	KR01	Capital Region			
+overQualRate	KOR	KR02	Gyeongnam Region			
+overQualRate	KOR	KR03	Gyeonbuk Region			
+overQualRate	KOR	KR04	Jeolla Region			
+overQualRate	KOR	KR05	Chungcheong Region			
+overQualRate	KOR	KR06	Gangwon Region			
+overQualRate	KOR	KR07	Jeju			
+overQualRate	ISR	IL05	Tel Aviv district			
+overQualRate	ISR	IL01	Jerusalem district			
+overQualRate	ISR	IL03	Haifa district			
+overQualRate	ISR	IL04	Central district			
+overQualRate	ISR	IL06	Southern district			
+overQualRate	ISR	IL02	Northern district			
+overQualRate	ISL	IS01	Capital Region			
+overQualRate	ISL	IS02	Other Regions			
+overQualRate	AUS	AU1	New South Wales			
+overQualRate	AUS	AU2	Victoria			
+overQualRate	AUS	AU3	Qeensland			
+overQualRate	AUS	AU4	South Australia			
+overQualRate	AUS	AU5	Western Australia			
+overQualRate	AUS	AU6	Tasmania			
+overQualRate	AUS	AU7	Northern Territorry (Nt)			
+overQualRate	AUS	AU8	Australian Capital Territory (Act)			
+overQualRate	CAN	CA59	British Columbia			
+overQualRate	CAN	CA24	Quebec			
+overQualRate	CAN	CA62	Nunavut			
+overQualRate	CAN	CA11	Prince Edward Island			
+overQualRate	CAN	CA47	Saskatchewan			
+overQualRate	CAN	CA60	Yukon			
+overQualRate	CAN	CA46	Manitoba			
+overQualRate	CAN	CA35	Ontario			
+overQualRate	CAN	CA13	New Brunswick			
+overQualRate	CAN	CA61	Northwest Territories			
+overQualRate	CAN	CA48	Alberta			
+overQualRate	CAN	CA10	Newfoundland and Labrador			
+overQualRate	CAN	CA12	Nova Scotia			
+overQualRate	AUT	AT11	Burgenland (AT)		8.773554904	
+overQualRate	AUT	AT12	Niederôsterreich	12.61338411	9.240853758	3.372530351
+overQualRate	AUT	AT13	Wien	15.75607564	8.459329657	7.296745985
+overQualRate	AUT	AT21	Kärnten	12.02832741	11.10516368	0.923163733
+overQualRate	AUT	AT22	Steiermark	11.94549659	7.99295301	3.952543579
+overQualRate	AUT	AT31	Oberôsterreich	10.52261051	8.095722857	2.426887649
+overQualRate	AUT	AT32	Salzburg	10.17781069	9.327190994	0.850619694
+overQualRate	AUT	AT33	Tirol	10.84286592	8.068187528	2.774678387
+overQualRate	AUT	AT34	Vorarlberg	9.193752521	7.45181698	1.741935541
+overQualRate	CHE	CH01	Région lémanique	6.426805283	5.643843759	0.782961525
+overQualRate	CHE	CH02	Espace Mittelland	7.768184059	7.6603039	0.107880159
+overQualRate	CHE	CH03	Nordwestschweiz	6.550427559	6.783494235	-0.233066676
+overQualRate	CHE	CH04	Zürich	7.0207255	7.494415722	-0.473690222
+overQualRate	CHE	CH05	Ostschweiz	6.47878547	7.401915058	-0.923129588
+overQualRate	CHE	CH06	Zentralschweiz	7.112459242	7.078729592	0.03372965
+overQualRate	CHE	CH07	Ticino	7.571807711	5.51107368	2.060734031
+overQualRate	CZE	CZ01	Praha	8.099848405	4.350679604	3.749168801
+overQualRate	CZE	CZ02	Stredni Cechy	6.714735633	2.241633217	4.473102416
+overQualRate	CZE	CZ03	Jihozápad	4.175430433	2.770003976	1.405426456
+overQualRate	CZE	CZ04	Severozápad	5.452391591	2.847796736	2.604594854
+overQualRate	CZE	CZ05	Severovýchod	4.457968162	2.436591208	2.021376954
+overQualRate	CZE	CZ06	Jihovýchod	4.560728369	3.068133288	1.492595081
+overQualRate	CZE	CZ07	Stredni Morava		3.310627787	
+overQualRate	CZE	CZ08	Moravskoslezsko	5.320884009	2.7773845	2.543499508
+overQualRate	DNK	DK01	Hovedstaden	14.73778073	5.580173882	9.157606848
+overQualRate	DNK	DK02	Sjælland	13.35176135	3.227123573	10.12463777
+overQualRate	DNK	DK03	Syddanmark	11.55667947	3.798132281	7.758547189
+overQualRate	DNK	DK04	Midtjylland	11.50407364	4.048766416	7.455307227
+overQualRate	DNK	DK05	Nordjylland	13.63600102	3.888282264	9.747718757
+overQualRate	EST	EE00	Estonia	18.17501644	8.946007818	9.229008618
+overQualRate	ESP	ES11	Galicia	12.49458389	16.16959376	-3.675009864
+overQualRate	ESP	ES12	Asturias	13.4708406	20.07455387	-6.603713277
+overQualRate	ESP	ES13	Cantabria	16.09694413	20.14791443	-4.050970307
+overQualRate	ESP	ES21	Pais Vasco	17.12097836	23.01747613	-5.896497771
+overQualRate	ESP	ES22	Navarra	17.8915494	22.07742086	-4.185871462
+overQualRate	ESP	ES23	La Rioja (ES)	15.45977011	18.35806027	-2.89829016
+overQualRate	ESP	ES24	Aragôn	14.26137506	16.10833722	-1.846962169
+overQualRate	ESP	ES30	Comunidad de Madrid	15.15234739	13.03394512	2.118402262
+overQualRate	ESP	ES41	Castilla y Leôn	14.81121901	16.8643989	-2.053179893
+overQualRate	ESP	ES42	Castilla-La Mancha	11.28471715	13.0732484	-1.788531241
+overQualRate	ESP	ES43	Extremadura	11.21238368	13.80471064	-2.592326963
+overQualRate	ESP	ES51	Cataluôa	15.62421581	17.18757884	-1.56336303
+overQualRate	ESP	ES52	Comunidad Valenciana	17.27314598	14.67396317	2.599182806
+overQualRate	ESP	ES53	Baleares	17.59012675	11.61154245	5.978584294
+overQualRate	ESP	ES61	Andalucia	14.03815153	13.36595672	0.672194813
+overQualRate	ESP	ES62	Regiôn de Murcia	8.800717863	14.41199217	-5.611274307
+overQualRate	ESP	ES63	Ciudad Autônoma de Ceuta (ES)		10.39599776	
+overQualRate	ESP	ES64	Ciudad Autônoma de Melilla (ES)		13.46636023	
+overQualRate	ESP	ES70	Canarias (ES)	17.97678583	14.18730828	3.789477555
+overQualRate	FIN	FI19	Länsi-Suomi		9.076365663	
+overQualRate	FIN	FI1B	Helsinki-Uusimaa	10.98486353	6.395657521	4.589206007
+overQualRate	FIN	FI1C	Etelä-Suomi	12.36498496	7.909465712	4.455519245
+overQualRate	FIN	FI1D	Pohjois- ja Itä-Suomi		8.769202773	
+overQualRate	FIN	FI20	Åland			
+overQualRate	FRA	FR10	Île de France	11.68569206	8.161386889	3.524305174
+overQualRate	FRA	FR21	Champagne-Ardenne	16.26802448	6.653531948	9.614492528
+overQualRate	FRA	FR22	Picardie	12.19713212	6.198175691	5.998956433
+overQualRate	FRA	FR23	Haute-Normandie		7.632597463	
+overQualRate	FRA	FR24	Centre (FR)	14.43438294	7.640470679	6.793912263
+overQualRate	FRA	FR25	Basse-Normandie		5.863195735	
+overQualRate	FRA	FR26	Bourgogne		7.887892701	
+overQualRate	FRA	FR30	Nord-Pas-De-Calais	8.93655157	9.004629802	-0.068078232
+overQualRate	FRA	FR41	Lorraine	8.529392392	9.673983601	-1.144591209
+overQualRate	FRA	FR42	Alsace	9.651757845	7.387242934	2.264514911
+overQualRate	FRA	FR43	Franche-Comté		6.567623381	
+overQualRate	FRA	FR51	Pays de la Loire	10.42815142	8.224758354	2.203393062
+overQualRate	FRA	FR52	Bretagne	13.27483374	8.688036251	4.58679749
+overQualRate	FRA	FR53	Poitou-Charentes		8.725166566	
+overQualRate	FRA	FR61	Aquitaine	8.944554227	8.746221454	0.198332773
+overQualRate	FRA	FR62	Midi-Pyrénées	8.401410395	9.663104986	-1.26169459
+overQualRate	FRA	FR63	Limousin		7.268879788	
+overQualRate	FRA	FR71	Rhône-Alpes	12.09303673	8.392298553	3.700738182
+overQualRate	FRA	FR72	Auvergne		9.448587426	
+overQualRate	FRA	FR81	Languedoc-Roussillon	9.254193807	9.579434262	-0.325240454
+overQualRate	FRA	FR82	Provence-Alpes-Côte d'Azur	11.22320605	8.177152501	3.046053545
+overQualRate	FRA	FR83	Corse			
+overQualRate	HUN	HU10	Kôzép-Magyarország	7.709596767	4.461893548	3.247703219
+overQualRate	HUN	HU21	Kôzép-Dunántôl\/Central Transdanubia		2.527761205	
+overQualRate	HUN	HU22	Nyugat-Dunántôl\/Western Transdanubia		3.971021577	
+overQualRate	HUN	HU23	Del-Dunántôl\/Southern Transdanubia		3.190644312	
+overQualRate	HUN	HU31	Eszak-Magyarorszag\/Northern Hungary		3.195374339	
+overQualRate	HUN	HU32	Eszak-Alfold\/Northern Great Plain		3.20002463	
+overQualRate	HUN	HU33	Del-Alfold\/Southern Great Plain		3.659105608	
+overQualRate	IRL	IE01	Border  Midland and Western	18.35119828	13.83818461	4.51301367
+overQualRate	IRL	IE02	Southern and Eastern	25.08650189	13.40330894	11.68319294
+overQualRate	ITA	ITC1	Piemonte	7.099421803	3.03675333	4.062668473
+overQualRate	ITA	ITC2	Valle d'Aosta\/Vallée d'Aoste		3.229449311	
+overQualRate	ITA	ITC3	Liguria	5.730674362	4.429072692	1.30160167
+overQualRate	ITA	ITC4	Lombardia	7.277631708	2.915264631	4.362367076
+overQualRate	ITA	ITF1	Abruzzo	4.709793683	3.779577549	0.930216134
+overQualRate	ITA	ITF2	Molise		3.931671459	
+overQualRate	ITA	ITF3	Campania	4.378142407	2.780636408	1.597505999
+overQualRate	ITA	ITF4	Puglia	3.759789342	2.761526702	0.99826264
+overQualRate	ITA	ITF5	Basilicata		2.895369442	
+overQualRate	ITA	ITF6	Calabria	4.365744197	3.491334199	0.874409998
+overQualRate	ITA	ITG1	Sicilia	3.773115321	3.144460284	0.628655037
+overQualRate	ITA	ITG2	Sardegna	5.179848209	2.690233894	2.489614315
+overQualRate	ITA	ITH1	Provincia Autonoma di Bolzano\/Bozen	8.516543392	1.294170792	7.2223726
+overQualRate	ITA	ITH2	Provincia Autonoma di Trento	7.871782044	3.386844079	4.484937965
+overQualRate	ITA	ITH3	Veneto	6.970897516	3.456335808	3.514561708
+overQualRate	ITA	ITH4	Friuli-Venezia Giulia	5.348219728	3.377649131	1.970570597
+overQualRate	ITA	ITH5	Emilia-Romagna	9.363966872	3.535768864	5.828198008
+overQualRate	ITA	ITI1	Toscana	9.537575195	3.868507002	5.669068193
+overQualRate	ITA	ITI2	Umbria	7.775625461	5.818642277	1.956983184
+overQualRate	ITA	ITI3	Marche	5.122375633	4.498297341	0.624078292
+overQualRate	ITA	ITI4	Lazio	8.604676752	4.755290201	3.849386551
+overQualRate	LUX	LU00	Luxembourg	2.863161598	1.005719873	1.857441725
+overQualRate	NOR	NO01	Oslo og Akershus	15.23033452	5.987640603	9.242693918
+overQualRate	NOR	NO02	Hedmark og Oppland	15.25334964	4.076857173	11.17649247
+overQualRate	NOR	NO03	Sor-0stlandet	14.84988549	4.759160102	10.09072538
+overQualRate	NOR	NO04	Agder og Rogaland	15.22670106	4.346528339	10.88017273
+overQualRate	NOR	NO05	Vestlandet	17.17506923	5.931287275	11.24378195
+overQualRate	NOR	NO06	Trýndelag	17.65110645	5.245854669	12.40525178
+overQualRate	NOR	NO07	Nord-Norge	15.07209645	4.945659826	10.12643662
+overQualRate	POL	PL11	Lôdzkie		6.087627221	
+overQualRate	POL	PL12	Mazowieckie		7.128356654	
+overQualRate	POL	PL21	Malopolskie		5.645541833	
+overQualRate	POL	PL22	Slaskie		5.183599718	
+overQualRate	POL	PL31	Lubelskie		7.636638116	
+overQualRate	POL	PL32	Podkarpackie		6.982206333	
+overQualRate	POL	PL33	Swietokrzyskie		8.696675047	
+overQualRate	POL	PL34	Podlaskie		8.062217669	
+overQualRate	POL	PL41	Wielkopolskie		6.306328293	
+overQualRate	POL	PL42	Zachodniopomorskie		5.830971155	
+overQualRate	POL	PL43	Lubuskie		5.851662989	
+overQualRate	POL	PL51	Dolnoslaskie		5.515341994	
+overQualRate	POL	PL52	Opolskie		6.205526755	
+overQualRate	POL	PL61	Kujawsko-Pomorskie		5.802478743	
+overQualRate	POL	PL62	Warminsko-Mazurskie		6.105589151	
+overQualRate	POL	PL63	Pomorskie		5.477919244	
+overQualRate	PRT	PT11	Norte	4.783552654	2.465606872	2.317945782
+overQualRate	PRT	PT15	Algarve		3.110806427	
+overQualRate	PRT	PT16	Centro (PT)	9.436362326	3.416250487	6.020111838
+overQualRate	PRT	PT17	Lisboa	6.092569914	3.642904548	2.449665366
+overQualRate	PRT	PT18	Alentejo		2.434845109	
+overQualRate	PRT	PT20	Região Autônoma dos Açores (PT)			
+overQualRate	PRT	PT30	Região Autônoma da Madeira (PT)			
+overQualRate	SWE	SE11	Stockholm	13.71955649	4.697285513	9.022270974
+overQualRate	SWE	SE12	#NAME?	12.74445794	4.815991986	7.928465953
+overQualRate	SWE	SE21	Sm+Ñland med ôarna	13.56734147	4.594851383	8.972490082
+overQualRate	SWE	SE22	Sydsverige	14.14912316	5.512106014	8.637017144
+overQualRate	SWE	SE23	Västsverige	12.71676265	5.262757397	7.454005255
+overQualRate	SWE	SE31	Norra Mellansverige	11.43862805	4.1460869	7.292541152
+overQualRate	SWE	SE32	Mellersta Norrland	18.49836795	4.536965082	13.96140286
+overQualRate	SWE	SE33	Övre Norrland	14.33614448	5.192173225	9.143971251
+overQualRate	SVN	SI01	Vzhodna Slovenija			
+overQualRate	SVN	SI02	Zahodna Slovenija			
+overQualRate	SVK	SK01	Bratislavský kraj		5.342855513	
+overQualRate	SVK	SK02	Západné Slovensko		4.401624012	
+overQualRate	SVK	SK03	Stredné Slovensko		4.357433247	
+overQualRate	SVK	SK04	Východné Slovensko		4.530767792	
+overQualRate	TUR	TR10	Istanbul	7.469533729	7.593548119	-0.12401439
+overQualRate	TUR	TR21	Tekirdag Edirne Kirklareli	9.712583838	6.835982781	2.876601058
+overQualRate	TUR	TR22	Balikesir +çanakkale	12.28832008	7.255272258	5.033047825
+overQualRate	TUR	TR31	Izmir	9.38580194	8.85242767	0.533374269
+overQualRate	TUR	TR32	Aydin Denizli Mugla	12.28893501	6.211999095	6.076935912
+overQualRate	TUR	TR33	Manisa Afyonkarahisar Kýtahya Usak	7.463917017	5.756857886	1.70705913
+overQualRate	TUR	TR41	Bursa Eskisehir Bilecik	6.862244082	7.787881953	-0.925637871
+overQualRate	TUR	TR42	Kocaeli Sakarya Dýzce Bolu Yalova	6.044118601	7.204348354	-1.160229753
+overQualRate	TUR	TR51	Ankara	14.1671391	10.55085787	3.616281231
+overQualRate	TUR	TR52	Konya Karaman		5.426307662	
+overQualRate	TUR	TR61	Antalya Isparta Burdur	23.07132705	8.335480871	14.73584618
+overQualRate	TUR	TR62	Adana Mersin	4.119361386	7.553548956	-3.43418757
+overQualRate	TUR	TR63	Hatay Kahramanmaras Osmaniye		5.330578357	
+overQualRate	TUR	TR71	Kirikkale Aksaray Nigde Nevsehir Kirsehir		5.618556864	
+overQualRate	TUR	TR72	Kayseri Sivas Yozgat		5.994643197	
+overQualRate	TUR	TR81	Zonguldak Karabýk Bartin		5.124022438	
+overQualRate	TUR	TR82	Kastamonu Çankiri Sinop		5.473939767	
+overQualRate	TUR	TR83	Samsun Tokat Çorum Amasya	16.32968947	5.05822951	11.27145996
+overQualRate	TUR	TR90	Trabzon Ordu Giresun Rize Artvin Gýmýshane		5.763004711	
+overQualRate	TUR	TRA1	Erzurum Erzincan Bayburt		4.215076046	
+overQualRate	TUR	TRA2	Agri Kars Igdir Ardahan		3.734813413	
+overQualRate	TUR	TRB1	Malatya Elazig Bingôl Tunceli		7.750408183	
+overQualRate	TUR	TRB2	Van Mus Bitlis Hakkari		2.643736549	
+overQualRate	TUR	TRC1	Gaziantep Adiyaman Kilis	10.30256238	5.110340604	5.192221772
+overQualRate	TUR	TRC2	Sanliurfa Diyarbakir	21.5129614	3.422651883	18.09030951
+overQualRate	TUR	TRC3	Mardin Batman Sirnak Siirt		3.97571681	
+overQualRate	BEL	BE1	Reg -Bruxelles-Cap -\/Brussels Hfdst -Gew -			
+overQualRate	BEL	BE2	Vlaams Gewest			
+overQualRate	BEL	BE3	Région wallonne			
+overQualRate	DEU	DE1	Baden-Wýrttemberg			
+overQualRate	DEU	DE2	Bayern			
+overQualRate	DEU	DE3	Berlin			
+overQualRate	DEU	DE4	Brandenburg			
+overQualRate	DEU	DE5	Bremen			
+overQualRate	DEU	DE6	Hamburg			
+overQualRate	DEU	DE7	Hessen			
+overQualRate	DEU	DE8	Mecklenburg-Vorpommern			
+overQualRate	DEU	DE9	Niedersachsen			
+overQualRate	DEU	DEA	Nordrhein-Westfalen			
+overQualRate	DEU	DEB	Rheinland-Pfalz			
+overQualRate	DEU	DEC	Saarland			
+overQualRate	DEU	DED	Sachsen			
+overQualRate	DEU	DEE	Sachsen-Anhalt			
+overQualRate	DEU	DEF	Schleswig-Holstein			
+overQualRate	DEU	DEG	Thýringen			
+overQualRate	GBR	UKC	North East (UK)			
+overQualRate	GBR	UKD	North West (UK)			
+overQualRate	GBR	UKE	Yorkshire and The Humber			
+overQualRate	GBR	UKF	East Midlands (UK)			
+overQualRate	GBR	UKG	West Midlands (UK)			
+overQualRate	GBR	UKH	East of England			
+overQualRate	GBR	UKI	London			
+overQualRate	GBR	UKJ	South East (UK)			
+overQualRate	GBR	UKK	South West (UK)			
+overQualRate	GBR	UKL	Wales			
+overQualRate	GBR	UKM	Scotland			
+overQualRate	GBR	UKN	Northern Ireland (UK)			
+overQualRate	NZL	NZ011	Northland Region			
+overQualRate	NZL	NZ012	Auckland Region			
+overQualRate	NZL	NZ013	Waikato Region			
+overQualRate	NZL	NZ022	West Coast Region			
+overQualRate	NZL	NZ014	Bay of Plenty Region			
+overQualRate	NZL	NZ023	Canterbury Region			
+overQualRate	NZL	NZ015	Gisborne Region			
+overQualRate	NZL	NZ024	Otago Region			
+overQualRate	NZL	NZ025	Southland Region			
+overQualRate	NZL	NZ016	Hawke's Bay Region			
+overQualRate	NZL	NZ017	Taranaki Region			
+overQualRate	NZL	NZ018	Manawatu-Wanganui Region			
+overQualRate	NZL	NZ019	Wellington Region			
+overQualRate	NZL	NZ021	Tasman-Nelson-Marlborough			
+overQualRate	GRC	GR11	Anatoliki Makedonia - Thraki			
+overQualRate	GRC	GR12	Kentriki Makedonia			
+overQualRate	GRC	GR13	Dytiki Makedonia			
+overQualRate	GRC	GR14	Thessalia			
+overQualRate	GRC	GR21	Ipeiros			
+overQualRate	GRC	GR22	Ionia Nisia			
+overQualRate	GRC	GR23	Dytiki Ellada			
+overQualRate	GRC	GR24	Sterea Ellada			
+overQualRate	GRC	GR25	Peloponnisos			
+overQualRate	GRC	GR30	Attiki	10.1440153	11.44572566	-1.301710361
+overQualRate	GRC	GR41	Voreio Aigaio		8.444928267	
+overQualRate	GRC	GR42	Notio Aigaio		7.505901024	
+overQualRate	GRC	GR43	Kriti		9.004509353	
+overQualRate	NLD	NL11	Groningen		7.112836237	
+overQualRate	NLD	NL12	Friesland		4.950632542	
+overQualRate	NLD	NL13	Drenthe		5.026402676	
+overQualRate	NLD	NL21	Overijssel	7.141961763	5.690628139	1.451333624
+overQualRate	NLD	NL22	Gelderland	7.481205298	5.58667687	1.894528429
+overQualRate	NLD	NL23	Flevoland	5.151310629	5.2469048	-0.095594172
+overQualRate	NLD	NL31	Utrecht	6.469216648	5.82857857	0.640638078
+overQualRate	NLD	NL32	Noord-Holland	8.418503856	5.922932867	2.495570989
+overQualRate	NLD	NL33	Zuid-Holland	6.360338572	5.482721404	0.877617168
+overQualRate	NLD	NL34	Zeeland	10.59221822	4.579382905	6.012835311
+overQualRate	NLD	NL41	Noord-Brabant	7.5203588	5.736001246	1.784357554
+overQualRate	NLD	NL42	Limburg (NL)	5.601585791	5.104182143	0.497403649

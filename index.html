@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<head>
+  <link rel="stylesheet" type="text/css" href="site.css">
+<script src="libs/d3.v4.jetpack.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="js/graph-scroll.js"></script>
+<script src="js/updateRegionCard.js"></script>
+<script src="js/countryCardFunct.js"></script>
+<script src="js/cardReplacement.js"></script>
+<!--<script src="js/scatterplot.js"></script>-->
+</head>
+<body>
+<h1>Migrant integration in regions</h1>
+<h2>Which indicators count when looking at migrant's integration in region? How regions do when it comes to better integrating the migrants? Find out...</h2>
+<br/>
+<!--<div id="migrantsIconography"><span class='weepeople '>e f g H I J a b c z  k l B H I D R</span><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J a b c z  k l B H I D R</span><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J a</span><div>
+<div id="intro">Click a region on the map!</div>-->
+<div id="regionalMap"></div>
+<div id="regionRef">
+	<div id="regionName">Select a region</div>
+</div>
+<br/>
+<div id="cardView">
+
+  <div id="countryCard"></div>
+
+  <div id="countryProfile"></div>
+  <br/>
+  <div id='container' class='container-1'>
+    <div id="graph"></div>
+    <div id='sections'>
+      <div>
+        <h3>Share of migrants</h3>
+        <span id="ShareMigSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><span><br/>
+        Migrants’ regional distribution differs greatly across OECD countries. In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population. In countries such as Belgium, the United Kingdom or the United States, the variation in the regional distribution of migrants is considerably larger than in Australia, Ireland, Norway or Switzerland, where most regions have similar population shares of foreign-born individuals.
+      </div>
+      <div>
+        <h3>Duration of foreign born stay</h3>
+        <span id="lengthStaySmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        The duration of stay, the number of years between the arrival and the survey year, is a defining characteristic of migrants given its positive impact on integration outcomes. Longer presence in a country is associated with improved integration outcomes. The duration of stay can be particularly relevant in the context of EU member countries, where it is critical for non-EU migrants’ ability to obtain national permanent residency or the European Union’s long-term resident status. Such status usually requires a minimum of five years of uninterrupted residence in the host country. Without it, non- EU migrants face greater integration obstacles than their EU peers in the same country.
+      </div>
+      <div>
+        <h3>Educational attainment</h3>
+        <span id="eduattainSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        In general, highly educated foreign-born individuals are less spatially dispersed than their native counterparts. Furthermore, there is a clear discrepancy in the average level of migrants’ education between Australia, Canada and northern Europe on the one hand, and southern and eastern Europe on the other. Regions located in the former have been most successful in attracting highly educated foreigners, their share reaching more than 40% in many cases. In contrast, the share of migrants with tertiary education in Europe rarely surpasses 25% or even 20% in regions in southern or eastern Europe.
+      </div>
+      <div>
+        <h3>Unemployment rate</h3>
+        <span id="UnempSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        Unemployed migrants are more spatially spread out than unemployed native-born. In 18 out of the 20 countries for which data were available, regional variation in the unemployment rates is larger for migrants. In the Netherlands, Germany, Sweden, the United Kingdom, Ireland, Finland and Norway, the regional disparities in the unemployment rates of the foreign-born population are even more than twice as large as those of the native-born population. In contrast, Spain and Italy both display unemployment rates of native-born that are more regionally dispersed than those of migrants. In Italy, this can be partly explained by higher unemployment rates in southern regions than in the northern and central regions.
+      </div>
+      <div>
+        <h3>Participation rate</h3>
+        <span id="PartRateSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        Employment is a core aspect of the integration process. It is not only vital for economic integration, but also has implications for broader social integration, such as finding adequate housing, learning the host-country language and interacting with the native-born population.
+      </div>
+      <div>
+        <h3>Over-qualification rate</h3>
+        <span id="overQualRateSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        Across the OECD area, over-qualification rates and their regional disparities tend to be larger and more spatially dispersed for migrants than for native-born. Over- qualification, defined as having tertiary education and working in a low- or medium- skilled job, is a recurring issue for migrants and is often associated with a waste of skills (OECD and European Union, 2015). In 2015, more than one-third of employed foreign- born individuals with a tertiary education degree were over-qualified across the OECD and the European Union, whereas the qualification rate of native-born was only 25%.
+      </div>
+      <div>
+        <h3>To conclude</h3>
+        The integration of migrants is one of the most formidable tasks policy makers in OECD countries face. The sheer scale of migration necessitates a concerted effort to make integration a success. If integrated successfully, migrants can contribute to host countries in multiple ways, not least of all, economically. At the same time, integration of migrants and refugees poses great challenges, especially because they constitute highly diverse groups, consisting of individuals of different genders, ages, or cultural backgrounds with different motivations, skill sets, educational attainment or experience.
+      </div>
+    </div>
+  </div>
+  <iframe width="100%" height="500" src="https://www.youtube.com/embed/a4hKDRKGFdQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br/>
+<div id="source"> weepeople font by Alerto Cairo https://github.com/propublica/weepeople/blob/master/README.md<br/>Photo by Jad Limcaco on Unsplash</div>
+<script src="js/map.js"></script>
+<script>
+//Create the map
+var regionMap=[];
+  var counter=0; 
+  d3.json("data/TL2_OECD_2016_OECD.json", function(error, worldData){
+    worldData.features.forEach(function(d){
+        regionMap.push(d);
+  })})
+	 
+ 
+
+var dataTot=[];
+var counter=0; 
+  d3.tsv("data/data.tsv",function(error, data) {
+    data.forEach(function(d){
+        dataTot.push(d)
+        counter++; 
+            if (counter === data.length) {
+                //scatterplot(graph,dataTest);
+                render(dataTot);
+                colorRegion();
+            }
+      })
+
+  })
+
+  var ccMargin = {top: 100, right: 70, bottom: 50, left: 70};
+  var ccWidth=d3.select("#countryCard").node().offsetWidth - ccMargin.left - ccMargin.right;
+  var ccHeight=height_usage/1.5 - ccMargin.top - ccMargin.bottom;
+
+  var ccSVG = d3.select("#countryCard").append("svg").attr("width",ccWidth + ccMargin.left + ccMargin.right).attr("height",ccHeight + ccMargin.top + ccMargin.bottom)
+
+  cardReplacement();/**
+d3.select("#regionalMap").on("mouseover", function(){
+  d3.select("#intro").style("visibility","hidden")
+})
+
+d3.select("#regionalMap").on("mouseout", function(){
+  d3.select("#intro").style("visibility","visible")
+})**/
+
+</script>
+
+<!-- ***********************************************************************
+	****************   TOOLTIPS ********************************************
+************************************************************************ -->
+
+<script src="js/scrollytelling.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51983915-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<body>
+</body>
