@@ -4,6 +4,8 @@ var margin=50
 var opacityCircles = 0.2; 
 var r = 5;
 
+var xAnnotation;
+var yAnnotation;
 
 
 var div = d3.select("body").append("div")
@@ -59,6 +61,26 @@ function render(data){
     .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.CountryMean)}))-10)
     .text("Country Mean");
 
+  var annotation1 = "In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population.";
+    var annotation2 = "Settled migrants have been in the host country for at least 10 years";
+      var annotation3 = "Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners";
+        var annotation4 = "The unemployment rate of foreign-borns varies more across region than the native-borns' one.";
+          var annotation5 = "";
+            var annotation6 = "the waste of skills is a recurring issue for migrants. We observe larger disparities across regions for migrants than for native-borns.";
+
+   xAnnotation=0.7*width;
+   yAnnotation= 0.1*height;
+
+  svg.append("text")
+  	.attr("x",xAnnotation)
+    .attr("y",yAnnotation)
+    .append("tspan")
+  	.attr("id","chartAnnotation")
+  	.attr("x",xAnnotation)
+    .attr("y",yAnnotation)
+    .html(annotation1)
+    .call(wrap,0.25*width);
+
   var circles= svg.selectAll("circle")
          .data(data.filter(function(d){return d.Indicator=="ShareMig"}))
          .enter()
@@ -87,9 +109,9 @@ function render(data){
          .attr("fill",function(d){
          	if(d.Region==selRegion)
             	return "#F68385"
-         	else if(d.CountryMean>d.FB)
+         	else if(parseFloat(d.CountryMean)>parseFloat(d.FB))
             	return "#8EA4B1";
-          	else if (d.CountryMean<=d.FB)
+          	else if (parseFloat(d.CountryMean)<=parseFloat(d.FB))
             	return "#993484";
          })
          .style("opacity", opacityCircles);
@@ -162,6 +184,11 @@ function render(data){
 	  var element = d3.selectAll(".regions."+d.data.Region);
 	  var element_Class = ".regions."+d.data.Region;
 
+	  var couFullName;
+	  countryISO.forEach(function(k){
+	  	if (d.data.Country==k.ISO)
+	  		couFullName=k.Country;
+	  })
 
 		var div_text;
 		 if(d.data.CountryMean>d.data.FB)
@@ -174,7 +201,7 @@ function render(data){
 		div.transition()
 		         .duration(200)
 		         .style("opacity", .9);
-		       div .html( d.data.RegionName + ", " + d.data.Country + "<br/> "+ div_text)     
+		       div .html( d.data.RegionName + ", " + couFullName + "<br/> "+ div_text)     
 		         .style("left", (d3.event.pageX) + "px")             
 		         .style("top", (d3.event.pageY ) + "px");
 		       
@@ -221,6 +248,7 @@ function render(data){
   //var dataPos=[ShareMigData,lengthStayData,eduattainData,UnempData,PartRateData,overQualRateData]
   var axisLabels=[{"x":"Foreign-Born","y":"Country Mean"},{"x":"New arrivals","y":"Settled migrants"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"}]
 
+  var chartAnnotationData=[annotation1,annotation2,annotation3,annotation4,annotation5,annotation6]
 
   var gs = d3.graphScroll()
       .container(d3.select('.container-1'))
@@ -242,6 +270,7 @@ function render(data){
 		svg.select(".x").transition().duration(600).call(d3.axisBottom(xScale));
 		svg.select(".y").transition().duration(600).call(d3.axisLeft(yScale));
 
+  		svg.select("#chartAnnotation").html(chartAnnotationData[i]).call(wrap,0.3*width);
 
         circles.data(dataPos[i]).transition().duration(600) 
 	         .attr("cx", function(d) {
@@ -256,7 +285,6 @@ function render(data){
 	            else 
 	            	return yScale(parseFloat(d.CountryMean));
 	         })
-
 	         .attr("r", function(d) {
 	         	if(d.FB==""||d.CountryMean=="")
 	            	return 0;
@@ -268,9 +296,9 @@ function render(data){
 	         .attr("fill",function(d){
 	         	if(d.Region==selRegion)
 	            	return "#F68385"
-	         	else if(d.CountryMean>d.FB)
+	         	else if(parseFloat(d.CountryMean)>parseFloat(d.FB))
 	            	return "#8EA4B1";
-	          	else if (d.CountryMean<=d.FB)
+	          	else if (parseFloat(d.CountryMean)<=parseFloat(d.FB))
 	            	return "#993484";
 	         })
 	    
@@ -290,7 +318,32 @@ function render(data){
 
   d3.select('#source')
       //.styles({'margin-top': window.innerHeight - 450 + 'px', padding: '100px'})
-      .styles({'margin-bottom': window.innerHeight + 0 + 'px', padding: '50px'})
+      .styles({'margin-bottom': window.innerHeight + 0 + 'px', padding: '20px'})
 }
 //render();
 d3.select(window).on('resize', render)
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy =1,// parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", xAnnotation).attr("y", y).attr("dy", dy + "em")
+
+    while (word = words.pop()) {
+      line.push(word)
+      tspan.text(line.join(" "))
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop()
+        tspan.text(line.join(" "))
+        line = [word]
+        tspan = text.append("tspan").attr("x", xAnnotation).attr("y", y).attr("dy", `${++lineNumber * lineHeight + dy}em`).text(word)
+      }
+    }
+  })
+}
