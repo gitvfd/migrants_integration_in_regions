@@ -34,37 +34,43 @@
     <div id="graph"></div>
     <div id='sections'>
       <div>
-        <h3>Share of migrants</h3>
+        <h3>Proportion of migrants in regions</h3>
         <span id="ShareMigSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><span><br/>
-        Migrants’ regional distribution differs greatly across OECD countries. In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population. In countries such as Belgium, the United Kingdom or the United States, the variation in the regional distribution of migrants is considerably larger than in Australia, Ireland, Norway or Switzerland, where most regions have similar population shares of foreign-born individuals.
+        <span class="def">Share of foreign-born in the total population in regions compared to the country average</span><br/>
+        Migrants’ regional distribution differs greatly across OECD countries. In countries such as Belgium, the United Kingdom or the United States, the variation in the regional distribution of migrants is considerably larger than in Australia, Ireland, Norway or Switzerland, where most regions have similar population shares of foreign-born individuals.
       </div>
       <div>
-        <h3>Duration of foreign born stay</h3>
+        <h3>Do migrants settle?</h3>
         <span id="lengthStaySmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        <span class="def">Duration of foreign born stay: Distribution of less than 10 years vs. more than 10 years present.</span><br/>
         The duration of stay, the number of years between the arrival and the survey year, is a defining characteristic of migrants given its positive impact on integration outcomes. Longer presence in a country is associated with improved integration outcomes. The duration of stay can be particularly relevant in the context of EU member countries, where it is critical for non-EU migrants’ ability to obtain national permanent residency or the European Union’s long-term resident status. Such status usually requires a minimum of five years of uninterrupted residence in the host country. Without it, non- EU migrants face greater integration obstacles than their EU peers in the same country.
       </div>
       <div>
         <h3>Educational attainment</h3>
         <span id="eduattainSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        <span class="def">People Aged 15-64 and excluding those currently in education or training with a high level of education.</span><br/>
         In general, highly educated foreign-born individuals are less spatially dispersed than their native counterparts. Furthermore, there is a clear discrepancy in the average level of migrants’ education between Australia, Canada and northern Europe on the one hand, and southern and eastern Europe on the other. Regions located in the former have been most successful in attracting highly educated foreigners, their share reaching more than 40% in many cases. In contrast, the share of migrants with tertiary education in Europe rarely surpasses 25% or even 20% in regions in southern or eastern Europe.
       </div>
       <div>
         <h3>Unemployment rate</h3>
         <span id="UnempSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        <span class="def"></span><br/>
         Unemployed migrants are more spatially spread out than unemployed native-born. In 18 out of the 20 countries for which data were available, regional variation in the unemployment rates is larger for migrants. In the Netherlands, Germany, Sweden, the United Kingdom, Ireland, Finland and Norway, the regional disparities in the unemployment rates of the foreign-born population are even more than twice as large as those of the native-born population. In contrast, Spain and Italy both display unemployment rates of native-born that are more regionally dispersed than those of migrants. In Italy, this can be partly explained by higher unemployment rates in southern regions than in the northern and central regions.
       </div>
       <div>
         <h3>Participation rate</h3>
         <span id="PartRateSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        <span class="def"></span><br/>
         Employment is a core aspect of the integration process. It is not only vital for economic integration, but also has implications for broader social integration, such as finding adequate housing, learning the host-country language and interacting with the native-born population.
       </div>
       <div>
         <h3>Over-qualification rate</h3>
         <span id="overQualRateSmall"><span class='weepeople migrant'> a b c d </span><span class='weepeople '>e f g H I J </span><br/>
+        <span class="def">Those with "high"level of education and in low or medium skilled jobs.</span><br/>
         Across the OECD area, over-qualification rates and their regional disparities tend to be larger and more spatially dispersed for migrants than for native-born. Over- qualification, defined as having tertiary education and working in a low- or medium- skilled job, is a recurring issue for migrants and is often associated with a waste of skills (OECD and European Union, 2015). In 2015, more than one-third of employed foreign- born individuals with a tertiary education degree were over-qualified across the OECD and the European Union, whereas the qualification rate of native-born was only 25%.
       </div>
       <div>
-        <h3>To conclude</h3>
+        <h3></h3>
         The integration of migrants is one of the most formidable tasks policy makers in OECD countries face. The sheer scale of migration necessitates a concerted effort to make integration a success. If integrated successfully, migrants can contribute to host countries in multiple ways, not least of all, economically. At the same time, integration of migrants and refugees poses great challenges, especially because they constitute highly diverse groups, consisting of individuals of different genders, ages, or cultural backgrounds with different motivations, skill sets, educational attainment or experience.
       </div>
     </div>
@@ -83,7 +89,12 @@ var regionMap=[];
         regionMap.push(d);
   })})
 	 
- 
+var countryISO=[];
+  d3.tsv("data/country.tsv",function(error, data) {
+    data.forEach(function(d){
+        countryISO.push(d)
+      })
+  })
 
 var dataTot=[];
 var counter=0; 
