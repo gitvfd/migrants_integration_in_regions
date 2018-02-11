@@ -2,6 +2,8 @@
 //https://bl.ocks.org/puzzler10/49f13307e818ea9a909ba5adba5b6ed9
 //https://bl.ocks.org/mbostock/2206590
 
+//https://1wheel.github.io/graph-scroll/
+
 //https://bl.ocks.org/lorenzopub/494ef5270075e1e8fc314dda86c7fb9f
 var shareMigData;
 var zoomLevel=1;
@@ -26,6 +28,11 @@ var divMap = d3.select("body").append("div")
   	/**var zoom = d3.zoom()
       	.scaleExtent([1, 6])
   	    .on("zoom", zoomed);**/
+
+
+    var yKey = d3.scaleLinear()
+    .domain([0,50])
+    .rangeRound([200, 350]);
 
   	var projection = d3.geoEquirectangular()
   	            .scale(width/7.75)
@@ -53,6 +60,7 @@ var divMap = d3.select("body").append("div")
 
 //ACTIVATE OR DISACTIVATE ZOOM functions
   	//svg.call(zoom) 
+
 
 
     var world=svg.append("g")
@@ -85,7 +93,7 @@ var divMap = d3.select("body").append("div")
                           divMap.transition()    
                                           .duration(200)    
                                           .style("opacity", .9);    
-                          divMap.html(d.properties.TL2_NAME)  
+                          divMap.html(d.properties.TL2_NAME )  
                               .style("left", (d3.event.pageX) +28 + "px")   
                               .style("top", (d3.event.pageY - 28) + "px");  
 
@@ -116,7 +124,6 @@ var divMap = d3.select("body").append("div")
     });
 
 
-      
 
     function clicked(d) {
       selRegion=d.properties.TL2_CODE;
@@ -235,24 +242,82 @@ var divMap = d3.select("body").append("div")
       if (d3.event.defaultPrevented) d3.event.stopPropagation();
   }
 
-function colorRegion(){
-      color.domain(d3.range(d3.min(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); }),d3.max(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })))
-      shareMigData=dataTot.filter(function(d){return d.Indicator=="ShareMig"})
 
- //color.domain(d3.range(d3.min(ShareMigData, function(d) { return parseFloat(d.FB); }),d3.max(ShareMigData, function(d) { return parseFloat(d.FB); })))
-      map.selectAll(".region")
-                    .attr("fill", function(d) { 
-                      var colorReg="#fff";
-                      shareMigData.forEach(function(v){
-                        if(v.Region==d.properties.TL2_CODE){
-                          if(v.FB!="")
-                            colorReg = color(v.FB); 
-                          else
-                            colorReg="#fff"
-                        }
+    function addKey(){
+      var g = svg.append("g")
+        .attr("class", "key")
+        .attr("transform", "translate(40,0)");
+
+      g.selectAll("rect")
+        .data(color.range().map(function(d) {
+            d = color.invertExtent(d);
+            if (d[0] == null) d[0] = yKey.domain()[0];
+            if (d[1] == null) d[1] = yKey.domain()[1];
+            return d;
+          }))
+        .enter().append("rect")
+          .attr("width", 8)
+          .attr("y", function(d) { return yKey(d[0]); })
+          .attr("height", function(d) { return yKey(d[1]) - yKey(d[0]); })
+          .attr("fill", function(d) { return color(d[0]); });
+          
+          g.append("rect")
+          .attr("width", 8)
+          .attr("y", 0.9*height_usage)
+          .attr("height", 8)
+          .attr("fill", "#ffffff")
+          g.append("text")
+          .attr("class", "caption")
+          .attr("x", 15)
+          .attr("y", 0.9*height_usage + 8 )
+          .attr("fill", "#000")
+          .attr("text-anchor", "start")
+          .attr("font-weight", "normal")
+          .text("No data available");;
+
+      g.append("text")
+          .attr("class", "caption")
+          .attr("x", -20 )
+          .attr("y", yKey.range()[0]-10)
+          .attr("fill", "#000")
+          .attr("text-anchor", "start")
+          .attr("font-weight", "bold")
+          .text("Share of migrants");
+
+      g.call(d3.axisLeft(yKey)
+          .tickSize(5)
+          .tickFormat(function(yKey, i) { return d3.format(".0f")(i ? yKey : yKey) + "%"; })
+          .tickValues(color.domain()))
+        .select(".domain")
+          .remove();
+    }
+
+
+
+  function colorRegion(){
+
+        var maxCol=d3.max(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })
+        var minCol=d3.min(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })
+        color.domain(d3.range(minCol,maxCol,(maxCol-minCol)/8))
+        shareMigData=dataTot.filter(function(d){return d.Indicator=="ShareMig"})
+       
+        addKey();
+   
+   //color.domain(d3.range(d3.min(ShareMigData, function(d) { return parseFloat(d.FB); }),d3.max(ShareMigData, function(d) { return parseFloat(d.FB); })))
+        map.selectAll(".region")
+                      .attr("fill", function(d) { 
+                        var colorReg="#fff";
+                        shareMigData.forEach(function(v){
+                          if(v.Region==d.properties.TL2_CODE){
+                            if(v.FB!="")
+                              colorReg = color(v.FB); 
+                            else
+                              colorReg="#fff"
+                          }
+                        })
+                        return colorReg;
                       })
-                      return colorReg;
-                    })
-}
+                      console.log(color.domain())
+  }
   
 //}
