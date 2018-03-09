@@ -28,9 +28,9 @@ function scatterplot(svg,data){
                  .range([margin, width - margin * 2]);
 
       var yScale = d3.scaleLinear()
-                 .domain([0, d3.max(data, function(d) { return parseFloat(d.CountryMean); })])
+                 .domain([0, d3.max(data, function(d) { return parseFloat(d.NonFBCompValue); })])
                  .range([height - margin, margin]);
-      
+
       //Create X axis
       chart.append("g")
         .attr("class", "axis")
@@ -50,7 +50,7 @@ function scatterplot(svg,data){
 
       chart.append("text")
         .attr("x",xScale(0)-35)
-        .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.CountryMean)}))-10)
+        .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.NonFBCompValue)}))-10)
         .text("Country Mean");
 
       
@@ -65,15 +65,15 @@ function scatterplot(svg,data){
             return xScale(parseFloat(d.FB));
          })
          .attr("cy", function(d) {
-            return yScale(parseFloat(d.CountryMean));
+            return yScale(parseFloat(d.NonFBCompValue));
          })
          .attr("r", function(d) {
             return 4;
          })
          .attr("fill",function(d){
-         	if(d.CountryMean>d.FB)
+         	if(d.NonFBCompValue>d.FB)
             	return "rgb(126,126,126)";
-          	else if (d.CountryMean<=d.FB)
+          	else if (d.NonFBCompValue<=d.FB)
             	return "rgb(102,189,58)";
          })
          .style("opacity", 0.7);
@@ -92,16 +92,16 @@ function scatterplot(svg,data){
 
          })
          .attr("x", function(d) {
-            if(d.CountryMean>=0)
+            if(d.NonFBCompValue>=0)
             return xScale(parseFloat(d.FB)) + 8;
             else
             return xScale(parseFloat(d.FB)) +8;
          })
          .attr("y", function(d) {
-            if(d.CountryMean>=0)
-            return yScale(parseFloat(d.CountryMean))+ 0;
+            if(d.NonFBCompValue>=0)
+            return yScale(parseFloat(d.NonFBCompValue))+ 0;
           else
-            return yScale(parseFloat(d.CountryMean))+ 5;
+            return yScale(parseFloat(d.NonFBCompValue))+ 5;
          })
          .attr("font-family", "sans-serif")
          .attr("font-size", "10px");
@@ -111,7 +111,7 @@ function scatterplot(svg,data){
 
       var voronoi = d3.voronoi()
               .x(function(d) { return xScale(d.FB); })
-              .y(function(d) { return yScale(d.CountryMean); })
+              .y(function(d) { return yScale(d.NonFBCompValue); })
               .extent([[0, 0], [width, height]]);
 
 
@@ -170,9 +170,9 @@ function scatterplot(svg,data){
 
 
 			var div_text;
-			 if(d.data.CountryMean>d.data.FB)
+			 if(d.data.NonFBCompValue>d.data.FB)
 			 div_text="proportion of FB is less in this region than at national level";
-			else if (d.data.CountryMean<d.data.FB)
+			else if (d.data.NonFBCompValue<d.data.FB)
 			 div_text= "proportion of FB is more in this region than at the national level";
 			else
 			 div_text= "proportion of FB in this region is in line with national level ";

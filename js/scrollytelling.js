@@ -1,4 +1,5 @@
 
+
 var oldWidth = 0
 var margin=50
 var opacityCircles = 0.2; 
@@ -15,21 +16,22 @@ var div = d3.select("body").append("div")
 function render(data){
   if (oldWidth == innerWidth) return
   oldWidth = innerWidth
-  var width = height = d3.select("#graph").node().offsetWidth
+  var width =  d3.select("#graph").node().offsetWidth;
+  var height = d3.select("#graph").node().offsetWidth;
   
+  if (innerWidth <= 900){
+    width = innerWidth
+    height = innerHeight*.7
+  }
   var r = 5;
   var xScale = d3.scaleLinear()
     .domain([0, d3.max(data.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })])
     .range([margin, width - margin * 2]);
 
   var yScale = d3.scaleLinear()
-    .domain([0, d3.max(data.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.CountryMean); })])
+    .domain([0, d3.max(data.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.NonFBCompValue); })])
      .range([height - margin, margin]);
 
-  if (innerWidth <= 900){
-    width = innerWidth
-    height = innerHeight*.7
-  }
   // return console.log(width, height)
   var svg = d3.select('#graph').html('')
     .append('svg')
@@ -53,12 +55,12 @@ function render(data){
   	.attr("id","xTitle")
     .attr("x",xScale(d3.max(data, function(d) { return parseFloat(d.FB)}))-100)
     .attr("y",yScale(0)+30)
-    .text("Foreign-Born");
+    .text("Region Mean");
 
   svg.append("text")
   	.attr("id","yTitle")
     .attr("x",xScale(0)-35)
-    .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.CountryMean)}))-10)
+    .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.NonFBCompValue)}))-10)
     .text("Country Mean");
 
   var annotation1 = "In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population.";
@@ -87,19 +89,19 @@ function render(data){
          .append("circle")
          .attr("class", function(d,i) { return "regions " + d.Region; }) // define a class per circle to attach the voronoi grid to it
          .attr("cx", function(d) {
-         	if(d.FB==""||d.CountryMean=="")
+         	if(d.FB==""||d.NonFBCompValue=="")
             	return 0;
             else 
             	return xScale(parseFloat(d.FB));
          })
          .attr("cy", function(d) {
-         	if(d.FB==""||d.CountryMean=="")
+         	if(d.FB==""||d.NonFBCompValue=="")
             	return 0;
             else 
-            	return yScale(parseFloat(d.CountryMean));
+            	return yScale(parseFloat(d.NonFBCompValue));
          })
          .attr("r", function(d) {
-         	if(d.FB==""||d.CountryMean=="")
+         	if(d.FB==""||d.NonFBCompValue=="")
             	return 0;
             else if(d.Region==selRegion)
             	return 15
@@ -109,9 +111,9 @@ function render(data){
          .attr("fill",function(d){
          	if(d.Region==selRegion)
             	return "#F68385"
-         	else if(parseFloat(d.CountryMean)>parseFloat(d.FB))
+         	else if(parseFloat(d.NonFBCompValue)>parseFloat(d.FB))
             	return "#8EA4B1";
-          	else if (parseFloat(d.CountryMean)<=parseFloat(d.FB))
+          	else if (parseFloat(d.NonFBCompValue)<=parseFloat(d.FB))
             	return "#993484";
          })
          .style("opacity", opacityCircles);
@@ -121,7 +123,7 @@ function render(data){
 
 	var voronoi = d3.voronoi()
 	      .x(function(d) { return xScale(d.FB); })
-	      .y(function(d) { return yScale(d.CountryMean); })
+	      .y(function(d) { return yScale(d.NonFBCompValue); })
 	      .extent([[0, 0], [width, height]]);
 
 
@@ -190,13 +192,55 @@ function render(data){
 	  		couFullName=k.Country;
 	  })
 
-		var div_text;
-		 if(d.data.CountryMean>d.data.FB)
-		 div_text="proportion of FB is less in this region than at national level";
-		else if (d.data.CountryMean<d.data.FB)
-		 div_text= "proportion of FB is more in this region than at the national level";
-		else
-		 div_text= "proportion of FB in this region is in line with national level ";
+	var div_text;	  
+	if(d.data.Indicator=="ShareMig"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="proportion of FB is less in this region than at national level";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "proportion of FB is more in this region than at the national level";
+				else
+				 div_text= "proportion of FB in this region is in line with national level ";
+	}
+	else if(d.data.Indicator=="lengthStay"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="More migrants have stayed 10 years or more than ";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "";
+				else
+				 div_text= " ";
+	}
+	else if(d.data.Indicator=="eduattain"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "";
+				else
+				 div_text= " ";
+	}
+	else if(d.data.Indicator=="Unemp"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "";
+				else
+				 div_text= " ";
+	}
+	else if(d.data.Indicator=="PartRate"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "";
+				else
+				 div_text= " ";
+	}
+	else if(d.data.Indicator=="overQualRate"){
+		if(d.data.NonFBCompValue>d.data.FB)
+				 div_text="";
+				else if (d.data.NonFBCompValue<d.data.FB)
+				 div_text= "";
+				else
+				 div_text= " ";
+	}
 
 		div.transition()
 		         .duration(200)
@@ -246,7 +290,7 @@ function render(data){
   //var colors = ['orange', 'purple', 'steelblue', 'pink', 'black']
   var dataPos=[data.filter(function(d){return d.Indicator=="ShareMig"}),data.filter(function(d){return d.Indicator=="lengthStay"}),data.filter(function(d){return d.Indicator=="eduattain"}),data.filter(function(d){return d.Indicator=="Unemp"}),data.filter(function(d){return d.Indicator=="PartRate"}),data.filter(function(d){return d.Indicator=="overQualRate"})]
   //var dataPos=[ShareMigData,lengthStayData,eduattainData,UnempData,PartRateData,overQualRateData]
-  var axisLabels=[{"x":"Foreign-Born","y":"Country Mean"},{"x":"New arrivals","y":"Settled migrants"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"}]
+  var axisLabels=[{"x":"Region Mean","y":"Country Mean"},{"x":"New arrivals","y":"Settled migrants"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"}]
 
   var chartAnnotationData=[annotation1,annotation2,annotation3,annotation4,annotation5,annotation6]
 
@@ -260,11 +304,11 @@ function render(data){
 
 
 		xScale.domain([0, d3.max(dataPos[i], function(d) { return parseFloat(d.FB); })])
-		yScale.domain([0, d3.max(dataPos[i], function(d) { return parseFloat(d.CountryMean); })])
+		yScale.domain([0, d3.max(dataPos[i], function(d) { return parseFloat(d.NonFBCompValue); })])
 
 
   		svg.select("#xTitle").transition().duration(600).attr("x",xScale(d3.max(dataPos[i], function(d) { return parseFloat(d.FB)}))-100).attr("y",yScale(0)+30).text(axisLabels[i].x);
-  		svg.select("#yTitle").transition().duration(600).attr("x",xScale(0)-35).attr("y",yScale(d3.max(dataPos[i], function(d) { return parseFloat(d.CountryMean)}))-10).text(axisLabels[i].y);
+  		svg.select("#yTitle").transition().duration(600).attr("x",xScale(0)-35).attr("y",yScale(d3.max(dataPos[i], function(d) { return parseFloat(d.NonFBCompValue)}))-10).text(axisLabels[i].y);
 
 
 		svg.select(".x").transition().duration(600).call(d3.axisBottom(xScale));
@@ -274,19 +318,19 @@ function render(data){
 
         circles.data(dataPos[i]).transition().duration(600) 
 	         .attr("cx", function(d) {
-	         	if(d.FB==""||d.CountryMean=="")
+	         	if(d.FB==""||d.NonFBCompValue=="")
 	            	return 0;
 	            else 
 	            	return xScale(parseFloat(d.FB));
 	         })
 	         .attr("cy", function(d) {
-	         	if(d.FB==""||d.CountryMean=="")
+	         	if(d.FB==""||d.NonFBCompValue=="")
 	            	return 0;
 	            else 
-	            	return yScale(parseFloat(d.CountryMean));
+	            	return yScale(parseFloat(d.NonFBCompValue));
 	         })
 	         .attr("r", function(d) {
-	         	if(d.FB==""||d.CountryMean=="")
+	         	if(d.FB==""||d.NonFBCompValue=="")
 	            	return 0;
 	            else if(d.Region==selRegion)
 	            	return 15
@@ -296,9 +340,9 @@ function render(data){
 	         .attr("fill",function(d){
 	         	if(d.Region==selRegion)
 	            	return "#F68385"
-	         	else if(parseFloat(d.CountryMean)>parseFloat(d.FB))
+	         	else if(parseFloat(d.NonFBCompValue)>parseFloat(d.FB))
 	            	return "#8EA4B1";
-	          	else if (parseFloat(d.CountryMean)<=parseFloat(d.FB))
+	          	else if (parseFloat(d.NonFBCompValue)<=parseFloat(d.FB))
 	            	return "#993484";
 	         })
 	    

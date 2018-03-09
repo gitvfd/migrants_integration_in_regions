@@ -10,22 +10,33 @@ function updateRegionCard(d){
 
      d3.select("#graph").selectAll("circle").attr("r",4).style("opacity", opacityCircles)
      .attr('fill',function(d){
-         	if(d.CountryMean>d.FB)
-            	return "#8EA4B1";
-          	else if (d.CountryMean<=d.FB)
-            	return "#993484";
-         });
+              if(parseFloat(d.NonFBCompValue)>parseFloat(d.FB))
+                return "#8EA4B1";
+              else if (parseFloat(d.NonFBCompValue)<=parseFloat(d.FB))
+                return "#993484";
+           })
+
+
+           
 
     if(d!=undefined)
 	     d3.select("#graph")
 	 		.selectAll(".regions."+d.properties.TL2_CODE)
 	 		.attr("r",function(d) {
-	         	if(d.FB==""||d.CountryMean==""){
+	         	if(d.FB==""||d.NonFBCompValue==""){
 	         		return 0;
 	         	}else 
 	            	return 15;
 	         })
-	 		.attr('fill','#F68385').style("opacity", 1);;
+	 		.attr('fill','#F68385').style("opacity", 1);
+    if(d!=undefined){
+      peopleChart("ShareMig",d.properties.TL2_CODE,d.properties.TL2_NAME);
+      peopleChart("lengthStay",d.properties.TL2_CODE,d.properties.TL2_NAME);
+      peopleChart("eduattain",d.properties.TL2_CODE,d.properties.TL2_NAME);
+      peopleChart("Unemp",d.properties.TL2_CODE,d.properties.TL2_NAME);
+      peopleChart("PartRate",d.properties.TL2_CODE,d.properties.TL2_NAME);
+      peopleChart("overQualRate",d.properties.TL2_CODE,d.properties.TL2_NAME);
+    }
 
 }
 

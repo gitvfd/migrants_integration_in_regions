@@ -1,7 +1,7 @@
 function cardReplacement(){
 	
 	ccSVG.selectAll("*").remove();
-ccSVG.append("g")
+  ccSVG.append("g")
           .attr("transform", "translate(" + 0 + "," + 0 + ")");
 //
     /**ccSVG.append("img")
