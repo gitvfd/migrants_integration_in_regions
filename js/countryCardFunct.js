@@ -9,27 +9,45 @@ function countryCardFunct(data){
  // need to rewrite so start, min, lowest are the same
     var classToPos = {
       "lollipop-start": "FB",
-      "lollipop-end": "CountryMean"
+      "lollipop-end": "NonFBCompValue"
     }
     
     var legendLabels = [
-      {label: "Foreign-Born", class: "lollipop-start"}, 
-      {label: "Other category", class: "lollipop-end"}
+      {label: "Foreign-Born", class: "lollipop-start"}/**, 
+      {label: "Other category", class: "lollipop-end"}**/
     ];
 
     data.forEach(function(d){
-    	if(d.Indicator=="ShareMig")
+    	if(d.Indicator=="ShareMig"){
     		d.Title="Share of migrants"
-    	if(d.Indicator=="lengthStay")
+            d.FBTitle="Region";
+            d.CountryMeanTitle='Country';
+        }
+    	if(d.Indicator=="lengthStay"){
     		d.Title="Duration of foreign born stay"
-    	if(d.Indicator=="eduattain")
+            d.FBTitle="Less than 10 years";
+            d.CountryMeanTitle='More than 10 years';
+        }
+    	if(d.Indicator=="eduattain"){
     		d.Title="Educational attainment"
-    	if(d.Indicator=="Unemp")
+            d.FBTitle="Foreign-Born";
+            d.CountryMeanTitle='Native-Born';
+        }
+    	if(d.Indicator=="Unemp"){
     		d.Title="Unemployment rate"
-    	if(d.Indicator=="PartRate")
+            d.FBTitle="Foreign-Born";
+            d.CountryMeanTitle='Native-Born';
+        }
+    	if(d.Indicator=="PartRate"){
     		d.Title="Participation rate"
-    	if(d.Indicator=="overQualRate")
+            d.FBTitle="Foreign-Born";
+            d.CountryMeanTitle='Native-Born';
+        }
+    	if(d.Indicator=="overQualRate"){
     		d.Title="Over-qualification rate"
+            d.FBTitle="Foreign-Born";
+            d.CountryMeanTitle='Native-Born';
+        }
     })
     var padding = 0;
     
@@ -39,18 +57,19 @@ function countryCardFunct(data){
     	.padding(padding);
     
     var maxFB=d3.max(data, function(d) { return d.FB })
-    var maxNB=d3.max(data, function(d) { return d.CountryMean })
+    var maxNB=d3.max(data, function(d) { return d.NonFBCompValue })
+
     var x = d3.scaleLinear()
     	//.domain([0, d3.max([maxFB,maxNB])])
     	.domain([0, 100])
-    	.range([ccMargin.left, ccWidth])
+    	.range([2*ccMargin.left, ccWidth])
     	.nice();
     
     // code for positioning legend
     var legend = ccCard.append("g");
     
-    var legendX = ccWidth / 2 - 200;
-    var legendY = -50;
+    var legendX = ccWidth / 2- 100;
+    var legendY =  0;
     var spaceBetween = 150;
     
     var legendPosition = {
@@ -59,7 +78,7 @@ function countryCardFunct(data){
     };
     
     // add circles
-    legend.selectAll("circle")
+    /**legend.selectAll("circle")
     	.data(legendLabels) 
     .enter().append("circle")
     	.attr("cx", function(d, i) {
@@ -67,22 +86,22 @@ function countryCardFunct(data){
     	})  
     	.attr("cy", legendPosition.y)
     	.attr("r", 5)
-    	.attr("class", function(d) { return d.class });
+    	.attr("class", function(d) { return d.class });**/
     
     // add labels
-    legend.selectAll("text")
+   /** legend.selectAll("text")
     	.data(legendLabels)
     .enter().append("text")
       .attr("x", function(d, i) {
       	return legendPosition.x + spaceBetween * i + 10;
     	})  
     	.attr("y", legendPosition.y + 4)
-    	.text(function(d) { return d.label });
+    	.text(function(d) { return d.label });**/
     
     var yAxis = d3.axisLeft().scale(y)
     	.tickSize(0);
     
-    var xAxis = d3.axisTop().scale(x)
+    var xAxis = d3.axisBottom().scale(x)
     	.tickFormat(function(d,i) {
         if (i == 0) {
           return "%"
@@ -92,23 +111,36 @@ function countryCardFunct(data){
       });
     
     var yAxisGroup = ccCard.append("g")
-    	.attr("transform", "translate("+ccMargin.left+", 0)")
+    	.attr("transform", "translate("+2*ccMargin.left+", 0)")
     	.call(yAxis)
     	.select(".domain").remove();    
     
     var xAxisGroup = ccCard.append("g")
+        .attr("transform", "translate(0," + ccHeight+")")
     	.call(xAxis);
-    
-    xAxisGroup.append("text")
+
+
+    var iconTable=[{"indic":"Share of migrants","img":"topic-society.svg"},{"indic":"Duration of foreign born stay","img":"indic-duration.svg"},{"indic":"Educational attainment","img":"topic-education.svg"},{"indic":"Unemployment rate","img":"topic-unemployment.svg"},{"indic":"Participation rate","img":"topic-jobs.svg"},{"indic":"Over-qualification rate","img":"topic-overqualif.svg"}]  
+        
+        ccCard.selectAll("img")
+            .data(iconTable)
+            .enter().append("svg:image")
+            .attr("class","svg-icon")
+            .attr("xlink:href", function(d){return "pic/"+d.img;})
+            .attr("width", 25)
+            .attr("height", 25)
+            .attr("x", -ccMargin.left/1.5)
+            .attr("y",function(d){return y(d.indic);});
+console.log(data)
+    legend.append("text")
     	.attr("class", "x-title")
     	.attr("x", legendX)
     	.attr("y", legendY)
-    	.text("Migrants integration")
-    	.attr("fill", "black");
+    	.text(data[0].RegionName);
     
     var lineGenerator = d3.line();
     var axisLinePath = function(d) {
-      return lineGenerator([[x(d) + 0.5, 0], [x(d) + 0.5, ccHeight]]);
+      return lineGenerator([[x(d) + 0.5, 0], [x(d) + 0.5, -ccHeight]]);
     };
      
     var axisLines = xAxisGroup.selectAll("path")
@@ -118,11 +150,11 @@ function countryCardFunct(data){
     	.attr("d", axisLinePath);
     
     var lollipopLinePath = function(d) {
-      return lineGenerator([[x(d.FB), y(d.Title) + (y.bandwidth() / 2) ], [x(d.CountryMean), y(d.Title) + (y.bandwidth() / 2)]]);
+      return lineGenerator([[x(d.FB), y(d.Title) + (y.bandwidth() / 2) ], [x(d.NonFBCompValue), y(d.Title) + (y.bandwidth() / 2)]]);
     };
     
    	var lollipopsGroup = ccCard.append("g").attr("class", "lollipops");
-    
+
     var lollipops = lollipopsGroup.selectAll("g")
     	.data(data)
     .enter().append("g")
@@ -132,59 +164,91 @@ function countryCardFunct(data){
     	.attr("class", "lollipop-line")
     	.attr("d", lollipopLinePath);
     
-    var startCircles = lollipops.append("circle")
+    var FBCircles = lollipops.append("g")
     	.attr("class", "lollipop-start")
-    	.attr("r", function(d){
-    		if(d.FB=="")
-    			return 0;
-    		else
-    			return 5;
+        .attr("transform", function(d){return "translate(" +x(d.FB)+ ","+ (y(d.Title) + y.bandwidth() / 2) + ")"});
+        
+        FBCircles.append("circle")
+            .attr("class", "circleFB")
+            .attr("r", function(d){
+                if(d.FB=="")
+                    return 0;
+                else
+                    return 5;
 
-    	})
-      .attr("cx", function(d) { 
-      	return x(d.FB); 
-    	})
-    	.attr("cy", function(d) {
-        return y(d.Title) + y.bandwidth() / 2;
-			})
-    	.on("mouseover", showLabel)
-      .on("mouseout", hideLabel);
+            })
+        	.on("mouseover", showLabel)
+            .on("mouseout", hideLabel);
     
+      FBCircles.append("text")
+        .attr("class","circleLabel")
+        .attr("dy", "1.25em")
+        .attr("text-anchor",function(d){
+            if (parseFloat(d.FB)>parseFloat(d.NonFBCompValue))
+                return "start"
+            else 
+                return "end"
+        })
+        .text(function(d){
+            if(d.FB!="")
+                return d.FBTitle;
+            else
+                return "";
+            })
   
-    var endCircles = lollipops.append("circle")
+    var CountryMeanCircles = lollipops.append("g")
     	.attr("class", "lollipop-end")
-    	.attr("r", function(d){
-    		if(d.CountryMean=="")
-    			return 0;
-    		else
-    			return 5;
 
-    	})
-    	.attr("cx", function(d) { 
-      	return x(d.CountryMean); 
-    	})
-    	.attr("cy", function(d) {
-        return y(d.Title) + y.bandwidth() / 2;
-			})
-      .on("mouseover", showLabel)
-      .on("mouseout", hideLabel);
+        .attr("transform", function(d){return "translate(" +x(d.NonFBCompValue)+ ","+ (y(d.Title) + y.bandwidth() / 2) + ")"});
+
+        CountryMeanCircles.append("circle")
+            .attr("class", "circleCM")
+            .attr("r", function(d){
+                if(d.NonFBCompValue=="")
+                    return 0;
+                else
+                    return 5;
+
+            })
+            .on("mouseover", showLabel)
+            .on("mouseout", hideLabel);
     
+
+      CountryMeanCircles.append("text")
+        .attr("class","circleLabel")
+        .attr("dy", "1.25em")
+        .attr("text-anchor", function(d){
+            if (parseFloat(d.FB)>parseFloat(d.NonFBCompValue))
+                return "end"
+            else
+             return "start"
+        })
+        .text(function(d){
+            if(d.NonFBCompValue!="")
+                return d.CountryMeanTitle;
+            else
+                return "";
+        })
+
+
+
     function showLabel() {
       var selection = d3.select(this);
       var pos = classToPos[selection.attr("class")];
-      
       d3.select(this.parentNode).append("text")
-        .attr("x", function(d) { return x(d[pos]); })
-        .attr("y", function(d) { return y(d.Title) + y.bandwidth() / 2; })
-        .attr("dy", "-1em")
+        .attr("class","tooltipCircle")
+        .attr("dy", "-0.5em")
         .attr("text-anchor", "middle")
         .text(function(d) {
-        	return d3.format(".2s")(d[pos]);
+            if(selection.attr("class")=="circleFB")
+        	   return d3.format(".2s")(d.FB);
+            else
+               return d3.format(".2s")(d.NonFBCompValue);
       	});
     }
     
     function hideLabel(d) {
-      d3.select(this.parentNode).select("text").remove();
+      d3.select(this.parentNode).select(".tooltipCircle").remove();
     }
     
     

@@ -1,6 +1,7 @@
 // https://bl.ocks.org/mbostock/9656675
 //https://bl.ocks.org/puzzler10/49f13307e818ea9a909ba5adba5b6ed9
-//https://bl.ocks.org/mbostock/2206590
+//https://bl.ocks.org/mbostock/2206590`
+//https://bl.ocks.org/lorenzopub/494ef5270075e1e8fc314dda86c7fb9f
 
 //https://1wheel.github.io/graph-scroll/
 
@@ -317,7 +318,6 @@ var divMap = d3.select("body").append("div")
                         })
                         return colorReg;
                       })
-                      console.log(color.domain())
   }
   
 //}
