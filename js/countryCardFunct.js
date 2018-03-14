@@ -19,32 +19,32 @@ function countryCardFunct(data){
 
     data.forEach(function(d){
     	if(d.Indicator=="ShareMig"){
-    		d.Title="Share of migrants"
+    		d.Title="Amount of migrants"
             d.FBTitle="Region";
             d.CountryMeanTitle='Country';
         }
     	if(d.Indicator=="lengthStay"){
-    		d.Title="Duration of foreign born stay"
+    		d.Title="Length of migrants’ stay"
             d.FBTitle="Less than 10 years";
             d.CountryMeanTitle='More than 10 years';
         }
     	if(d.Indicator=="eduattain"){
-    		d.Title="Educational attainment"
+    		d.Title="People with a higher degree"
             d.FBTitle="Foreign-Born";
             d.CountryMeanTitle='Native-Born';
         }
     	if(d.Indicator=="Unemp"){
-    		d.Title="Unemployment rate"
+    		d.Title="Unemployment"
             d.FBTitle="Foreign-Born";
             d.CountryMeanTitle='Native-Born';
         }
     	if(d.Indicator=="PartRate"){
-    		d.Title="Participation rate"
+    		d.Title="People with a job or looking for work"
             d.FBTitle="Foreign-Born";
             d.CountryMeanTitle='Native-Born';
         }
     	if(d.Indicator=="overQualRate"){
-    		d.Title="Over-qualification rate"
+    		d.Title="People who are over-qualified for the work they do"
             d.FBTitle="Foreign-Born";
             d.CountryMeanTitle='Native-Born';
         }
@@ -98,8 +98,8 @@ function countryCardFunct(data){
     	.attr("y", legendPosition.y + 4)
     	.text(function(d) { return d.label });**/
     
-    var yAxis = d3.axisLeft().scale(y)
-    	.tickSize(0);
+    /**var yAxis = d3.axisLeft().scale(y)
+    	.tickSize(0);**/
     
     var xAxis = d3.axisBottom().scale(x)
     	.tickFormat(function(d,i) {
@@ -112,15 +112,17 @@ function countryCardFunct(data){
     
     var yAxisGroup = ccCard.append("g")
     	.attr("transform", "translate("+2*ccMargin.left+", 0)")
-    	.call(yAxis)
-    	.select(".domain").remove();    
+    	.call(d3.axisLeft(y))
+        .selectAll(".tick text")
+        .call(wrapCountryCard, 100)
+        .select(".domain").remove();    
     
     var xAxisGroup = ccCard.append("g")
         .attr("transform", "translate(0," + ccHeight+")")
     	.call(xAxis);
 
 
-    var iconTable=[{"indic":"Share of migrants","img":"topic-society.svg"},{"indic":"Duration of foreign born stay","img":"indic-duration.svg"},{"indic":"Educational attainment","img":"topic-education.svg"},{"indic":"Unemployment rate","img":"topic-unemployment.svg"},{"indic":"Participation rate","img":"topic-jobs.svg"},{"indic":"Over-qualification rate","img":"topic-overqualif.svg"}]  
+    var iconTable=[{"indic":"Amount of migrants","img":"topic-society.svg"},{"indic":"Length of migrants’ stay","img":"indic-duration.svg"},{"indic":"People with a higher degree","img":"topic-education.svg"},{"indic":"Unemployment","img":"topic-unemployment.svg"},{"indic":"People with a job or looking for work","img":"topic-jobs.svg"},{"indic":"People who are over-qualified for the work they do","img":"topic-overqualif.svg"}]  
         
         ccCard.selectAll("img")
             .data(iconTable)
@@ -130,8 +132,8 @@ function countryCardFunct(data){
             .attr("width", 25)
             .attr("height", 25)
             .attr("x", -ccMargin.left/1.5)
-            .attr("y",function(d){return y(d.indic);});
-console.log(data)
+            .attr("y",function(d){return y(d.indic) +10;});
+
     legend.append("text")
     	.attr("class", "x-title")
     	.attr("x", legendX)

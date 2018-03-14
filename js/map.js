@@ -165,7 +165,7 @@ var divMap = d3.select("body").append("div")
       }
 
       zoomLevel=k;
-
+console.log(k)
       map.selectAll("path")
           .classed("active", centered && function(d) { return d === centered; });
 
@@ -232,7 +232,7 @@ var divMap = d3.select("body").append("div")
       .style("fill","#deeaf1");
       }
 
-     map.style("stroke-width", 1.5 / d3.event.scale + "px");
+     map.style("stroke-width", 1 / d3.event.scale + "px");
       map.attr("transform", "translate(" + d3.event.transform.x + ',' + d3.event.transform.y  + ') scale(' + d3.event.transform.k + ')')
       world.attr("transform", "translate(" + d3.event.transform.x + ',' + d3.event.transform.y  + ') scale(' + d3.event.transform.k + ')')
     }
@@ -283,7 +283,7 @@ var divMap = d3.select("body").append("div")
           .attr("fill", "#000")
           .attr("text-anchor", "start")
           .attr("font-weight", "bold")
-          .text("Share of migrants");
+          .text("Amount of migrants");
 
       g.call(d3.axisLeft(yKey)
           .tickSize(5)
