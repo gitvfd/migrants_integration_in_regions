@@ -23,7 +23,20 @@ var divMap = d3.select("body").append("div")
     width = document.getElementById("regionalMap").offsetWidth,
     height_usage= 400;
 
+  var scaleFactor=7.75;
+  console.log(width)
+  if(width<600)
+    scaleFactor=5;
+  else if(width<700)
+    scaleFactor=5.5;
+  else if(width<800)
+    scaleFactor=6;
+  else if(width<900)
+    scaleFactor=7;
+  else if(width<1050)
+    scaleFactor=7.5;
 
+console.log(scaleFactor)
     active = d3.select(null);
 
   	/**var zoom = d3.zoom()
@@ -36,7 +49,7 @@ var divMap = d3.select("body").append("div")
     .rangeRound([200, 350]);
 
   	var projection = d3.geoEquirectangular()
-  	            .scale(width/7.75)
+  	            .scale(width/scaleFactor)
   	            .translate([(width) / 2, 1.1*height_usage/2])
   	        	.precision(.01);
 
