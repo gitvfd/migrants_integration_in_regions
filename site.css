@@ -296,7 +296,7 @@ div.tooltip {
     margin: 0px auto;
   }
   #sections div{
-    background: rgba(246,246,246,.5);
+    background: rgba(246,246,246,.8);
     padding: 10px;
     border-top: 1px solid;
     border-bottom: 1px solid;
