@@ -29,8 +29,9 @@
 }
 
 #source{
+    border-top: 1px solid #006FB3;
   	min-height: 700px;
-	background-color:#deeaf1;
+	background-color:#ffffff;
   	font : 12px Caecilia lt bold; color:#0297C9;
 }
 
@@ -48,7 +49,7 @@
 	margin:0;
 	padding:0;
 	background:rgba(255,255,255,0.99);
-	top:35vw;
+	top:500px;
     position: relative;
 }
 
@@ -79,13 +80,14 @@ h2{
 }
 
 #graph{
-
   background-image: repeating-linear-gradient(45deg, rgba(222, 234, 241,0.5), rgba(222, 234, 241,0.6) 0.75px, rgba(255, 255, 255,0.6) 0.75px, rgba(255, 255, 255,0.5) 5px);
 }
 
-#xTitle, #yTitle{
-
-  font : 16px Caecilia lt bold; color:#7A7A7A;
+text#xTitle {
+  font : 16px Caecilia lt bold; fill:#7A7A7A;
+}
+text#yTitle {
+  font : 16px Caecilia lt bold; fill:#7A7A7A;
 }
 
 #chartAnnotation{
@@ -143,7 +145,7 @@ background-image: repeating-linear-gradient(45deg, #deeaf1, #deeaf1 0.75px, #fff
 
 #region {
   stroke: #deeaf1;
-  stroke-width: 0.5px;
+  /**stroke-width: 0.5px;**/
   /**fill: #ffffff;**/
 }
 
@@ -227,9 +229,13 @@ div.tooltip {
 #container{
   position: relative;
 }
+
 #sections{
+  border-top: 1px solid #006FB3;
+  border-bottom: 1px solid #006FB3;
+  margin-bottom: 50px;
   width: 340px;
-  font : 18px Caecilia lt bold; color:#7A7A7A;
+  font : 18px Caecilia lt bold; color:#6A6A6A;
 }
 
 .citation{
@@ -241,10 +247,21 @@ div.tooltip {
   	border-radius: 4px;
 }
 
+.descIndic{
+  font : 17.5px Caecilia lt bold; color:#6A6A6A;
+  line-height: 1.75em;
+}
+
+.explanationIndic{
+  font : 18px Caecilia lt bold; color:#5A5A5A;
+  font-style: normal;
+}
+
 .def{
-  font : 14px Caecilia lt; color:#5A5A5A;
+  font : 14px Caecilia lt; color:#7A7A7A;
   font-style: italic;
 }
+
 #sections > div{
   /**background: white;**/
   background:#f6f6f6;
