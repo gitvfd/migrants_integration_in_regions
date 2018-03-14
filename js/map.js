@@ -87,6 +87,7 @@ var divMap = d3.select("body").append("div")
   					      	.data(worldData.features)
   					    	  .enter().append("path")
                     .attr("class", function(d){ return "region " + d.properties.TL2_CODE; })
+                    .style("stroke-width", width /3600 + "px")
   					      	.attr("d", path)
                     .on("click", clicked)
   					      	.on("mouseover", function(d) {
@@ -165,14 +166,14 @@ var divMap = d3.select("body").append("div")
       }
 
       zoomLevel=k;
-console.log(k)
+
       map.selectAll("path")
           .classed("active", centered && function(d) { return d === centered; });
 
       map.transition()
           .duration(750)
           .attr("transform", "translate(" + width / 2 + "," + height_usage / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
-          .style("stroke-width", 1 / k + "px");
+          .style("stroke-width", width / k /3600 + "px");
 
       updateRegionCard(d);
 
@@ -232,7 +233,7 @@ console.log(k)
       .style("fill","#deeaf1");
       }
 
-     map.style("stroke-width", 1 / d3.event.scale + "px");
+     map.style("stroke-width", width / d3.event.scale /3600 + "px");
       map.attr("transform", "translate(" + d3.event.transform.x + ',' + d3.event.transform.y  + ') scale(' + d3.event.transform.k + ')')
       world.attr("transform", "translate(" + d3.event.transform.x + ',' + d3.event.transform.y  + ') scale(' + d3.event.transform.k + ')')
     }

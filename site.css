@@ -243,7 +243,7 @@ div.tooltip {
 	padding: 5px;
   	font : 18px Caecilia lt; color:#7A7A7A;
   	font-style: italic;
-  	background:#fff;
+  	background:rgba(255,255,255,0.5);
   	border-radius: 4px;
 }
 
