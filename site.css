@@ -9,16 +9,20 @@
 
 .weepeople {
   font-family: "WeePeople";
-    font-size: 24px;
+    font-size: 32px;
     color: #398291;
 }
 
 .weepeople.migrant{
   font-family: "WeePeople";
-    font-size: 24px;
+    font-size: 32px;
     color: #F68385;
 }
-
+#ShareMigSmall,#lengthStaySmall,#eduattainSmall,#UnempSmall,#PartRateSmall,#overQualRateSmall{
+	display:block;
+   	width:150px;
+   	margin: 0 auto;
+}
 .regQuestion{
   	font : 12px Caecilia lt normal; color:#398291;
   	font-style: italic;
@@ -71,23 +75,27 @@ h2{
 
 }
 
+h3 {
+    -webkit-margin-after: 0.2em;
+}
 #regionTooltip{
     visibility: hidden;
 }
 
+text.labelIcon {
+  	font : 16px Caecilia lt bold; fill:#7A7A7A;
+	text-shadow: 
+   		-2px -2px 0 #fff,  
+    	2px -2px 0 #fff,
+    	-2px 2px 0 #fff,
+     	2px 2px 0 #fff;
+}
 #countryCard{
   background:#f6f6f6;
 }
 
 #graph{
   background-image: repeating-linear-gradient(45deg, rgba(222, 234, 241,0.5), rgba(222, 234, 241,0.6) 0.75px, rgba(255, 255, 255,0.6) 0.75px, rgba(255, 255, 255,0.5) 5px);
-}
-
-text#xTitle {
-  font : 16px Caecilia lt bold; fill:#7A7A7A;
-}
-text#yTitle {
-  font : 16px Caecilia lt bold; fill:#7A7A7A;
 }
 
 #chartAnnotation{
@@ -239,8 +247,9 @@ div.tooltip {
 }
 
 .citation{
-	margin: 10px;
-	padding: 5px;
+	display:block;
+	margin: 10px 0px 10px 0px;
+	padding:5px;
   	font : 18px Caecilia lt; color:#7A7A7A;
   	font-style: italic;
   	background:rgba(255,255,255,0.5);
@@ -259,7 +268,7 @@ div.tooltip {
 
 .def{
   font : 14px Caecilia lt; color:#7A7A7A;
-  font-style: italic;
+  font-style: normal;
 }
 
 #sections > div{
@@ -309,10 +318,11 @@ div.tooltip {
     margin: 10px;
   }
 }
-  text.x-title {
+
+
+  	text.x-title {
       font : 26px Caecilia lt bold; fill:#7A7A7A;
     }
-    
     .domain{
     	stroke:none;
     }
@@ -321,8 +331,46 @@ div.tooltip {
     }
 
     .tick text{
-    	fill:#7A7A7A;
+      font : 12px Caecilia;
+      font-weight: 700; fill:#7A7A7A;
     }
+
+    /** Style country card axis**/
+    .yAxis text{
+      font : 12px Caecilia;
+      font-weight: 300; 
+      fill:#7A7A7A;
+    }    
+
+    .xAxis text{
+      font : 13px Caecilia;
+      font-weight: 700; 
+      fill:#7A7A7A;
+    }   
+
+
+    /** Style ScatterPlot card axis**/
+
+    .yAxisScatter text{
+      font : 13px Caecilia;
+      font-weight: 300; 
+      fill:#7A7A7A;
+    }    
+
+    .xAxisScatter text{
+      font : 13px Caecilia;
+      font-weight: 300; 
+      fill:#7A7A7A;
+    }   
+
+	text#xTitle {
+	  font : 16px Caecilia lt bold; fill:#7A7A7A;
+	}
+	text#yTitle {
+	  font : 16px Caecilia lt bold; fill:#7A7A7A;
+	}
+
+
     .grid-line {
 		stroke: #7A7A7A;
 	  	stroke-opacity: 0.4;

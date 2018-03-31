@@ -2,42 +2,25 @@ function peopleChart(topic,regionCode,RegionName){
 
  	var topicID="#"+topic+"Small";
  	var pickedRegLabel="#"+ topic + "PickedReg"
-    var dataSilhouette=dataTot.filter(function(d){return d.Indicator==topic && d.Region==regionCode;})
+  var dataSilhouette=dataTot.filter(function(d){return d.Indicator==topic && d.Region==regionCode;})
 
+  if(dataSilhouette!=""){
     var text1;
     var text2;
-    if (dataSilhouette[0].decile==""){
+    if (dataSilhouette[0].quartile==""){
     	text1 =" "
     	text2 = "";
-    }else if (dataSilhouette[0].decile=="1"){
+    }else if (dataSilhouette[0].quartile=="1"){
     	text1 ="a "
-    	text2 = "b c d e f G H I J";
-    }else  if (dataSilhouette[0].decile=="2"){
+    	text2 = "b c d";
+    }else  if (dataSilhouette[0].quartile=="2"){
     	text1 ="a b"
-    	text2 = " c d e f G H I J";
-    }else if (dataSilhouette[0].decile=="3"){
+    	text2 = " c d";
+    }else if (dataSilhouette[0].quartile=="3"){
     	text1 ="a b c"
-    	text2 = " d e f G H I J";
-    }else if (dataSilhouette[0].decile=="4"){
+    	text2 = " d";
+    }else if (dataSilhouette[0].quartile=="4"){
     	text1 ="a b c d"
-    	text2 = " e f G H I J";
-    }else if (dataSilhouette[0].decile=="5"){
-    	text1 ="a b c d e"
-    	text2 = " f G H I J";
-    }else if (dataSilhouette[0].decile=="6"){
-    	text1 ="a b c d e f"
-    	text2 = " G H I J";
-    }else if (dataSilhouette[0].decile=="7"){
-    	text1 ="a b c d e f G"
-    	text2 = " H I J";
-    }else if (dataSilhouette[0].decile=="8"){
-    	text1 ="a b c d e f G H"
-    	text2 = "I J";
-    }else if (dataSilhouette[0].decile=="9"){
-    	text1 ="a b c d e f G H I"
-    	text2 = " J";
-    }else if (dataSilhouette[0].decile=="10"){
-    	text1 ="a b c d e f G H I J"
     	text2 = "";
     }
 
@@ -56,7 +39,7 @@ function peopleChart(topic,regionCode,RegionName){
 
   var textReg = "How does " + RegionName + " rank compared to others?"
    d3.select(pickedRegLabel).selectAll("*").remove();
-    if(dataSilhouette[0].decile==""){
+    if(dataSilhouette[0].quartile==""){
     	d3.select(pickedRegLabel)
 		.append("tspan")
           .html( "" )
@@ -66,4 +49,25 @@ function peopleChart(topic,regionCode,RegionName){
           .html( textReg )
 
     }
+  }
+  else{
+    
+      d3.select("#ShareMigPickedReg").selectAll("*").remove();
+      d3.select("#ShareMigSmall").selectAll("*").remove();
+
+      d3.select("#lengthStayPickedReg").selectAll("*").remove();
+      d3.select("#lengthStaySmall").selectAll("*").remove();
+
+      d3.select("#eduattainPickedReg").selectAll("*").remove();
+      d3.select("#eduattainSmall").selectAll("*").remove();
+
+      d3.select("#UnempPickedReg").selectAll("*").remove();
+      d3.select("#UnempSmall").selectAll("*").remove();
+
+      d3.select("#PartRatePickedReg").selectAll("*").remove();
+      d3.select("#PartRateSmall").selectAll("*").remove();
+
+      d3.select("#overQualRatePickedReg").selectAll("*").remove();
+      d3.select("#overQualRateSmall").selectAll("*").remove();
+  }
 }

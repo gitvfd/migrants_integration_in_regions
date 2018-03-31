@@ -39,13 +39,13 @@ function render(data){
 
   //Create X axis
   svg.append("g")
-    .attr("class", "axis x")
+    .attr("class", "axis x xAxisScatter")
     .attr("transform", "translate(0," + yScale(0) + ")")
     .call(d3.axisBottom(xScale));
   
   //Create Y axis
   svg.append("g")
-    .attr("class", "axis y")
+    .attr("class", "axis y yAxisScatter")
     .attr("transform", "translate(" + margin + ",0)")
     .call(d3.axisLeft(yScale));
 
@@ -55,20 +55,20 @@ function render(data){
   	.attr("id","xTitle")
     .attr("x",xScale(d3.max(data, function(d) { return parseFloat(d.FB)}))-100)
     .attr("y",yScale(0)+30)
-    .text("Region Mean");
+    .text("Region Mean (%)");
 
   svg.append("text")
   	.attr("id","yTitle")
     .attr("x",xScale(0)-35)
     .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.NonFBCompValue)}))-10)
-    .text("Country Mean");
+    .text("Country Mean (%)");
 
-  var annotation1 = "In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population.";
+  	var annotation1 = "In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population.";
     var annotation2 = "Settled migrants have been in the host country for at least 10 years";
-      var annotation3 = "Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners";
-        var annotation4 = "The unemployment rate of foreign-borns varies more across region than the native-borns' one.";
-          var annotation5 = "";
-            var annotation6 = "the waste of skills is a recurring issue for migrants. We observe larger disparities across regions for migrants than for native-borns.";
+    var annotation3 = "Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners";
+    var annotation4 = "The unemployment rate of foreign-borns varies more across region than the native-borns' one.";
+    var annotation5 = "";
+    var annotation6 = "the waste of skills is a recurring issue for migrants. We observe larger disparities across regions for migrants than for native-borns.";
 
    xAnnotation=0.7*width;
    yAnnotation= 0.1*height;
@@ -203,11 +203,11 @@ function render(data){
 	}
 	else if(d.data.Indicator=="lengthStay"){
 		if(d.data.NonFBCompValue>d.data.FB)
-				 div_text="More migrants have stayed 10 years or more than ";
+				 div_text="The majority of migrants have stayed 10 years or more in the region ";
 				else if (d.data.NonFBCompValue<d.data.FB)
-				 div_text= "";
+				 div_text= "The majority of migrants have stayed less than 10 years in the region ";
 				else
-				 div_text= " ";
+				 div_text= "As many migrants have stayed more than 10 year as less than 10 years";
 	}
 	else if(d.data.Indicator=="eduattain"){
 		if(d.data.NonFBCompValue>d.data.FB)
@@ -290,7 +290,7 @@ function render(data){
   //var colors = ['orange', 'purple', 'steelblue', 'pink', 'black']
   var dataPos=[data.filter(function(d){return d.Indicator=="ShareMig"}),data.filter(function(d){return d.Indicator=="lengthStay"}),data.filter(function(d){return d.Indicator=="eduattain"}),data.filter(function(d){return d.Indicator=="Unemp"}),data.filter(function(d){return d.Indicator=="PartRate"}),data.filter(function(d){return d.Indicator=="overQualRate"})]
   //var dataPos=[ShareMigData,lengthStayData,eduattainData,UnempData,PartRateData,overQualRateData]
-  var axisLabels=[{"x":"Region average","y":"Country average"},{"x":"New arrivals","y":"Settled migrants"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"},{"x":"Foreign-Born","y":"Native-Born"}]
+  var axisLabels=[{"x":"Region average (%)","y":"Country average (%)"},{"x":"New arrivals (%)","y":"Settled migrants (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"}]
 
   var chartAnnotationData=[annotation1,annotation2,annotation3,annotation4,annotation5,annotation6]
 

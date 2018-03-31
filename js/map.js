@@ -10,7 +10,7 @@ var shareMigData;
 var zoomLevel=1;
 var selRegion; //placeholder to update circle size and colors
 
-
+       
 
 var divMap = d3.select("body").append("div") 
     .attr("class", "tooltip")       
@@ -24,7 +24,7 @@ var divMap = d3.select("body").append("div")
     height_usage= 400;
 
   var scaleFactor=7.75;
-  console.log(width)
+
   if(width<600)
     scaleFactor=5;
   else if(width<700)
@@ -36,7 +36,6 @@ var divMap = d3.select("body").append("div")
   else if(width<1050)
     scaleFactor=7.5;
 
-console.log(scaleFactor)
     active = d3.select(null);
 
   	/**var zoom = d3.zoom()
@@ -108,7 +107,21 @@ console.log(scaleFactor)
                           divMap.transition()    
                                           .duration(200)    
                                           .style("opacity", .9);    
-                          divMap.html(d.properties.TL2_NAME )  
+
+                          var changeDataPt=changeMigData.filter(function(k){return k.Region==d.properties.TL2_CODE})[0].FB;
+
+                          var trend;
+                          
+                          if(parseFloat(changeDataPt)>0)
+                            trend= "Since 2005, the share of migrants have increased by " + Math.round(parseFloat(changeDataPt)*100)/100 +" %";
+                          else if(parseFloat(changeDataPt)>0)
+                            trend= "Since 2005, the share of migrants have decreased by " +  Math.round(parseFloat(changeDataPt)*100)/100 +" %";
+                          else if(parseFloat(changeDataPt)==0)
+                            trend= "Since 2005, the share of migrants have been stable";
+                          else 
+                            trend="";
+                          
+                          divMap.html(d.properties.TL2_NAME +"<Br/>" + trend )  
                               .style("left", (d3.event.pageX) +28 + "px")   
                               .style("top", (d3.event.pageY - 28) + "px");  
 
@@ -310,6 +323,8 @@ console.log(scaleFactor)
 
 
   function colorRegion(){
+
+        changeMigData=dataTot.filter(function(d){return d.Indicator=="ChangeShareMig"})
 
         var maxCol=d3.max(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })
         var minCol=d3.min(dataTot.filter(function(d){return d.Indicator=="ShareMig"}), function(d) { return parseFloat(d.FB); })

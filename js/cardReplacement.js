@@ -16,4 +16,23 @@ function cardReplacement(){
         .attr("xlink:href", "pic/test-01.png")
        // .attr("width", ccWidth)
         .attr("height", ccHeight+ccMargin.top+ccMargin.bottom);
+
+    
+      d3.select("#ShareMigPickedReg").selectAll("*").remove();
+      d3.select("#ShareMigSmall").selectAll("*").remove();
+
+      d3.select("#lengthStayPickedReg").selectAll("*").remove();
+      d3.select("#lengthStaySmall").selectAll("*").remove();
+
+      d3.select("#eduattainPickedReg").selectAll("*").remove();
+      d3.select("#eduattainSmall").selectAll("*").remove();
+
+      d3.select("#UnempPickedReg").selectAll("*").remove();
+      d3.select("#UnempSmall").selectAll("*").remove();
+
+      d3.select("#PartRatePickedReg").selectAll("*").remove();
+      d3.select("#PartRateSmall").selectAll("*").remove();
+
+      d3.select("#overQualRatePickedReg").selectAll("*").remove();
+      d3.select("#overQualRateSmall").selectAll("*").remove();
 }
