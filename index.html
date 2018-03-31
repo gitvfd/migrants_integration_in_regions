@@ -5,8 +5,8 @@
 <head>
   <link rel="stylesheet" type="text/css" href="site.css">
 <script src="libs/d3.v4.jetpack.min.js"></script>
-<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="libs/d3-scale-chromatic.v1.min.js"></script>
+<script src="libs/topojson.v1.min.js"></script>
 <script src="js/wrapText.js"></script>
 <script src="js/graph-scroll.js"></script>
 <script src="js/updateRegionCard.js"></script>
@@ -36,73 +36,74 @@
       <div id='sections'>
         <div>
           <img class="topicIcon" src="pic/topic-society.svg" /><h3>Amount of migrants</h3>
-          <span class="citation">"Host countries, regions and cities all have their own specific economic, social and geographic characteristics"</span><Br/>
+          
           <span id="ShareMigPickedReg" class="regQuestion"></span><Br/>
-          <span id="ShareMigSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="ShareMigSmall"><span class='weepeople migrant'></span><span class='weepeople '></span></span><Br/>
           <span class="explanationIndic">How do the number of migrants in a region compare with the number of migrants in a country?</span>
           <Br/>
-          <span class="def">This graphic presents the percentage of migrants in OECD regions (the horizontal axis) and the percentage of migrants in OECD countries (the vertical axis). Move the mouse to see other regions and to learn whether their percentage of migrants in the total population is higher (blue) or lower (purple) at the national level or regional level.</span>
+          <span class="citation">"Host countries, regions and cities all have their own specific economic, social and geographic characteristics."</span><span class="def">This graphic presents the percentage of migrants in OECD regions (the horizontal axis) and the percentage of migrants in OECD countries (the vertical axis). Move the mouse to see other regions and to learn whether their percentage of migrants in the total population is higher (blue) or lower (purple) at the national level or regional level.</span>
           <Br/>
-          <span class="descIndic">This shows that how migrants are dispersed across regions within countries varies greatly in the OECD. In countries such as Belgium, the United Kingdom or the United States, the variation in the number of migrants living in regions is considerably larger than in Australia, Ireland, Norway or Switzerland, where most regions have similar levels of migrants living there. Looking at this dispersal is important, because host countries, regions and cities all have their own specific economic, social and geographic characteristics. These often shape how localities can offer integration services, which in turn affects how migrants and refugees. It can also help countries better match migrants with the needs of host communities.</span>
+          <!--<span class="descIndic">This shows that how migrants are dispersed across regions within countries varies greatly in the OECD. In countries such as Belgium, the United Kingdom or the United States, the variation in the number of migrants living in regions is considerably larger than in Australia, Ireland, Norway or Switzerland, where most regions have similar levels of migrants living there. Looking at this dispersal is important, because host countries, regions and cities all have their own specific economic, social and geographic characteristics. These often shape how localities can offer integration services, which in turn affects how migrants and refugees. It can also help countries better match migrants with the needs of host communities.</span>-->
         </div>
         <div>
           <h3>Length of migrants’ stay</h3>
-          <span class="citation">"Length of stay is a critical factor in non-EU migrants’ ability to obtain national permanent residency"</span><Br/>
           <span id="lengthStayPickedReg" class="regQuestion"></span><Br/>
-          <span id="lengthStaySmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="lengthStaySmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d</span></span><Br/>
           <span class="explanationIndic">How many migrants in a region have been there for more than 10 years? For less than 10 years?</span>
           <Br/>
+          <span class="citation">"Length of stay is a critical factor in non-EU migrants’ ability to obtain national permanent residency."</span>
           <span class="def">
           This graphic shows the percentage of settled migrants in a region, that is those who have lived there for more than a decade, and those who are newer arrivals. The blue dots show that there are more permanent migrants in that region than new arrivals, while the purple dots indicate the opposite. Click on a dot to see the region’s name. </span>
           <Br/>
-          <span class="descIndic">The amount of time a migrant has been in the country is important, given that longer stays are shown to have a positive impact on integration outcomes. This can also be important in terms of residency, as in EU member countries, length of stay is a critical factor in non-EU migrants’ ability to obtain national permanent residency or the European Union’s long-term resident status. Such status usually requires a minimum of five years of uninterrupted residence in the host country. Without it, non-EU migrants face greater integration obstacles than their EU peers in the same country.</span>
+          <!--<span class="descIndic">The amount of time a migrant has been in the country is important, given that longer stays are shown to have a positive impact on integration outcomes. This can also be important in terms of residency, as in EU member countries, length of stay is a critical factor in non-EU migrants’ ability to obtain national permanent residency or the European Union’s long-term resident status. Such status usually requires a minimum of five years of uninterrupted residence in the host country. Without it, non-EU migrants face greater integration obstacles than their EU peers in the same country.</span>-->
         </div>
         <div>
           <h3>People with a higher degree</h3>
           <span id="eduattainPickedReg" class="regQuestion"></span><Br/>
-          <span id="eduattainSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="eduattainSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d</span></span><Br/>
           <span class="explanationIndic">How do migrants and the native-born in a region compare in terms of education levels?</span>
           <Br/>
+          <span class="citation">"The fact that migrants’ levels of education varies widely across regions suggests that there is no one-size-fits-all solution for their labour market integration." </span>
           <span class="def">
           This graphic shows educational levels in regions, comparing the percentage of migrants with a higher degree (university studies, post-graduate studies…) versus the percentage of native-born people with the same level of education. The blue dots show regions where more native-born people have a higher degree than do migrants, while the purple dot shows the reverse. Click on a dot to see the region’s name. </span>
           <Br/>
-          <span class="descIndic">Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners, with 40% of migrants there having a higher degree. In contrast, the share of migrants with this level of education rarely is higher than 25% or even 20% in regions in southern or eastern Europe. The fact that migrants’ levels of education varies widely across regions suggests that there is no one-size-fits-all solution for their labour market integration. Policies will need to be need to be tailored to the unique characteristics of migrants and regions alike.</span>
+          <!--<span class="descIndic">Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners, with 40% of migrants there having a higher degree. In contrast, the share of migrants with this level of education rarely is higher than 25% or even 20% in regions in southern or eastern Europe. The fact that migrants’ levels of education varies widely across regions suggests that there is no one-size-fits-all solution for their labour market integration. Policies will need to be need to be tailored to the unique characteristics of migrants and regions alike.</span>-->
         </div>
         <div>
           <h3>Unemployment</h3>
-          <span class="citation">"Regions are diverse and understanding their differences can help in the design of effective local policies"</span><Br/>
           <span id="UnempPickedReg" class="regQuestion"></span><Br/>
-          <span id="UnempSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="UnempSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d</span></span><Br/>
           <span class="explanationIndic">How many migrants in a region are unemployed compared with the native-born?</span>
           <Br/>
+          <span class="citation">"Regions are diverse and understanding their differences can help in the design of effective local policies."</span>
           <span class="def">
           The graphic looks at regions in 20 countries and shows the unemployment rate for the native-born (vertical axis) and that of migrants (horizontal axis). When unemployment is higher for the native-born, the dot is blue, when it is higher for migrants, the dot is purple. Click on a dot to see the region’s name. </span>
           <Br/>
-          <span class="descIndic">Unemployment rates for migrants vary by region in most of these countries: In the Netherlands, Germany, Sweden, the United Kingdom, Ireland, Finland and Norway, the difference in migrant unemployment rates across regions is more than double the difference in unemployment rates for the native-born across regions. The reverse is true in Spain and Italy, where the unemployment rates of native-born vary more across regions than does that of migrants. It is important to look at these rates across regions not only because having a job is vital for migrants’ economic and social integration, but also because regions are diverse and understanding their differences can help in the design of effective local policies.</span>
+          <!--<span class="descIndic">Unemployment rates for migrants vary by region in most of these countries: In the Netherlands, Germany, Sweden, the United Kingdom, Ireland, Finland and Norway, the difference in migrant unemployment rates across regions is more than double the difference in unemployment rates for the native-born across regions. The reverse is true in Spain and Italy, where the unemployment rates of native-born vary more across regions than does that of migrants. It is important to look at these rates across regions not only because having a job is vital for migrants’ economic and social integration, but also because regions are diverse and understanding their differences can help in the design of effective local policies.</span>-->
         </div>
         <div>
           <h3>People with a job or looking for work</h3>
-          <span class="citation">"Employment is an essential part of integrating migrants. It not only matters for their financial self-sufficiency, but also matters for broader social integration,"</span><Br/>
           <span id="PartRatePickedReg" class="regQuestion"></span><Br/>
-          <span id="PartRateSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="PartRateSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d</span></span><Br/>
           <span class="explanationIndic">How many migrants are employed or looking for a job compared with the native-born?</span>
           <Br/>
+          <span class="citation">"Employment is an essential part of integrating migrants. It not only matters for their financial self-sufficiency, but also matters for broader social integration."</span>
           <span class="def">
           This graphic shows the percentage of native-born people are working or looking for work (vertical axis) as well as how many migrants are (horizontal axis). The blue dots show regions where more of the native-born have a job or are seeking one than migrants, while the purple dots show the reverse. Click on the dot to see the region’s name. </span>
           <Br/>
-          <span class="descIndic">Employment is an essential part of integrating migrants. It not only matters for their financial self-sufficiency, but also matters for broader social integration, such as finding adequate housing, learning their host-country language and getting to know native-born people. It is important to examine the regional pattern of migrants’ employment rates relative to that of native-born in order to design effective policies that can boost migrants’ integration in labour markets across all types of regions.</span>
+          <!--<span class="descIndic">Employment is an essential part of integrating migrants. It not only matters for their financial self-sufficiency, but also matters for broader social integration, such as finding adequate housing, learning their host-country language and getting to know native-born people. It is important to examine the regional pattern of migrants’ employment rates relative to that of native-born in order to design effective policies that can boost migrants’ integration in labour markets across all types of regions.</span>-->
         </div>
         <div>
           <h3>People who are over-qualified for the work they do</h3>
-          <span class="citation">"Higher skills and qualification mismatch also tend to be associated with lower labour productivity"</span><Br/>
           <span id="overQualRatePickedReg" class="regQuestion"></span><Br/>
-          <span id="overQualRateSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d e f g H I J </span></span><Br/>
+          <span id="overQualRateSmall"><span class='weepeople migrant'></span><span class='weepeople '> a b c d</span></span><Br/>
           <span class="explanationIndic">How many migrants are over-qualified for their jobs compared with the native-born?</span>
           <Br/>
+          <span class="citation">"Higher skills and qualification mismatch also tend to be associated with lower labour productivity."</span>
           <span class="def">
           This graphic shows the percentage of native-born people are doing jobs for which they are over-qualified (vertical axis) as well as migrants in the same situation (horizontal axis). Over-qualified means that people have a high level of education and are doing a job that requires only low or medium skills. The blue dots show regions where more of the native-born are over-qualified than are migrants, while the purple dots show the reverse. Click on the dot to see the region’s name.</span>
           <Br/>
-          <span class="descIndic">This matters because over-qualification not only has a negative impact on migrants’ job satisfaction and well-being, but research has shown that higher skills and qualification mismatch also tend to be associated with lower labour productivity, which can severely dampen a region’s economic development</span>
+          <!--<span class="descIndic">This matters because over-qualification not only has a negative impact on migrants’ job satisfaction and well-being, but research has shown that higher skills and qualification mismatch also tend to be associated with lower labour productivity, which can severely dampen a region’s economic development</span>-->
         </div>
         <div>
           <h3></h3>
@@ -135,6 +136,7 @@ var countryISO=[];
 
 var dataTot=[];
 var counter=0; 
+var changeMigData;
   d3.tsv("data/data.tsv",function(error, data) {
     data.forEach(function(d){
         dataTot.push(d)

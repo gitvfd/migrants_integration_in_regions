@@ -5,8 +5,9 @@ function updateRegionCard(d){
 
 	    countryCardFunct(dataTot.filter(function(k){return d.properties.TL2_CODE==k.Region}));
     }
-    else
+    else{
     	cardReplacement();
+    }
 
      d3.select("#graph").selectAll("circle").attr("r",4).style("opacity", opacityCircles)
      .attr('fill',function(d){
