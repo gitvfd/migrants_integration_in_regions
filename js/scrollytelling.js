@@ -63,12 +63,12 @@ function render(data){
     .attr("y",yScale(d3.max(data, function(d) { return parseFloat(d.NonFBCompValue)}))-10)
     .text("Country Mean (%)");
 
-  	var annotation1 = "In most of the countries analysed, regions with more than 15% of foreign- born populations co-exist with regions where foreign-born populations represent less than 6% of the total regional population.";
-    var annotation2 = "Settled migrants have been in the host country for at least 10 years";
+  	var annotation1 = "How migrants are dispersed across regions within countries varies greatly in the OECD";
+    var annotation2 = "The amount of time a migrant has been in the country is important, given that longer stays are shown to have a positive impact on integration outcomes";
     var annotation3 = "Regions located in Australia, Canada and northern Europe have been most successful in attracting highly educated foreigners";
-    var annotation4 = "The unemployment rate of foreign-borns varies more across region than the native-borns' one.";
-    var annotation5 = "";
-    var annotation6 = "the waste of skills is a recurring issue for migrants. We observe larger disparities across regions for migrants than for native-borns.";
+    var annotation4 = "It is important to look at the unemployment rates across regions not only because having a job is vital for migrants’ economic and social integration, but also because regions are diverse and understanding their differences can help in the design of effective local policies";
+    var annotation5 = "Employment is an essential part of integrating migrants";
+    var annotation6 = "Research has shown that higher skills and qualification mismatch also tend to be associated with lower labour productivity";
 
    xAnnotation=0.7*width;
    yAnnotation= 0.1*height;
