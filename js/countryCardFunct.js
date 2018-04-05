@@ -1,5 +1,58 @@
 function countryCardFunct(data){
 
+
+    function showLabel() {
+      var selection = d3.select(this);
+      var pos = classToPos[selection.attr("class")];
+      d3.select(this.parentNode).append("text")
+        .attr("class","tooltipCircle")
+        .attr("dy", "-0.5em")
+        .attr("text-anchor", "middle")
+        .text(function(d) {
+            if(selection.attr("class")=="circleFB")
+               return d3.format(".2s")(d.FB);
+            else
+               return d3.format(".2s")(d.NonFBCompValue);
+        });
+    }
+
+    function hideLabel(d) {
+      d3.select(this.parentNode).select(".tooltipCircle").remove();
+    }
+
+
+    function showDef(selection) {
+      //var selection = d3.select(this);
+     // console.log(selection)
+      //var pos = classToPos[selection.attr("class")];
+      //d3.select(this.parentNode).append("text")
+    d3.select(this).attr("opacity",0.3)
+
+    var xpos=d3.select(this).attr("x")
+    var ypos=d3.select(this).attr("y")
+    ccCard.append("text")
+        .attr("class","labelIcon")
+        .attr("x",xpos)
+        .attr("y",ypos )
+        .attr("dy", "-0.5em")
+        .attr("text-anchor", "start")
+        .text(function(d) {
+            var originalTitle;
+
+            data.forEach(function(d){
+                if(d.Title==selection.indic)
+                    originalTitle= d.subTitle;
+            })
+            return originalTitle;
+
+        });
+    }
+
+    function hideDef(icon) {
+    d3.select(this).attr("opacity",1)
+      d3.selectAll(".labelIcon").remove();
+    }    
+        
 	ccSVG.selectAll("*").remove();
 
 	var ccCard= ccSVG.append("g")
@@ -254,57 +307,5 @@ function countryCardFunct(data){
             })
 
 
-
-        function showLabel() {
-          var selection = d3.select(this);
-          var pos = classToPos[selection.attr("class")];
-          d3.select(this.parentNode).append("text")
-            .attr("class","tooltipCircle")
-            .attr("dy", "-0.5em")
-            .attr("text-anchor", "middle")
-            .text(function(d) {
-                if(selection.attr("class")=="circleFB")
-            	   return d3.format(".2s")(d.FB);
-                else
-                   return d3.format(".2s")(d.NonFBCompValue);
-          	});
-        }
-        
-        function hideLabel(d) {
-          d3.select(this.parentNode).select(".tooltipCircle").remove();
-        }
-        
-
-        function showDef(selection) {
-          //var selection = d3.select(this);
-         // console.log(selection)
-          //var pos = classToPos[selection.attr("class")];
-          //d3.select(this.parentNode).append("text")
-        d3.select(this).attr("opacity",0.3)
-
-        var xpos=d3.select(this).attr("x")
-        var ypos=d3.select(this).attr("y")
-        ccCard.append("text")
-            .attr("class","labelIcon")
-            .attr("x",xpos)
-            .attr("y",ypos )
-            .attr("dy", "-0.5em")
-            .attr("text-anchor", "start")
-            .text(function(d) {
-                var originalTitle;
-
-                data.forEach(function(d){
-                    if(d.Title==selection.indic)
-                        originalTitle= d.subTitle;
-                })
-                return originalTitle;
-
-            });
-        }
-        
-        function hideDef(icon) {
-        d3.select(this).attr("opacity",1)
-          d3.selectAll(".labelIcon").remove();
-        }    
     }
 }
