@@ -310,7 +310,7 @@ var divMap = d3.select("body").append("div")
           .attr("fill", "#000")
           .attr("text-anchor", "start")
           .attr("font-weight", "bold")
-          .text("Amount of migrants");
+          .text("Share of migrants");
 
       g.call(d3.axisLeft(yKey)
           .tickSize(5)

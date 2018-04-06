@@ -76,7 +76,7 @@ function countryCardFunct(data){
 
         data.forEach(function(d){
         	if(d.Indicator=="ShareMig"){
-        		d.Title="Amount of migrants";
+        		d.Title="Share of migrants";
                 d.subTitle='Share of migrants in the working age population';
                 d.FBTitle="Region";
                 d.CountryMeanTitle='Country';
@@ -100,13 +100,13 @@ function countryCardFunct(data){
                 d.CountryMeanTitle='Native-Born';
             }
         	if(d.Indicator=="PartRate"){
-        		d.Title="People with a job or looking for work";
+        		d.Title="Employed or looking for work";
                 d.subTitle='Share of people with a job or looking for work (participation rate)';
                 d.FBTitle="Foreign-Born";
                 d.CountryMeanTitle='Native-Born';
             }
         	if(d.Indicator=="overQualRate"){
-        		d.Title="People who are over-qualified for the work they do";
+        		d.Title="Employed, but over-qualified";
                 d.subTitle='Share of people who are over-qualified for their work';
                 d.FBTitle="Foreign-Born";
                 d.CountryMeanTitle='Native-Born';
@@ -194,7 +194,7 @@ function countryCardFunct(data){
             .attr("y",ccHeight + ccMargin.bottom)
             .text("%");
 
-        var iconTable=[{"indic":"Amount of migrants","img":"topic-society.svg"},{"indic":"Length of migrants’ stay","img":"indic-duration.svg"},{"indic":"People with a higher degree","img":"topic-education.svg"},{"indic":"Unemployment","img":"topic-unemployment.svg"},{"indic":"People with a job or looking for work","img":"topic-jobs.svg"},{"indic":"People who are over-qualified for the work they do","img":"topic-overqualif.svg"}]  
+        var iconTable=[{"indic":"Amount of migrants","img":"topic-society.svg"},{"indic":"Length of migrants’ stay","img":"indic-duration.svg"},{"indic":"People with a higher degree","img":"topic-education.svg"},{"indic":"Unemployment","img":"topic-unemployment.svg"},{"indic":"Employed or looking for work","img":"topic-jobs.svg"},{"indic":"Employed, but over-qualified","img":"topic-overqualif.svg"}]  
             
             ccCard.selectAll("img")
                 .data(iconTable)
