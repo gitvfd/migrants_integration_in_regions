@@ -37,7 +37,7 @@ function peopleChart(topic,regionCode,RegionName){
 		.attr("class","weepeople")
           .html( text2 )
 
-  var textReg = "How does " + RegionName + " rank compared to others?"
+  var textReg = "How does " + RegionName + " rank?"
    d3.select(pickedRegLabel).selectAll("*").remove();
     if(dataSilhouette[0].quartile==""){
     	d3.select(pickedRegLabel)

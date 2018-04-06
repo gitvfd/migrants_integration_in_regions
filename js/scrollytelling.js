@@ -290,7 +290,7 @@ function render(data){
   //var colors = ['orange', 'purple', 'steelblue', 'pink', 'black']
   var dataPos=[data.filter(function(d){return d.Indicator=="ShareMig"}),data.filter(function(d){return d.Indicator=="lengthStay"}),data.filter(function(d){return d.Indicator=="eduattain"}),data.filter(function(d){return d.Indicator=="Unemp"}),data.filter(function(d){return d.Indicator=="PartRate"}),data.filter(function(d){return d.Indicator=="overQualRate"})]
   //var dataPos=[ShareMigData,lengthStayData,eduattainData,UnempData,PartRateData,overQualRateData]
-  var axisLabels=[{"x":"Region average (%)","y":"Country average (%)"},{"x":"New arrivals (%)","y":"Settled migrants (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"}]
+  var axisLabels=[{"x":"Region average (%)","y":"Regional average in country(%)"},{"x":"New arrivals (%)","y":"Settled migrants (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"},{"x":"Foreign-Born (%)","y":"Native-Born (%)"}]
 
   var chartAnnotationData=[annotation1,annotation2,annotation3,annotation4,annotation5,annotation6]
 
