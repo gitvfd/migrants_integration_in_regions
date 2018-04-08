@@ -194,7 +194,7 @@ function countryCardFunct(data){
             .attr("y",ccHeight + ccMargin.bottom)
             .text("%");
 
-        var iconTable=[{"indic":"Amount of migrants","img":"topic-society.svg"},{"indic":"Length of migrants’ stay","img":"indic-duration.svg"},{"indic":"People with a higher degree","img":"topic-education.svg"},{"indic":"Unemployment","img":"topic-unemployment.svg"},{"indic":"Employed or looking for work","img":"topic-jobs.svg"},{"indic":"Employed, but over-qualified","img":"topic-overqualif.svg"}]  
+        var iconTable=[{"indic":"Share of migrants","img":"topic-society.svg"},{"indic":"Length of migrants’ stay","img":"indic-duration.svg"},{"indic":"People with a higher degree","img":"topic-education.svg"},{"indic":"Unemployment","img":"topic-unemployment.svg"},{"indic":"Employed or looking for work","img":"topic-jobs.svg"},{"indic":"Employed, but over-qualified","img":"topic-overqualif.svg"}]  
             
             ccCard.selectAll("img")
                 .data(iconTable)
