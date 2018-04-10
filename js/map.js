@@ -35,6 +35,17 @@ var divMap = d3.select("body").append("div")
     scaleFactor=7.5;
   else if(width<1050)
     scaleFactor=8;
+  else if(width<1250)
+    scaleFactor=8.5;
+  else
+    scaleFactor=9;
+
+  var translation=[];
+
+  if(width<800)
+    translation= [(width) / 2, 0.9*height_usage/2]
+  else 
+    translation= [(width) / 2, 1.1*height_usage/2]
 
     active = d3.select(null);
 
@@ -49,7 +60,7 @@ var divMap = d3.select("body").append("div")
 
   	var projection = d3.geoEquirectangular()
   	            .scale(width/scaleFactor)
-  	            .translate([(width) / 2, 1.1*height_usage/2])
+  	            .translate(translation)
   	        	.precision(.01);
 
   	var path = d3.geoPath()
