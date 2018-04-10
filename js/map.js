@@ -25,16 +25,16 @@ var divMap = d3.select("body").append("div")
 
   var scaleFactor=7.75;
 
-  if(width<600)
-    scaleFactor=5;
-  else if(width<700)
+  if(width<600)//previously _0.5 on all scaleFactor
     scaleFactor=5.5;
-  else if(width<800)
+  else if(width<700)
     scaleFactor=6;
+  else if(width<800)
+    scaleFactor=6.5;
   else if(width<900)
-    scaleFactor=7;
-  else if(width<1050)
     scaleFactor=7.5;
+  else if(width<1050)
+    scaleFactor=8;
 
     active = d3.select(null);
 
